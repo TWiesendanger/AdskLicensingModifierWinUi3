@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "AdskLicensingModifier (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "AdskLicensingModifier (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
