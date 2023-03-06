@@ -1,533 +1,529 @@
-﻿Autodesk 3ds Max 2020 = 128L1
-Autodesk 3ds Max 2020 with Softimage = 978L1
-Autodesk Advance Steel 2020 = 959L1
-Autodesk Alias AutoStudio 2020 = 966L1
-Autodesk Alias Concept 2020 = A63L1
-Autodesk Alias Design 2020 = 712L1
-Autodesk Alias SpeedForm 2020 = A62L1
-Autodesk Alias Surface 2020 = 736L1
-Autodesk AutoCAD 2020 = 001L1
-Autodesk AutoCAD Architecture 2020 = 185L1
-Autodesk AutoCAD Design Suite Premium 2020 = 768L1
-Autodesk AutoCAD Design Suite Standard 2020 = 767L1
-Autodesk AutoCAD Electrical 2020 = 225L1
-Autodesk AutoCAD Inventor LT Suite 2020 = 596L1
-Autodesk AutoCAD LT 2020 = 057L1
-Autodesk AutoCAD LT with CALS Tools 2020 = 545L1
-Autodesk AutoCAD Map 3D 2020 = 129L1
-Autodesk AutoCAD Mechanical 2020 = 206L1
-Autodesk AutoCAD MEP 2020 = 235L1
-Autodesk AutoCAD Plant 3D 2020 = 426L1
-Autodesk AutoCAD Raster Design 2020 = 340L1
-Autodesk AutoCAD Revit LT Suite 2020 = 834L1
-Autodesk Building Design Suite Premium 2020 = 765L1
-Autodesk Building Design Suite Standard 2020 = 784L1
-Autodesk Building Design Suite Ultimate 2020 = 766L1
-Autodesk Burn 2020 = C0YL1
-Autodesk Civil 3D 2020 = 237L1
-Autodesk Fabrication CADmep 2020 = 839L1
-Autodesk Fabrication CAMduct 2020 = 842L1
-Autodesk Fabrication ESTmep 2020 = 841L1
-Autodesk Factory Design Suite Premium 2020 = 757L1
-Autodesk Factory Design Suite Standard 2020 = 789L1
-Autodesk Factory Design Suite Ultimate 2020 = 760L1
-Autodesk Factory Design Utilities 2020 = P03L1
-Autodesk FeatureCAM Premium 2020 = A9FL1
-Autodesk FeatureCAM Standard 2020 = A9GL1
-Autodesk FeatureCAM Ultimate 2020 = A9EL1
-Autodesk Flame 2020 = C0TL1
-Autodesk Flame 2020  Education = C14L1
-Autodesk Flame Assist 2020 = C0VL1
-Autodesk Flame Premium 2020 = C0XL1
-Autodesk Flare 2020 = C0WL1
-Autodesk HSM Premium 2020 = C12L1
-Autodesk HSM Ultimate 2020 = C13L1
-Autodesk Infrastructure Design Suite Premium 2020 = 786L1
-Autodesk Infrastructure Design Suite Standard 2020 = 787L1
-Autodesk Infrastructure Design Suite Ultimate 2020 = 785L1
-Autodesk Inventor 2020 = 208L1
-Autodesk Inventor Engineer to Order 2020  Developer = A66L1
-Autodesk Inventor Engineer to Order 2020  Distribution = 996L1
-Autodesk Inventor Engineer to Order 2020  Server = 997L1
-Autodesk Inventor Engineer to Order Series 2020 = 805L1
-Autodesk Inventor Engineer to Order Server 2020 = 752L1
-Autodesk Inventor HSM Premium 2020 = 969L1
-Autodesk Inventor HSM Ultimate 2020 = 970L1
-Autodesk Inventor LT 2020 = 529L1
-Autodesk Inventor OEM 2020 = 798L1
-Autodesk Inventor Professional 2020 = 797L1
-Autodesk Lustre 2020 = C0UL1
-Autodesk Lustre Burn 2020 = C10L1
-Autodesk Lustre ShotReactor 2020 = C11L1
-Autodesk Manufacturing Automation Utility 2020 = A9YL1
-Autodesk Manufacturing Data Exchange Utility Premium 2020 = A9VL1
-Autodesk Manufacturing Data Exchange Utility Standard 2020 = A9XL1
-Autodesk Manufacturing Post Processor Utility 2020 = A9TL1
-Autodesk Maya LT 2020 = 923L1
-Autodesk MEP Fabrication Suite 2020 = 00QL1
-Autodesk Nastran 2020 = 986L1
-Autodesk Inventor Nastran 2020 = 987L1
-Autodesk Navisworks Manage 2020 = 507L1
-Autodesk Navisworks Simulate 2020 = 506L1
-Autodesk PartMaker 2020 = A9SL1
-Autodesk Plant Design Suite Premium 2020 = 763L1
-Autodesk Plant Design Suite Standard 2020 = 788L1
-Autodesk Plant Design Suite Ultimate 2020 = 764L1
-Autodesk Point Layout 2020 = 925L1
-Autodesk PowerInspect Premium 2020 = A9JL1
-Autodesk PowerInspect Standard 2017 = A9KL1
-Autodesk PowerInspect Standard 2018 = A9KL1
-Autodesk PowerInspect Standard 2020 = A9KL1
-Autodesk PowerInspect Ultimate 2020 = A9HL1
-Autodesk PowerMill Modeling 2020 = A9UL1
-Autodesk PowerMill Premium 2020 = A9AL1
-Autodesk PowerMill Standard 2020 = A9QL1
-Autodesk PowerMill Ultimate 2020 = A9PL1
-Autodesk PowerShape Premium 2020 = A9ML1
-Autodesk PowerShape Standard 2020 = A9NL1
-Autodesk PowerShape Ultimate 2020 = A9LL1
-Autodesk Product Design Suite Premium 2020 = 782L1
-Autodesk Product Design Suite Ultimate 2020 = 781L1
-Autodesk ReCap Pro = 919L1
-Autodesk Revit 2020 = 829L1
-Autodesk Revit LT 2020 = 828L1
-Autodesk Robot Structural Analysis Professional 2020 = 547L1
-Autodesk SketchBook for Enterprise = 871L1
-Autodesk TruComp 2020 = 00EL1
-Autodesk TruFiber 2020 = 01WL1
-Autodesk TruLaser 2020 = 00DL1
-Autodesk TruNest 2020  Nesting Engine = 00FL1
-Autodesk TruNest Composites 2020 = 00BL1
-Autodesk TruNest Contour 2020 = 00AL1
-Autodesk TruNest MultiTool 2020 = 00CL1
-Autodesk TruPlan 2020 = 01VL1
-Autodesk Vault Office 2020 = 555L1
-Autodesk Vault Professional 2020 = 569L1
-Autodesk Vault Workgroup 2020 = 559L1
-Autodesk Vehicle Tracking 2020 = 955L1
-Autodesk VRED 2020 = 884L1
-Autodesk VRED Design 2020 = 885L1
-Autodesk VRED Presenter 2020 = 888L1
-Autodesk VRED Professional 2020 = 886L1
-Autodesk VRED Render Node cons. based lic. 2020 = A93L1
-Autodesk VRED Render Node 2020 = 890L1
-Autodesk VRED Server 2020 = 887L1
-Autodesk Wiretap Gateway 2020 = C0ZL1
-FeatureCAM Premium 2020 = P16L1
-FeatureCAM Standard 2020 = P15L1
-FeatureCAM Ultimate 2020 = P17L1
-HSMWorks Premium 2020 = 873L1
-HSMWorks Ultimate 2020 = 872L1
-PowerInspect Premium 2020 = P13L1
-PowerInspect Standard 2020 = P12L1
-PowerInspect Ultimate 2020 = P14L1
-PowerMill Premium 2020 = P07L1
-PowerMill Standard 2020 = A9ZL1
-PowerMill Ultimate 2020 = P08L1
-PowerShape Premium 2020 = P10L1
-PowerShape Standard 2020 = P09L1
-PowerShape Ultimate 2020 = P11L1
-T1 Enterprise Multiflex 2020 = 535L1
-Autodesk Inventor Nesting 2020 = C1QL1
-Autodesk Inventor Nesting 2021 = C1QM1
-Inventor Tolerance Analysis 2020 = C20L1
-Autodesk 3ds Max 2021 = 128M1
-Autodesk Advance Steel 2021 = 959M1
-Autodesk Alias AutoStudio 2021 = 966M1
-Autodesk Alias Concept 2021 = A63M1
-Autodesk Alias Design 2021 = 712M1
-Autodesk Alias SpeedForm 2021 = A62M1
-Autodesk Alias Surface 2021 = 736M1
-Autodesk AutoCAD 2021 = 001M1
-Autodesk AutoCAD Architecture 2021 = 185M1
-Autodesk AutoCAD Design Suite Premium 2021 = 768M1
-Autodesk AutoCAD Design Suite Standard 2021 = 767M1
-Autodesk AutoCAD Electrical 2021 = 225M1
-Autodesk AutoCAD Inventor LT Suite 2021 = 596M1
-Autodesk AutoCAD LT 2021 = 057M1
-Autodesk AutoCAD LT with CALS Tools 2021 = 545M1
-Autodesk AutoCAD Map 3D 2021 = 129M1
-Autodesk AutoCAD Mechanical 2021 = 206M1
-Autodesk AutoCAD MEP 2021 = 235M1
-Autodesk AutoCAD Plant 3D 2021 = 426M1
-Autodesk AutoCAD Raster Design 2021 = 340M1
-Autodesk AutoCAD Revit LT Suite 2021 = 834M1
-Autodesk Building Design Suite Premium 2021 = 765M1
-Autodesk Building Design Suite Standard 2021 = 784M1
-Autodesk Building Design Suite Ultimate 2021 = 766M1
-Autodesk Burn 2021 = C0YM1
-Autodesk Civil 3D 2021 = 237M1
-Autodesk Fabrication CADmep 2021 = 839M1
-Autodesk Fabrication CAMduct 2021 = 842M1
-Autodesk Fabrication ESTmep 2021 = 841M1
-Autodesk Factory Design Suite Premium 2021 = 757M1
-Autodesk Factory Design Suite Standard 2021 = 789M1
-Autodesk Factory Design Suite Ultimate 2021 = 760M1
-Autodesk Factory Design Utilities 2021 = P03M1
-Autodesk FeatureCAM Premium 2021 = A9FM1
-Autodesk FeatureCAM Standard 2021 = A9GM1
-Autodesk FeatureCAM Ultimate 2021 = A9EM1
-Autodesk Flame 2021 = C0TM1
-Autodesk Flame 2021 - Education = C14M1
-Autodesk Flame Assist 2021 = C0VM1
-Autodesk Flame Premium 2021 = C0XM1
-Autodesk Flare 2021 = C0WM1
-Autodesk HSM Premium 2021 = C12M1
-Autodesk HSM Ultimate 2021 = C13M1
-Autodesk Infrastructure Design Suite Premium 2021 = 786M1
-Autodesk Infrastructure Design Suite Standard 2021 = 787M1
-Autodesk Infrastructure Design Suite Ultimate 2021 = 785M1
-Autodesk Inventor 2021 = 208M1
-Autodesk Inventor Engineer-to-Order 2021 - Developer = A66M1
-Autodesk Inventor Engineer-to-Order 2021 - Distribution = 996M1
-Autodesk Inventor Engineer-to-Order 2021 - Server = 997M1
-Autodesk Inventor Engineer-to-Order Series 2021 = 805M1
-Autodesk Inventor Engineer-to-Order Server 2021 = 752M1
-Autodesk Inventor HSM Premium 2021 = 969M1
-Autodesk Inventor HSM Ultimate 2021 = 970M1
-Autodesk Inventor LT 2021 = 529M1
-Autodesk Inventor OEM 2021 = 798M1
-Autodesk Inventor Nastran 2021 = 987M1
-Autodesk Inventor Professional 2021 = 797M1
-Autodesk Lustre 2021 = C0UM1
-Autodesk Lustre Burn 2021 = C10M1
-Autodesk Lustre ShotReactor 2021 = C11M1
-Autodesk Manufacturing Automation Utility 2021 = A9YM1
-Autodesk Manufacturing Data Exchange Utility Premium 2021 = A9VM1
-Autodesk Manufacturing Data Exchange Utility Standard 2021 = A9XM1
-Autodesk Manufacturing Post Processor Utility 2021 = A9TM1
-Autodesk Maya LT 2021 = 923M1
-Autodesk MEP Fabrication Suite 2021 = 00QM1
-Autodesk Navisworks Manage 2021 = 507M1
-Autodesk Navisworks Simulate 2021 = 506M1
-Autodesk PartMaker 2021 = A9SM1
-Autodesk Plant Design Suite Premium 2021 = 763M1
-Autodesk Plant Design Suite Standard 2021 = 788M1
-Autodesk Plant Design Suite Ultimate 2021 = 764M1
-Autodesk Point Layout 2021 = 925M1
-Autodesk PowerInspect Premium 2021 = A9JM1
-Autodesk PowerInspect Standard 2017 = A9KM1
-Autodesk PowerInspect Standard 2018 = A9KM1
-Autodesk PowerInspect Standard 2021 = A9KM1
-Autodesk PowerInspect Ultimate 2021 = A9HM1
-Autodesk PowerMill Modeling 2021 = A9UM1
-Autodesk PowerMill Premium 2021 = A9AM1
-Autodesk PowerMill Standard 2021 = A9QM1
-Autodesk PowerMill Ultimate 2021 = A9PM1
-Autodesk PowerShape Premium 2021 = A9MM1
-Autodesk PowerShape Standard 2021 = A9NM1
-Autodesk PowerShape Ultimate 2021 = A9LM1
-Autodesk Product Design Suite Premium 2021 = 782M1
-Autodesk Product Design Suite Ultimate 2021 = 781M1
-Autodesk ReCap Pro = 919M1
-Autodesk Revit 2021 = 829M1
-Autodesk Revit LT 2021 = 828M1
-Autodesk Robot Structural Analysis Professional 2021 = 547M1
-Autodesk SketchBook Pro = 871M1
-Autodesk TruComp 2021 = 00EM1
-Autodesk TruFiber 2021 = 01WM1
-Autodesk TruLaser 2021 = 00DM1
-Autodesk TruNest 2021 - Nesting Engine = 00FM1
-Autodesk TruNest Composites 2021 = 00BM1
-Autodesk TruNest Contour 2021 = 00AM1
-Autodesk TruNest Multi-Tool 2021 = 00CM1
-Autodesk TruPlan 2021 = 01VM1
-Autodesk Vault Office 2021 = 555M1
-Autodesk Vault Professional 2021 = 569M1
-Autodesk Vault Workgroup 2021 = 559M1
-Autodesk Vehicle Tracking 2021 = 955M1
-Autodesk VRED 2021 = 884M1
-Autodesk VRED Design 2021 = 885M1
-Autodesk VRED Presenter 2021 = 888M1
-Autodesk VRED Professional 2021 = 886M1
-Autodesk VRED Render Node - consumption-based license 2021 = A93M1
-Autodesk VRED Render Node 2021 = 890M1
-Autodesk VRED Server 2021 = 887M1
-Autodesk Wiretap Gateway 2021 = C0ZM1
-FeatureCAM Premium 2021 = P16M1
-FeatureCAM Standard 2021 = P15M1
-FeatureCAM Ultimate 2021 = P17M1
-HSMWorks Premium 2021 = 873M1
-HSMWorks Ultimate 2021 = 872M1
-PowerInspect Premium 2021 = P13M1
-PowerInspect Standard 2021 = P12M1
-PowerInspect Ultimate 2021 = P14M1
-PowerMill Premium 2021 = P07M1
-PowerMill Standard 2021 = A9ZM1
-PowerMill Ultimate 2021 = P08M1
-PowerShape Premium 2021 = P10M1
-PowerShape Standard 2021 = P09M1
-PowerShape Ultimate 2021 = P11M1
-T1 Enterprise Multi-flex 2021 = 535M1
-Autodesk 3ds Max 2022 = 128N1
-Autodesk 3ds Max 2022 with Softimage = 978N1
-Autodesk Advance Steel 2022 = 959N1
-Autodesk Alias AutoStudio 2022 = 966N1
-Autodesk Alias Concept 2022 = A63N1
-Autodesk Alias Design 2022 = 712N1
-Autodesk Alias SpeedForm 2022 = A62N1
-Autodesk Alias Surface 2022 = 736N1
-Autodesk AutoCAD 2022 = 001N1
-Autodesk AutoCAD Architecture 2022 = 185N1
-Autodesk AutoCAD Design Suite Premium 2022 = 768N1
-Autodesk AutoCAD Design Suite Standard 2022 = 767N1
-Autodesk AutoCAD Electrical 2022 = 225N1
-Autodesk AutoCAD Inventor LT Suite 2022 = 596N1
-Autodesk AutoCAD LT 2022 = 057N1
-Autodesk AutoCAD LT Civil Suite 2022 = 545N1
-Autodesk AutoCAD Map 3D 2022 = 129N1
-Autodesk AutoCAD Mechanical 2022 = 206N1
-Autodesk AutoCAD MEP 2022 = 235N1
-Autodesk AutoCAD Plant 3D 2022 = 426N1
-Autodesk AutoCAD Raster Design 2022 = 340N1
-Autodesk AutoCAD Revit LT Suite 2022 = 834N1
-Autodesk Building Design Suite Premium 2022 = 765N1
-Autodesk Building Design Suite Standard 2022 = 784N1
-Autodesk Building Design Suite Ultimate 2022 = 766N1
-Autodesk Burn 2022 = C0YN1
-Autodesk CFD Design Study Environment 2022 = 812N1
-Autodesk CFD Premium 2022 = 810N1
-Autodesk CFD Ultimate 2022 = 811N1
-Autodesk Civil 3D 2022 = 237N1
-Autodesk Fabrication CADmep 2022 = 839N1
-Autodesk Fabrication CAMduct 2022 = 842N1
-Autodesk Fabrication ESTmep 2022 = 841N1
-Autodesk Factory Design Suite Premium 2022 = 757N1
-Autodesk Factory Design Suite Standard 2022 = 789N1
-Autodesk Factory Design Suite Ultimate 2022 = 760N1
-Autodesk Factory Design Utilities 2022 = P03N1
-Autodesk FeatureCAM Premium 2022 = A9FN1
-Autodesk FeatureCAM Standard 2022 = A9GN1
-Autodesk FeatureCAM Ultimate 2022 = A9EN1
-Autodesk Flame 2022 = C0TN1
-Autodesk Flame 2022 – Education = C14N1
-Autodesk Flame Assist 2022 = C0VN1
-Autodesk Flame Premium 2022 = C0XN1
-Autodesk Flare 2022 = C0WN1
-Autodesk Helius PFA 2022 = 899N1
-Autodesk HSM Premium 2022 = C12N1
-Autodesk HSM Ultimate 2022 = C13N1
-Autodesk Infrastructure Design Suite Premium 2022 = 786N1
-Autodesk Infrastructure Design Suite Standard 2022 = 787N1
-Autodesk Infrastructure Design Suite Ultimate 2022 = 785N1
-Autodesk Inventor 2022 = 208N1
-Autodesk Inventor Engineer-to-Order 2022 – Developer = A66N1
-Autodesk Inventor Engineer-to-Order 2022 – Distribution = 996N1
-Autodesk Inventor Engineer-to-Order 2022 – Server = 997N1
-Autodesk Inventor Engineer-to-Order Series 2022 = 805N1
-Autodesk Inventor Engineer-to-Order Server 2022 = 752N1
-Autodesk Inventor HSM Premium 2022 = 969N1
-Autodesk Inventor HSM Ultimate 2022 = 970N1
-Autodesk Inventor LT 2022 = 529N1
-Autodesk Inventor OEM 2022 = 798N1
-Autodesk Inventor Professional 2022 = 797N1
-Autodesk Lustre 2022 = C0UN1
-Autodesk Lustre Burn 2022 = C10N1
-Autodesk Lustre ShotReactor 2022 = C11N1
-Autodesk Manufacturing Automation Utility 2022 = A9YN1
-Autodesk Manufacturing Data Exchange Utility Premium 2022 = A9VN1
-Autodesk Manufacturing Data Exchange Utility Standard 2022 = A9XN1
-Autodesk Manufacturing Post Processor Utility 2022 = A9TN1
-Autodesk MEP Fabrication Suite 2022 = 00QN1
-Autodesk Moldflow Adviser Premium 2022 = 571N1
-Autodesk Moldflow Adviser Ultimate 2022 = 572N1
-Autodesk Moldflow Design 2022 = 837N1
-Autodesk Moldflow Insight Premium 2022 = 574N1
-Autodesk Moldflow Insight Standard 2022 = 573N1
-Autodesk Moldflow Insight Ultimate 2022 = 575N1
-Autodesk Moldflow Synergy 2022 = 579N1
-Autodesk Nastran 2022 = 986N1
-Autodesk Nastran In-CAD 2022 = 987N1
-Autodesk Navisworks Manage 2022 = 507N1
-Autodesk Navisworks Simulate 2022 = 506N1
-Autodesk PartMaker 2022 = A9SN1
-Autodesk Plant Design Suite Premium 2022 = 763N1
-Autodesk Plant Design Suite Standard 2022 = 788N1
-Autodesk Plant Design Suite Ultimate 2022 = 764N1
-Autodesk Point Layout 2022 = 925N1
-Autodesk PowerInspect Premium 2022 = A9JN1
-Autodesk PowerInspect Ultimate 2022 = A9HN1
-Autodesk PowerMill Modeling 2022 = A9UN1
-Autodesk PowerMill Premium 2022 = A9AN1
-Autodesk PowerMill Standard 2022 = A9QN1
-Autodesk PowerMill Ultimate 2022 = A9PN1
-Autodesk PowerShape Premium 2022 = A9MN1
-Autodesk PowerShape Standard 2022 = A9NN1
-Autodesk PowerShape Ultimate 2022 = A9LN1
-Autodesk ReCap Pro 2022 = 919N1
-Autodesk Revit 2022 = 829N1
-Autodesk Revit LT 2022 = 828N1
-Autodesk Robot Structural Analysis Professional 2022 = 547N1
-Autodesk SketchBook for  2022 = 871N1
-Autodesk TruComp 2022 = 00EN1
-Autodesk TruFiber 2022 = 01WN1
-Autodesk TruLaser 2022 = 00DN1
-Autodesk TruNest 2022 – Nesting Engine = 00FN1
-Autodesk TruNest Composites 2022 = 00BN1
-Autodesk TruNest Contour 2022 = 00AN1
-Autodesk TruNest Multi-Tool 2022 = 00CN1
-Autodesk TruPlan 2022 = 01VN1
-Autodesk Vault Office 2022 = 555N1
-Autodesk Vault Professional 2022 = 569N1
-Autodesk Vault Workgroup 2022 = 559N1
-Autodesk Vehicle Tracking 2022 = 955N1
-Autodesk VRED 2022 = 884N1
-Autodesk VRED Design 2022 = 885N1
-Autodesk VRED Presenter 2022 = 888N1
-Autodesk VRED Professional 2022 = 886N1
-Autodesk VRED Render Node – consumption-based license 2022 = A93N1
-Autodesk VRED Render Node 2022 = 890N1
-Autodesk VRED Server 2022 = 887N1
-Autodesk Wiretap Gateway 2022 = C0ZN1
-FeatureCAM Premium 2022 = P16N1
-FeatureCAM Standard 2022 = P15N1
-FeatureCAM Ultimate 2022 = P17N1
-HSMWorks Premium 2022 = 873N1
-HSMWorks Ultimate 2022 = 872N1
-PowerInspect Premium 2022 = P13N1
-PowerInspect Standard 2022 = P12N1
-PowerInspect Ultimate 2022 = P14N1
-PowerMill Premium 2022 = P07N1
-PowerMill Standard 2022 = A9ZN1
-PowerMill Ultimate 2022 = P08N1
-PowerShape Premium 2022 = P10N1
-PowerShape Standard 2022 = P09N1
-PowerShape Ultimate 2022 = P11N1
-T1 Enterprise Multi-flex 2022 = 535N1
-Autodesk Inventor Nesting 2022 = C1QN1
-Autodesk 3ds Max 2023 = 128O1
-Autodesk 3ds Max 2023 with Softimage = 978O1
-Autodesk Advance Steel 2023 = 959O1
-Autodesk Alias AutoStudio 2023 = 966O1
-Autodesk Alias Concept 2023 = A63O1
-Autodesk Alias Design 2023 = 712O1
-Autodesk Alias SpeedForm 2023 = A62O1
-Autodesk Alias Surface 2023 = 736O1
-Autodesk AutoCAD 2023 = 001O1
-Autodesk AutoCAD Architecture 2023 = 185O1
-Autodesk AutoCAD Design Suite Premium 2023 = 768O1
-Autodesk AutoCAD Design Suite Standard 2023 = 767O1
-Autodesk AutoCAD Electrical 2023 = 225O1
-Autodesk AutoCAD Inventor LT Suite 2023 = 596O1
-Autodesk AutoCAD LT 2023 = 057O1
-Autodesk AutoCAD LT Civil Suite 2023 = 545O1
-Autodesk AutoCAD Map 3D 2023 = 129O1
-Autodesk AutoCAD Mechanical 2023 = 206O1
-Autodesk AutoCAD MEP 2023 = 235O1
-Autodesk AutoCAD Plant 3D 2023 = 426O1
-Autodesk AutoCAD Raster Design 2023 = 340O1
-Autodesk AutoCAD Revit LT Suite 2023 = 834O1
-Autodesk Building Design Suite Premium 2023 = 765O1
-Autodesk Building Design Suite Standard 2023 = 784O1
-Autodesk Building Design Suite Ultimate 2023 = 766O1
-Autodesk Burn 2023 = C0YO1
-Autodesk CFD Design Study Environment 2023 = 812O1
-Autodesk CFD Premium 2023 = 810O1
-Autodesk CFD Ultimate 2023 = 811O1
-Autodesk Civil 3D 2023 = 237O1
-Autodesk Fabrication CADmep 2023 = 839O1
-Autodesk Fabrication CAMduct 2023 = 842O1
-Autodesk Fabrication ESTmep 2023 = 841O1
-Autodesk Factory Design Suite Premium 2023 = 757O1
-Autodesk Factory Design Suite Standard 2023 = 789O1
-Autodesk Factory Design Suite Ultimate 2023 = 760O1
-Autodesk Factory Design Utilities 2023 = P03O1
-Autodesk FeatureCAM Premium 2023 = A9FO1
-Autodesk FeatureCAM Standard 2023 = A9GO1
-Autodesk FeatureCAM Ultimate 2023 = A9EO1
-Autodesk Flame 2023 = C0TO1
-Autodesk Flame 2023 – Education = C14O1
-Autodesk Flame Assist 2023 = C0VO1
-Autodesk Flame Premium 2023 = C0XO1
-Autodesk Flare 2023 = C0WO1
-Autodesk Helius PFA 2023 = 899O1
-Autodesk HSM Premium 2023 = C12O1
-Autodesk HSM Ultimate 2023 = C13O1
-Autodesk Infrastructure Design Suite Premium 2023 = 786O1
-Autodesk Infrastructure Design Suite Standard 2023 = 787O1
-Autodesk Infrastructure Design Suite Ultimate 2023 = 785O1
-Autodesk Inventor 2023 = 208O1
-Autodesk Inventor Engineer-to-Order 2023 – Developer = A66O1
-Autodesk Inventor Engineer-to-Order 2023 – Distribution = 996O1
-Autodesk Inventor Engineer-to-Order 2023 – Server = 997O1
-Autodesk Inventor Engineer-to-Order Series 2023 = 805O1
-Autodesk Inventor Engineer-to-Order Server 2023 = 752O1
-Autodesk Inventor HSM Premium 2023 = 969O1
-Autodesk Inventor HSM Ultimate 2023 = 970O1
-Autodesk Inventor LT 2023 = 529O1
-Autodesk Inventor OEM 2023 = 798O1
-Autodesk Inventor Professional 2023 = 797O1
-Autodesk Lustre 2023 = C0UO1
-Autodesk Lustre Burn 2023 = C10O1
-Autodesk Lustre ShotReactor 2023 = C11O1
-Autodesk Manufacturing Automation Utility 2023 = A9YO1
-Autodesk Manufacturing Data Exchange Utility Premium 2023 = A9VO1
-Autodesk Manufacturing Data Exchange Utility Standard 2023 = A9XO1
-Autodesk Manufacturing Post Processor Utility 2023 = A9TO1
-Autodesk MEP Fabrication Suite 2023 = 00QO1
-Autodesk Moldflow Adviser Premium 2023 = 571O1
-Autodesk Moldflow Adviser Ultimate 2023 = 572O1
-Autodesk Moldflow Design 2023 = 837O1
-Autodesk Moldflow Insight Premium 2023 = 574O1
-Autodesk Moldflow Insight Standard 2023 = 573O1
-Autodesk Moldflow Insight Ultimate 2023 = 575O1
-Autodesk Moldflow Synergy 2023 = 579O1
-Autodesk Nastran 2023 = 986O1
-Autodesk Nastran In-CAD 2023 = 987O1
-Autodesk Navisworks Manage 2023 = 507O1
-Autodesk Navisworks Simulate 2023 = 506O1
-Autodesk PartMaker 2023 = A9SO1
-Autodesk Plant Design Suite Premium 2023 = 763O1
-Autodesk Plant Design Suite Standard 2023 = 788O1
-Autodesk Plant Design Suite Ultimate 2023 = 764O1
-Autodesk Point Layout 2023 = 925O1
-Autodesk PowerInspect Premium 2023 = A9JO1
-Autodesk PowerInspect Ultimate 2023 = A9HO1
-Autodesk PowerMill Modeling 2023 = A9UO1
-Autodesk PowerMill Premium 2023 = A9AO1
-Autodesk PowerMill Standard 2023 = A9QO1
-Autodesk PowerMill Ultimate 2023 = A9PO1
-Autodesk PowerShape Premium 2023 = A9MO1
-Autodesk PowerShape Standard 2023 = A9NO1
-Autodesk PowerShape Ultimate 2023 = A9LO1
-Autodesk ReCap Pro 2023 = 919O1
-Autodesk Revit 2023 = 829O1
-Autodesk Revit LT 2023 = 828O1
-Autodesk Robot Structural Analysis Professional 2023 = 547O1
-Autodesk SketchBook for  2023 = 871O1
-Autodesk TruComp 2023 = 00EO1
-Autodesk TruFiber 2023 = 01WO1
-Autodesk TruLaser 2023 = 00DO1
-Autodesk TruNest 2023 – Nesting Engine = 00FO1
-Autodesk TruNest Composites 2023 = 00BO1
-Autodesk TruNest Contour 2023 = 00AO1
-Autodesk TruNest Multi-Tool 2023 = 00CO1
-Autodesk TruPlan 2023 = 01VO1
-Autodesk Vault Office 2023 = 555O1
-Autodesk Vault Professional 2023 = 569O1
-Autodesk Vault Workgroup 2023 = 559O1
-Autodesk Vehicle Tracking 2023 = 955O1
-Autodesk VRED 2023 = 884O1
-Autodesk VRED Design 2023 = 885O1
-Autodesk VRED Presenter 2023 = 888O1
-Autodesk VRED Professional 2023 = 886O1
-Autodesk VRED Render Node – consumption-based license 2023 = A93O1
-Autodesk VRED Render Node 2023 = 890O1
-Autodesk VRED Server 2023 = 887O1
-Autodesk Wiretap Gateway 2023 = C0ZO1
-FeatureCAM Premium 2023 = P16O1
-FeatureCAM Standard 2023 = P15O1
-FeatureCAM Ultimate 2023 = P17O1
-HSMWorks Premium 2023 = 873O1
-HSMWorks Ultimate 2023 = 872O1
-PowerInspect Premium 2023 = P13O1
-PowerInspect Standard 2023 = P12O1
-PowerInspect Ultimate 2023 = P14O1
-PowerMill Premium 2023 = P07O1
-PowerMill Standard 2023 = A9ZO1
-PowerMill Ultimate 2023 = P08O1
-PowerShape Premium 2023 = P10O1
-PowerShape Standard 2023 = P09O1
-PowerShape Ultimate 2023 = P11O1
-T1 Enterprise Multi-flex 2023 = 535O1
-Autodesk Inventor Nesting 2023 = C1QO1
+﻿Autodesk 3ds Max 2020;128L1
+Autodesk 3ds Max 2020 with Softimage;978L1
+Autodesk Advance Steel 2020;959L1
+Autodesk Alias AutoStudio 2020;966L1
+Autodesk Alias Concept 2020;A63L1
+Autodesk Alias Design 2020;712L1
+Autodesk Alias SpeedForm 2020;A62L1
+Autodesk Alias Surface 2020;736L1
+Autodesk AutoCAD 2020;001L1
+Autodesk AutoCAD Architecture 2020;185L1
+Autodesk AutoCAD Design Suite Premium 2020;768L1
+Autodesk AutoCAD Design Suite Standard 2020;767L1
+Autodesk AutoCAD Electrical 2020;225L1
+Autodesk AutoCAD Inventor LT Suite 2020;596L1
+Autodesk AutoCAD LT 2020;057L1
+Autodesk AutoCAD LT with CALS Tools 2020;545L1
+Autodesk AutoCAD Map 3D 2020;129L1
+Autodesk AutoCAD Mechanical 2020;206L1
+Autodesk AutoCAD MEP 2020;235L1
+Autodesk AutoCAD Plant 3D 2020;426L1
+Autodesk AutoCAD Raster Design 2020;340L1
+Autodesk AutoCAD Revit LT Suite 2020;834L1
+Autodesk Building Design Suite Premium 2020;765L1
+Autodesk Building Design Suite Standard 2020;784L1
+Autodesk Building Design Suite Ultimate 2020;766L1
+Autodesk Burn 2020;C0YL1
+Autodesk Civil 3D 2020;237L1
+Autodesk Fabrication CADmep 2020;839L1
+Autodesk Fabrication CAMduct 2020;842L1
+Autodesk Fabrication ESTmep 2020;841L1
+Autodesk Factory Design Suite Premium 2020;757L1
+Autodesk Factory Design Suite Standard 2020;789L1
+Autodesk Factory Design Suite Ultimate 2020;760L1
+Autodesk Factory Design Utilities 2020;P03L1
+Autodesk FeatureCAM Premium 2020;A9FL1
+Autodesk FeatureCAM Standard 2020;A9GL1
+Autodesk FeatureCAM Ultimate 2020;A9EL1
+Autodesk Flame 2020;C0TL1
+Autodesk Flame 2020  Education;C14L1
+Autodesk Flame Assist 2020;C0VL1
+Autodesk Flame Premium 2020;C0XL1
+Autodesk Flare 2020;C0WL1
+Autodesk HSM Premium 2020;C12L1
+Autodesk HSM Ultimate 2020;C13L1
+Autodesk Infrastructure Design Suite Premium 2020;786L1
+Autodesk Infrastructure Design Suite Standard 2020;787L1
+Autodesk Infrastructure Design Suite Ultimate 2020;785L1
+Autodesk Inventor 2020;208L1
+Autodesk Inventor Engineer to Order 2020  Developer;A66L1
+Autodesk Inventor Engineer to Order 2020  Distribution;996L1
+Autodesk Inventor Engineer to Order 2020  Server;997L1
+Autodesk Inventor Engineer to Order Series 2020;805L1
+Autodesk Inventor Engineer to Order Server 2020;752L1
+Autodesk Inventor HSM Premium 2020;969L1
+Autodesk Inventor HSM Ultimate 2020;970L1
+Autodesk Inventor LT 2020;529L1
+Autodesk Inventor OEM 2020;798L1
+Autodesk Inventor Professional 2020;797L1
+Autodesk Lustre 2020;C0UL1
+Autodesk Lustre Burn 2020;C10L1
+Autodesk Lustre ShotReactor 2020;C11L1
+Autodesk Manufacturing Automation Utility 2020;A9YL1
+Autodesk Manufacturing Data Exchange Utility Premium 2020;A9VL1
+Autodesk Manufacturing Data Exchange Utility Standard 2020;A9XL1
+Autodesk Manufacturing Post Processor Utility 2020;A9TL1
+Autodesk Maya LT 2020;923L1
+Autodesk MEP Fabrication Suite 2020;00QL1
+Autodesk Nastran 2020;986L1
+Autodesk Inventor Nastran 2020;987L1
+Autodesk Navisworks Manage 2020;507L1
+Autodesk Navisworks Simulate 2020;506L1
+Autodesk PartMaker 2020;A9SL1
+Autodesk Plant Design Suite Premium 2020;763L1
+Autodesk Plant Design Suite Standard 2020;788L1
+Autodesk Plant Design Suite Ultimate 2020;764L1
+Autodesk Point Layout 2020;925L1
+Autodesk PowerInspect Premium 2020;A9JL1
+Autodesk PowerInspect Standard 2020;A9KL1
+Autodesk PowerInspect Ultimate 2020;A9HL1
+Autodesk PowerMill Modeling 2020;A9UL1
+Autodesk PowerMill Premium 2020;A9AL1
+Autodesk PowerMill Standard 2020;A9QL1
+Autodesk PowerMill Ultimate 2020;A9PL1
+Autodesk PowerShape Premium 2020;A9ML1
+Autodesk PowerShape Standard 2020;A9NL1
+Autodesk PowerShape Ultimate 2020;A9LL1
+Autodesk Product Design Suite Premium 2020;782L1
+Autodesk Product Design Suite Ultimate 2020;781L1
+Autodesk ReCap Pro 2020;919L1
+Autodesk Revit 2020;829L1
+Autodesk Revit LT 2020;828L1
+Autodesk Robot Structural Analysis Professional 2020;547L1
+Autodesk SketchBook for Enterprise;871L1
+Autodesk TruComp 2020;00EL1
+Autodesk TruFiber 2020;01WL1
+Autodesk TruLaser 2020;00DL1
+Autodesk TruNest 2020  Nesting Engine;00FL1
+Autodesk TruNest Composites 2020;00BL1
+Autodesk TruNest Contour 2020;00AL1
+Autodesk TruNest MultiTool 2020;00CL1
+Autodesk TruPlan 2020;01VL1
+Autodesk Vault Office 2020;555L1
+Autodesk Vault Professional 2020;569L1
+Autodesk Vault Workgroup 2020;559L1
+Autodesk Vehicle Tracking 2020;955L1
+Autodesk VRED 2020;884L1
+Autodesk VRED Design 2020;885L1
+Autodesk VRED Presenter 2020;888L1
+Autodesk VRED Professional 2020;886L1
+Autodesk VRED Render Node cons. based lic. 2020;A93L1
+Autodesk VRED Render Node 2020;890L1
+Autodesk VRED Server 2020;887L1
+Autodesk Wiretap Gateway 2020;C0ZL1
+FeatureCAM Premium 2020;P16L1
+FeatureCAM Standard 2020;P15L1
+FeatureCAM Ultimate 2020;P17L1
+HSMWorks Premium 2020;873L1
+HSMWorks Ultimate 2020;872L1
+PowerInspect Premium 2020;P13L1
+PowerInspect Standard 2020;P12L1
+PowerInspect Ultimate 2020;P14L1
+PowerMill Premium 2020;P07L1
+PowerMill Standard 2020;A9ZL1
+PowerMill Ultimate 2020;P08L1
+PowerShape Premium 2020;P10L1
+PowerShape Standard 2020;P09L1
+PowerShape Ultimate 2020;P11L1
+T1 Enterprise Multiflex 2020;535L1
+Autodesk Inventor Nesting 2020;C1QL1
+Autodesk Inventor Nesting 2021;C1QM1
+Inventor Tolerance Analysis 2020;C20L1
+Autodesk 3ds Max 2021;128M1
+Autodesk Advance Steel 2021;959M1
+Autodesk Alias AutoStudio 2021;966M1
+Autodesk Alias Concept 2021;A63M1
+Autodesk Alias Design 2021;712M1
+Autodesk Alias SpeedForm 2021;A62M1
+Autodesk Alias Surface 2021;736M1
+Autodesk AutoCAD 2021;001M1
+Autodesk AutoCAD Architecture 2021;185M1
+Autodesk AutoCAD Design Suite Premium 2021;768M1
+Autodesk AutoCAD Design Suite Standard 2021;767M1
+Autodesk AutoCAD Electrical 2021;225M1
+Autodesk AutoCAD Inventor LT Suite 2021;596M1
+Autodesk AutoCAD LT 2021;057M1
+Autodesk AutoCAD LT with CALS Tools 2021;545M1
+Autodesk AutoCAD Map 3D 2021;129M1
+Autodesk AutoCAD Mechanical 2021;206M1
+Autodesk AutoCAD MEP 2021;235M1
+Autodesk AutoCAD Plant 3D 2021;426M1
+Autodesk AutoCAD Raster Design 2021;340M1
+Autodesk AutoCAD Revit LT Suite 2021;834M1
+Autodesk Building Design Suite Premium 2021;765M1
+Autodesk Building Design Suite Standard 2021;784M1
+Autodesk Building Design Suite Ultimate 2021;766M1
+Autodesk Burn 2021;C0YM1
+Autodesk Civil 3D 2021;237M1
+Autodesk Fabrication CADmep 2021;839M1
+Autodesk Fabrication CAMduct 2021;842M1
+Autodesk Fabrication ESTmep 2021;841M1
+Autodesk Factory Design Suite Premium 2021;757M1
+Autodesk Factory Design Suite Standard 2021;789M1
+Autodesk Factory Design Suite Ultimate 2021;760M1
+Autodesk Factory Design Utilities 2021;P03M1
+Autodesk FeatureCAM Premium 2021;A9FM1
+Autodesk FeatureCAM Standard 2021;A9GM1
+Autodesk FeatureCAM Ultimate 2021;A9EM1
+Autodesk Flame 2021;C0TM1
+Autodesk Flame 2021 - Education;C14M1
+Autodesk Flame Assist 2021;C0VM1
+Autodesk Flame Premium 2021;C0XM1
+Autodesk Flare 2021;C0WM1
+Autodesk HSM Premium 2021;C12M1
+Autodesk HSM Ultimate 2021;C13M1
+Autodesk Infrastructure Design Suite Premium 2021;786M1
+Autodesk Infrastructure Design Suite Standard 2021;787M1
+Autodesk Infrastructure Design Suite Ultimate 2021;785M1
+Autodesk Inventor 2021;208M1
+Autodesk Inventor Engineer-to-Order 2021 - Developer;A66M1
+Autodesk Inventor Engineer-to-Order 2021 - Distribution;996M1
+Autodesk Inventor Engineer-to-Order 2021 - Server;997M1
+Autodesk Inventor Engineer-to-Order Series 2021;805M1
+Autodesk Inventor Engineer-to-Order Server 2021;752M1
+Autodesk Inventor HSM Premium 2021;969M1
+Autodesk Inventor HSM Ultimate 2021;970M1
+Autodesk Inventor LT 2021;529M1
+Autodesk Inventor OEM 2021;798M1
+Autodesk Inventor Nastran 2021;987M1
+Autodesk Inventor Professional 2021;797M1
+Autodesk Lustre 2021;C0UM1
+Autodesk Lustre Burn 2021;C10M1
+Autodesk Lustre ShotReactor 2021;C11M1
+Autodesk Manufacturing Automation Utility 2021;A9YM1
+Autodesk Manufacturing Data Exchange Utility Premium 2021;A9VM1
+Autodesk Manufacturing Data Exchange Utility Standard 2021;A9XM1
+Autodesk Manufacturing Post Processor Utility 2021;A9TM1
+Autodesk Maya LT 2021;923M1
+Autodesk MEP Fabrication Suite 2021;00QM1
+Autodesk Navisworks Manage 2021;507M1
+Autodesk Navisworks Simulate 2021;506M1
+Autodesk PartMaker 2021;A9SM1
+Autodesk Plant Design Suite Premium 2021;763M1
+Autodesk Plant Design Suite Standard 2021;788M1
+Autodesk Plant Design Suite Ultimate 2021;764M1
+Autodesk Point Layout 2021;925M1
+Autodesk PowerInspect Premium 2021;A9JM1
+Autodesk PowerInspect Standard 2021;A9KM1
+Autodesk PowerInspect Ultimate 2021;A9HM1
+Autodesk PowerMill Modeling 2021;A9UM1
+Autodesk PowerMill Premium 2021;A9AM1
+Autodesk PowerMill Standard 2021;A9QM1
+Autodesk PowerMill Ultimate 2021;A9PM1
+Autodesk PowerShape Premium 2021;A9MM1
+Autodesk PowerShape Standard 2021;A9NM1
+Autodesk PowerShape Ultimate 2021;A9LM1
+Autodesk Product Design Suite Premium 2021;782M1
+Autodesk Product Design Suite Ultimate 2021;781M1
+Autodesk ReCap Pro 2021;919M1
+Autodesk Revit 2021;829M1
+Autodesk Revit LT 2021;828M1
+Autodesk Robot Structural Analysis Professional 2021;547M1
+Autodesk SketchBook Pro;871M1
+Autodesk TruComp 2021;00EM1
+Autodesk TruFiber 2021;01WM1
+Autodesk TruLaser 2021;00DM1
+Autodesk TruNest 2021 - Nesting Engine;00FM1
+Autodesk TruNest Composites 2021;00BM1
+Autodesk TruNest Contour 2021;00AM1
+Autodesk TruNest Multi-Tool 2021;00CM1
+Autodesk TruPlan 2021;01VM1
+Autodesk Vault Office 2021;555M1
+Autodesk Vault Professional 2021;569M1
+Autodesk Vault Workgroup 2021;559M1
+Autodesk Vehicle Tracking 2021;955M1
+Autodesk VRED 2021;884M1
+Autodesk VRED Design 2021;885M1
+Autodesk VRED Presenter 2021;888M1
+Autodesk VRED Professional 2021;886M1
+Autodesk VRED Render Node - consumption-based license 2021;A93M1
+Autodesk VRED Render Node 2021;890M1
+Autodesk VRED Server 2021;887M1
+Autodesk Wiretap Gateway 2021;C0ZM1
+FeatureCAM Premium 2021;P16M1
+FeatureCAM Standard 2021;P15M1
+FeatureCAM Ultimate 2021;P17M1
+HSMWorks Premium 2021;873M1
+HSMWorks Ultimate 2021;872M1
+PowerInspect Premium 2021;P13M1
+PowerInspect Standard 2021;P12M1
+PowerInspect Ultimate 2021;P14M1
+PowerMill Premium 2021;P07M1
+PowerMill Standard 2021;A9ZM1
+PowerMill Ultimate 2021;P08M1
+PowerShape Premium 2021;P10M1
+PowerShape Standard 2021;P09M1
+PowerShape Ultimate 2021;P11M1
+T1 Enterprise Multi-flex 2021;535M1
+Autodesk 3ds Max 2022;128N1
+Autodesk 3ds Max 2022 with Softimage;978N1
+Autodesk Advance Steel 2022;959N1
+Autodesk Alias AutoStudio 2022;966N1
+Autodesk Alias Concept 2022;A63N1
+Autodesk Alias Design 2022;712N1
+Autodesk Alias SpeedForm 2022;A62N1
+Autodesk Alias Surface 2022;736N1
+Autodesk AutoCAD 2022;001N1
+Autodesk AutoCAD Architecture 2022;185N1
+Autodesk AutoCAD Design Suite Premium 2022;768N1
+Autodesk AutoCAD Design Suite Standard 2022;767N1
+Autodesk AutoCAD Electrical 2022;225N1
+Autodesk AutoCAD Inventor LT Suite 2022;596N1
+Autodesk AutoCAD LT 2022;057N1
+Autodesk AutoCAD LT Civil Suite 2022;545N1
+Autodesk AutoCAD Map 3D 2022;129N1
+Autodesk AutoCAD Mechanical 2022;206N1
+Autodesk AutoCAD MEP 2022;235N1
+Autodesk AutoCAD Plant 3D 2022;426N1
+Autodesk AutoCAD Raster Design 2022;340N1
+Autodesk AutoCAD Revit LT Suite 2022;834N1
+Autodesk Building Design Suite Premium 2022;765N1
+Autodesk Building Design Suite Standard 2022;784N1
+Autodesk Building Design Suite Ultimate 2022;766N1
+Autodesk Burn 2022;C0YN1
+Autodesk CFD Design Study Environment 2022;812N1
+Autodesk CFD Premium 2022;810N1
+Autodesk CFD Ultimate 2022;811N1
+Autodesk Civil 3D 2022;237N1
+Autodesk Fabrication CADmep 2022;839N1
+Autodesk Fabrication CAMduct 2022;842N1
+Autodesk Fabrication ESTmep 2022;841N1
+Autodesk Factory Design Suite Premium 2022;757N1
+Autodesk Factory Design Suite Standard 2022;789N1
+Autodesk Factory Design Suite Ultimate 2022;760N1
+Autodesk Factory Design Utilities 2022;P03N1
+Autodesk FeatureCAM Premium 2022;A9FN1
+Autodesk FeatureCAM Standard 2022;A9GN1
+Autodesk FeatureCAM Ultimate 2022;A9EN1
+Autodesk Flame 2022;C0TN1
+Autodesk Flame 2022 – Education;C14N1
+Autodesk Flame Assist 2022;C0VN1
+Autodesk Flame Premium 2022;C0XN1
+Autodesk Flare 2022;C0WN1
+Autodesk Helius PFA 2022;899N1
+Autodesk HSM Premium 2022;C12N1
+Autodesk HSM Ultimate 2022;C13N1
+Autodesk Infrastructure Design Suite Premium 2022;786N1
+Autodesk Infrastructure Design Suite Standard 2022;787N1
+Autodesk Infrastructure Design Suite Ultimate 2022;785N1
+Autodesk Inventor 2022;208N1
+Autodesk Inventor Engineer-to-Order 2022 – Developer;A66N1
+Autodesk Inventor Engineer-to-Order 2022 – Distribution;996N1
+Autodesk Inventor Engineer-to-Order 2022 – Server;997N1
+Autodesk Inventor Engineer-to-Order Series 2022;805N1
+Autodesk Inventor Engineer-to-Order Server 2022;752N1
+Autodesk Inventor HSM Premium 2022;969N1
+Autodesk Inventor HSM Ultimate 2022;970N1
+Autodesk Inventor LT 2022;529N1
+Autodesk Inventor OEM 2022;798N1
+Autodesk Inventor Professional 2022;797N1
+Autodesk Lustre 2022;C0UN1
+Autodesk Lustre Burn 2022;C10N1
+Autodesk Lustre ShotReactor 2022;C11N1
+Autodesk Manufacturing Automation Utility 2022;A9YN1
+Autodesk Manufacturing Data Exchange Utility Premium 2022;A9VN1
+Autodesk Manufacturing Data Exchange Utility Standard 2022;A9XN1
+Autodesk Manufacturing Post Processor Utility 2022;A9TN1
+Autodesk MEP Fabrication Suite 2022;00QN1
+Autodesk Moldflow Adviser Premium 2022;571N1
+Autodesk Moldflow Adviser Ultimate 2022;572N1
+Autodesk Moldflow Design 2022;837N1
+Autodesk Moldflow Insight Premium 2022;574N1
+Autodesk Moldflow Insight Standard 2022;573N1
+Autodesk Moldflow Insight Ultimate 2022;575N1
+Autodesk Moldflow Synergy 2022;579N1
+Autodesk Nastran 2022;986N1
+Autodesk Nastran In-CAD 2022;987N1
+Autodesk Navisworks Manage 2022;507N1
+Autodesk Navisworks Simulate 2022;506N1
+Autodesk PartMaker 2022;A9SN1
+Autodesk Plant Design Suite Premium 2022;763N1
+Autodesk Plant Design Suite Standard 2022;788N1
+Autodesk Plant Design Suite Ultimate 2022;764N1
+Autodesk Point Layout 2022;925N1
+Autodesk PowerInspect Premium 2022;A9JN1
+Autodesk PowerInspect Ultimate 2022;A9HN1
+Autodesk PowerMill Modeling 2022;A9UN1
+Autodesk PowerMill Premium 2022;A9AN1
+Autodesk PowerMill Standard 2022;A9QN1
+Autodesk PowerMill Ultimate 2022;A9PN1
+Autodesk PowerShape Premium 2022;A9MN1
+Autodesk PowerShape Standard 2022;A9NN1
+Autodesk PowerShape Ultimate 2022;A9LN1
+Autodesk ReCap Pro 2022;919N1
+Autodesk Revit 2022;829N1
+Autodesk Revit LT 2022;828N1
+Autodesk Robot Structural Analysis Professional 2022;547N1
+Autodesk SketchBook for  2022;871N1
+Autodesk TruComp 2022;00EN1
+Autodesk TruFiber 2022;01WN1
+Autodesk TruLaser 2022;00DN1
+Autodesk TruNest 2022 – Nesting Engine;00FN1
+Autodesk TruNest Composites 2022;00BN1
+Autodesk TruNest Contour 2022;00AN1
+Autodesk TruNest Multi-Tool 2022;00CN1
+Autodesk TruPlan 2022;01VN1
+Autodesk Vault Office 2022;555N1
+Autodesk Vault Professional 2022;569N1
+Autodesk Vault Workgroup 2022;559N1
+Autodesk Vehicle Tracking 2022;955N1
+Autodesk VRED 2022;884N1
+Autodesk VRED Design 2022;885N1
+Autodesk VRED Presenter 2022;888N1
+Autodesk VRED Professional 2022;886N1
+Autodesk VRED Render Node – consumption-based license 2022;A93N1
+Autodesk VRED Render Node 2022;890N1
+Autodesk VRED Server 2022;887N1
+Autodesk Wiretap Gateway 2022;C0ZN1
+FeatureCAM Premium 2022;P16N1
+FeatureCAM Standard 2022;P15N1
+FeatureCAM Ultimate 2022;P17N1
+HSMWorks Premium 2022;873N1
+HSMWorks Ultimate 2022;872N1
+PowerInspect Premium 2022;P13N1
+PowerInspect Standard 2022;P12N1
+PowerInspect Ultimate 2022;P14N1
+PowerMill Premium 2022;P07N1
+PowerMill Standard 2022;A9ZN1
+PowerMill Ultimate 2022;P08N1
+PowerShape Premium 2022;P10N1
+PowerShape Standard 2022;P09N1
+PowerShape Ultimate 2022;P11N1
+T1 Enterprise Multi-flex 2022;535N1
+Autodesk Inventor Nesting 2022;C1QN1
+Autodesk 3ds Max 2023;128O1
+Autodesk 3ds Max 2023 with Softimage;978O1
+Autodesk Advance Steel 2023;959O1
+Autodesk Alias AutoStudio 2023;966O1
+Autodesk Alias Concept 2023;A63O1
+Autodesk Alias Design 2023;712O1
+Autodesk Alias SpeedForm 2023;A62O1
+Autodesk Alias Surface 2023;736O1
+Autodesk AutoCAD 2023;001O1
+Autodesk AutoCAD Architecture 2023;185O1
+Autodesk AutoCAD Design Suite Premium 2023;768O1
+Autodesk AutoCAD Design Suite Standard 2023;767O1
+Autodesk AutoCAD Electrical 2023;225O1
+Autodesk AutoCAD Inventor LT Suite 2023;596O1
+Autodesk AutoCAD LT 2023;057O1
+Autodesk AutoCAD LT Civil Suite 2023;545O1
+Autodesk AutoCAD Map 3D 2023;129O1
+Autodesk AutoCAD Mechanical 2023;206O1
+Autodesk AutoCAD MEP 2023;235O1
+Autodesk AutoCAD Plant 3D 2023;426O1
+Autodesk AutoCAD Raster Design 2023;340O1
+Autodesk AutoCAD Revit LT Suite 2023;834O1
+Autodesk Building Design Suite Premium 2023;765O1
+Autodesk Building Design Suite Standard 2023;784O1
+Autodesk Building Design Suite Ultimate 2023;766O1
+Autodesk Burn 2023;C0YO1
+Autodesk CFD Design Study Environment 2023;812O1
+Autodesk CFD Premium 2023;810O1
+Autodesk CFD Ultimate 2023;811O1
+Autodesk Civil 3D 2023;237O1
+Autodesk Fabrication CADmep 2023;839O1
+Autodesk Fabrication CAMduct 2023;842O1
+Autodesk Fabrication ESTmep 2023;841O1
+Autodesk Factory Design Suite Premium 2023;757O1
+Autodesk Factory Design Suite Standard 2023;789O1
+Autodesk Factory Design Suite Ultimate 2023;760O1
+Autodesk Factory Design Utilities 2023;P03O1
+Autodesk FeatureCAM Premium 2023;A9FO1
+Autodesk FeatureCAM Standard 2023;A9GO1
+Autodesk FeatureCAM Ultimate 2023;A9EO1
+Autodesk Flame 2023;C0TO1
+Autodesk Flame 2023 – Education;C14O1
+Autodesk Flame Assist 2023;C0VO1
+Autodesk Flame Premium 2023;C0XO1
+Autodesk Flare 2023;C0WO1
+Autodesk Helius PFA 2023;899O1
+Autodesk HSM Premium 2023;C12O1
+Autodesk HSM Ultimate 2023;C13O1
+Autodesk Infrastructure Design Suite Premium 2023;786O1
+Autodesk Infrastructure Design Suite Standard 2023;787O1
+Autodesk Infrastructure Design Suite Ultimate 2023;785O1
+Autodesk Inventor 2023;208O1
+Autodesk Inventor Engineer-to-Order 2023 – Developer;A66O1
+Autodesk Inventor Engineer-to-Order 2023 – Distribution;996O1
+Autodesk Inventor Engineer-to-Order 2023 – Server;997O1
+Autodesk Inventor Engineer-to-Order Series 2023;805O1
+Autodesk Inventor Engineer-to-Order Server 2023;752O1
+Autodesk Inventor HSM Premium 2023;969O1
+Autodesk Inventor HSM Ultimate 2023;970O1
+Autodesk Inventor LT 2023;529O1
+Autodesk Inventor OEM 2023;798O1
+Autodesk Inventor Professional 2023;797O1
+Autodesk Lustre 2023;C0UO1
+Autodesk Lustre Burn 2023;C10O1
+Autodesk Lustre ShotReactor 2023;C11O1
+Autodesk Manufacturing Automation Utility 2023;A9YO1
+Autodesk Manufacturing Data Exchange Utility Premium 2023;A9VO1
+Autodesk Manufacturing Data Exchange Utility Standard 2023;A9XO1
+Autodesk Manufacturing Post Processor Utility 2023;A9TO1
+Autodesk MEP Fabrication Suite 2023;00QO1
+Autodesk Moldflow Adviser Premium 2023;571O1
+Autodesk Moldflow Adviser Ultimate 2023;572O1
+Autodesk Moldflow Design 2023;837O1
+Autodesk Moldflow Insight Premium 2023;574O1
+Autodesk Moldflow Insight Standard 2023;573O1
+Autodesk Moldflow Insight Ultimate 2023;575O1
+Autodesk Moldflow Synergy 2023;579O1
+Autodesk Nastran 2023;986O1
+Autodesk Nastran In-CAD 2023;987O1
+Autodesk Navisworks Manage 2023;507O1
+Autodesk Navisworks Simulate 2023;506O1
+Autodesk PartMaker 2023;A9SO1
+Autodesk Plant Design Suite Premium 2023;763O1
+Autodesk Plant Design Suite Standard 2023;788O1
+Autodesk Plant Design Suite Ultimate 2023;764O1
+Autodesk Point Layout 2023;925O1
+Autodesk PowerInspect Premium 2023;A9JO1
+Autodesk PowerInspect Ultimate 2023;A9HO1
+Autodesk PowerMill Modeling 2023;A9UO1
+Autodesk PowerMill Premium 2023;A9AO1
+Autodesk PowerMill Standard 2023;A9QO1
+Autodesk PowerMill Ultimate 2023;A9PO1
+Autodesk PowerShape Premium 2023;A9MO1
+Autodesk PowerShape Standard 2023;A9NO1
+Autodesk PowerShape Ultimate 2023;A9LO1
+Autodesk ReCap Pro 2023;919O1
+Autodesk Revit 2023;829O1
+Autodesk Revit LT 2023;828O1
+Autodesk Robot Structural Analysis Professional 2023;547O1
+Autodesk SketchBook for  2023;871O1
+Autodesk TruComp 2023;00EO1
+Autodesk TruFiber 2023;01WO1
+Autodesk TruLaser 2023;00DO1
+Autodesk TruNest 2023 – Nesting Engine;00FO1
+Autodesk TruNest Composites 2023;00BO1
+Autodesk TruNest Contour 2023;00AO1
+Autodesk TruNest Multi-Tool 2023;00CO1
+Autodesk TruPlan 2023;01VO1
+Autodesk Vault Office 2023;555O1
+Autodesk Vault Professional 2023;569O1
+Autodesk Vault Workgroup 2023;559O1
+Autodesk Vehicle Tracking 2023;955O1
+Autodesk VRED 2023;884O1
+Autodesk VRED Design 2023;885O1
+Autodesk VRED Presenter 2023;888O1
+Autodesk VRED Professional 2023;886O1
+Autodesk VRED Render Node – consumption-based license 2023;A93O1
+Autodesk VRED Render Node 2023;890O1
+Autodesk VRED Server 2023;887O1
+Autodesk Wiretap Gateway 2023;C0ZO1
+FeatureCAM Premium 2023;P16O1
+FeatureCAM Standard 2023;P15O1
+FeatureCAM Ultimate 2023;P17O1
+HSMWorks Premium 2023;873O1
+HSMWorks Ultimate 2023;872O1
+PowerInspect Premium 2023;P13O1
+PowerInspect Standard 2023;P12O1
+PowerInspect Ultimate 2023;P14O1
+PowerMill Premium 2023;P07O1
+PowerMill Standard 2023;A9ZO1
+PowerMill Ultimate 2023;P08O1
+PowerShape Premium 2023;P10O1
+PowerShape Standard 2023;P09O1
+PowerShape Ultimate 2023;P11O1
+T1 Enterprise Multi-flex 2023;535O1
+Autodesk Inventor Nesting 2023;C1QO1
