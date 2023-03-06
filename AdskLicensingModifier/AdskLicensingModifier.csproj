@@ -28,6 +28,9 @@
 	  <Content Remove="Assets\resources\ProductKeys2023.txt" />
 	  <Content Remove="Assets\resources\regexSearch.txt" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Views\MessageDialog.xaml" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<Manifest Include="$(ApplicationManifest)" />
@@ -48,6 +51,12 @@
 		<None Update="appsettings.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+		<None Update="Assets\resources\AutodeskProducts.txt">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<Page Update="Views\MessageDialog.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</Page>
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
