@@ -17,6 +17,7 @@ public class GenericMessageDialogService : IGenericMessageDialogService
             Title = dialogSettings.Title,
             PrimaryButtonText = dialogSettings.PrimaryButtonText,
             IsPrimaryButtonEnabled = dialogSettings.PrimaryButtonIsEnabled,
+            PrimaryButtonCommand = dialogSettings.PrimaryButtonCommand,
             SecondaryButtonText = dialogSettings.SecondaryButtonText,
             IsSecondaryButtonEnabled = true,
             SecondaryButtonCommand = dialogSettings.SecondaryButtonCommand,

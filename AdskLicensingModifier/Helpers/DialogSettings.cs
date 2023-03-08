@@ -11,6 +11,10 @@ public class DialogSettings
     public string Symbol { get; set; } = ((char)0xE73E).ToString();
     public string PrimaryButtonText { get; set; } = "Ok";
     public bool PrimaryButtonIsEnabled { get; set; } = true;
+    public IRelayCommand? PrimaryButtonCommand
+    {
+        get; set;
+    }
     public string SecondaryButtonText { get; set; } = "";
     public bool SecondaryButtonIsEnabled
     {
