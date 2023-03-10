@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
 using System.Reflection;
-using System.Security.Cryptography.X509Certificates;
 using System.Windows.Input;
 using System.ServiceProcess;
 
@@ -18,7 +17,6 @@ namespace AdskLicensingModifier.ViewModels;
 public partial class SettingsViewModel : ObservableRecipient
 {
     private readonly IThemeSelectorService _themeSelectorService;
-    private bool isFirstTime;
     private readonly IGenericMessageDialogService _messageDialogService;
     private ElementTheme _elementTheme;
     [ObservableProperty] private bool desktopServiceIsOn;
@@ -45,7 +43,6 @@ public partial class SettingsViewModel : ObservableRecipient
 
     public SettingsViewModel(IThemeSelectorService themeSelectorService, IGenericMessageDialogService messageDialogService)
     {
-        isFirstTime = true;
         _themeSelectorService = themeSelectorService;
         _messageDialogService = messageDialogService;
         _elementTheme = _themeSelectorService.Theme;
@@ -62,7 +59,6 @@ public partial class SettingsViewModel : ObservableRecipient
             });
 
         CheckLicensingService();
-        isFirstTime = false;
     }
 
     private void CheckLicensingService()
