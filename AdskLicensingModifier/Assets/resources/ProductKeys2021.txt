@@ -1,136 +1,136 @@
-﻿Autodesk 3ds Max 2021 = 128M1
-Autodesk 3ds Max 2021 with Softimage = 978M1
-Autodesk Advance Steel 2021 = 959M1
-Autodesk Alias AutoStudio 2021 = 966M1
-Autodesk Alias Concept 2021 = A63M1
-Autodesk Alias Design 2021 = 712M1
-Autodesk Alias SpeedForm 2021 = A62M1
-Autodesk Alias Surface 2021 = 736M1
-Autodesk AutoCAD 2021 = 001M1
-Autodesk AutoCAD Architecture 2021 = 185M1
-Autodesk AutoCAD Design Suite Premium 2021 = 768M1
-Autodesk AutoCAD Design Suite Standard 2021 = 767M1
-Autodesk AutoCAD Electrical 2021 = 225M1
-Autodesk AutoCAD Inventor LT Suite 2021 = 596M1
-Autodesk AutoCAD LT 2021 = 057M1
-Autodesk AutoCAD LT Civil Suite 2021 = 545M1
-Autodesk AutoCAD Map 3D 2021 = 129M1
-Autodesk AutoCAD Mechanical 2021 = 206M1
-Autodesk AutoCAD MEP 2021 = 235M1
-Autodesk AutoCAD Plant 3D 2021 = 426M1
-Autodesk AutoCAD Raster Design 2021 = 340M1
-Autodesk AutoCAD Revit LT Suite 2021 = 834M1
-Autodesk Building Design Suite Premium 2021 = 765M1
-Autodesk Building Design Suite Standard 2021 = 784M1
-Autodesk Building Design Suite Ultimate 2021 = 766M1
-Autodesk Burn 2021 = C0YM1
-Autodesk CFD Design Study Environment 2021 = 812M1
-Autodesk CFD Premium 2021 = 810M1
-Autodesk CFD Ultimate 2021 = 811M1
-Autodesk Civil 3D 2021 = 237M1
-Autodesk Fabrication CADmep 2021 = 839M1
-Autodesk Fabrication CAMduct 2021 = 842M1
-Autodesk Fabrication ESTmep 2021 = 841M1
-Autodesk Factory Design Suite Premium 2021 = 757M1
-Autodesk Factory Design Suite Standard 2021 = 789M1
-Autodesk Factory Design Suite Ultimate 2021 = 760M1
-Autodesk Factory Design Utilities 2021 = P03M1
-Autodesk FeatureCAM Premium 2021 = A9FM1
-Autodesk FeatureCAM Standard 2021 = A9GM1
-Autodesk FeatureCAM Ultimate 2021 = A9EM1
-Autodesk Flame 2021 = C0TM1
-Autodesk Flame 2021 – Education = C14M1
-Autodesk Flame Assist 2021 = C0VM1
-Autodesk Flame Premium 2021 = C0XM1
-Autodesk Flare 2021 = C0WM1
-Autodesk Helius PFA 2021 = 899M1
-Autodesk HSM Premium 2021 = C12M1
-Autodesk HSM Ultimate 2021 = C13M1
-Autodesk Infrastructure Design Suite Premium 2021 = 786M1
-Autodesk Infrastructure Design Suite Standard 2021 = 787M1
-Autodesk Infrastructure Design Suite Ultimate 2021 = 785M1
-Autodesk Inventor 2021 = 208M1
-Autodesk Inventor Engineer-to-Order 2021 – Developer = A66M1
-Autodesk Inventor Engineer-to-Order 2021 – Distribution = 996M1
-Autodesk Inventor Engineer-to-Order 2021 – Server = 997M1
-Autodesk Inventor Engineer-to-Order Series 2021 = 805M1
-Autodesk Inventor Engineer-to-Order Server 2021 = 752M1
-Autodesk Inventor HSM Premium 2021 = 969M1
-Autodesk Inventor HSM Ultimate 2021 = 970M1
-Autodesk Inventor LT 2021 = 529M1
-Autodesk Inventor OEM 2021 = 798M1
-Autodesk Inventor Professional 2021 = 797M1
-Autodesk Lustre 2021 = C0UM1
-Autodesk Lustre Burn 2021 = C10M1
-Autodesk Lustre ShotReactor 2021 = C11M1
-Autodesk Manufacturing Automation Utility 2021 = A9YM1
-Autodesk Manufacturing Data Exchange Utility Premium 2021 = A9VM1
-Autodesk Manufacturing Data Exchange Utility Standard 2021 = A9XM1
-Autodesk Manufacturing Post Processor Utility 2021 = A9TM1
-Autodesk MEP Fabrication Suite 2021 = 00QM1
-Autodesk Moldflow Adviser Premium 2021 = 571M1
-Autodesk Moldflow Adviser Ultimate 2021 = 572M1
-Autodesk Moldflow Design 2021 = 837M1
-Autodesk Moldflow Insight Premium 2021 = 574M1
-Autodesk Moldflow Insight Standard 2021 = 573M1
-Autodesk Moldflow Insight Ultimate 2021 = 575M1
-Autodesk Moldflow Synergy 2021 = 579M1
-Autodesk Nastran 2021 = 986M1
-Autodesk Nastran In-CAD 2021 = 987M1
-Autodesk Navisworks Manage 2021 = 507M1
-Autodesk Navisworks Simulate 2021 = 506M1
-Autodesk PartMaker 2021 = A9SM1
-Autodesk Plant Design Suite Premium 2021 = 763M1
-Autodesk Plant Design Suite Standard 2021 = 788M1
-Autodesk Plant Design Suite Ultimate 2021 = 764M1
-Autodesk Point Layout 2021 = 925M1
-Autodesk PowerInspect Premium 2021 = A9JM1
-Autodesk PowerInspect Ultimate 2021 = A9HM1
-Autodesk PowerMill Modeling 2021 = A9UM1
-Autodesk PowerMill Premium 2021 = A9AM1
-Autodesk PowerMill Standard 2021 = A9QM1
-Autodesk PowerMill Ultimate 2021 = A9PM1
-Autodesk PowerShape Premium 2021 = A9MM1
-Autodesk PowerShape Standard 2021 = A9NM1
-Autodesk PowerShape Ultimate 2021 = A9LM1
-Autodesk ReCap Pro 2021 = 919M1
-Autodesk Revit 2021 = 829M1
-Autodesk Revit LT 2021 = 828M1
-Autodesk Robot Structural Analysis Professional 2021 = 547M1
-Autodesk SketchBook for Enterprise = 871M1
-Autodesk TruComp 2021 = 00EM1
-Autodesk TruFiber 2021 = 01WM1
-Autodesk TruLaser 2021 = 00DM1
-Autodesk TruNest 2021 – Nesting Engine = 00FM1
-Autodesk TruNest Composites 2021 = 00BM1
-Autodesk TruNest Contour 2021 = 00AM1
-Autodesk TruNest Multi-Tool 2021 = 00CM1
-Autodesk TruPlan 2021 = 01VM1
-Autodesk Vault Office 2021 = 555M1
-Autodesk Vault Professional 2021 = 569M1
-Autodesk Vault Workgroup 2021 = 559M1
-Autodesk Vehicle Tracking 2021 = 955M1
-Autodesk VRED 2021 = 884M1
-Autodesk VRED Design 2021 = 885M1
-Autodesk VRED Presenter 2021 = 888M1
-Autodesk VRED Professional 2021 = 886M1
-Autodesk VRED Render Node – consumption-based license 2021 = A93M1
-Autodesk VRED Render Node 2021 = 890M1
-Autodesk VRED Server 2021 = 887M1
-Autodesk Wiretap Gateway 2021 = C0ZM1
-FeatureCAM Premium 2021 = P16M1
-FeatureCAM Standard 2021 = P15M1
-FeatureCAM Ultimate 2021 = P17M1
-HSMWorks Premium 2021 = 873M1
-HSMWorks Ultimate 2021 = 872M1
-PowerInspect Premium 2021 = P13M1
-PowerInspect Standard 2021 = P12M1
-PowerInspect Ultimate 2021 = P14M1
-PowerMill Premium 2021 = P07M1
-PowerMill Standard 2021 = A9ZM1
-PowerMill Ultimate 2021 = P08M1
-PowerShape Premium 2021 = P10M1
-PowerShape Standard 2021 = P09M1
-PowerShape Ultimate 2021 = P11M1
-T1 Enterprise Multi-flex 2021 = 535M1
-Autodesk Inventor Nesting 2021 = C1QM1
+﻿Autodesk 3ds Max 2021;128M1
+Autodesk 3ds Max 2021 with Softimage;978M1
+Autodesk Advance Steel 2021;959M1
+Autodesk Alias AutoStudio 2021;966M1
+Autodesk Alias Concept 2021;A63M1
+Autodesk Alias Design 2021;712M1
+Autodesk Alias SpeedForm 2021;A62M1
+Autodesk Alias Surface 2021;736M1
+Autodesk AutoCAD 2021;001M1
+Autodesk AutoCAD Architecture 2021;185M1
+Autodesk AutoCAD Design Suite Premium 2021;768M1
+Autodesk AutoCAD Design Suite Standard 2021;767M1
+Autodesk AutoCAD Electrical 2021;225M1
+Autodesk AutoCAD Inventor LT Suite 2021;596M1
+Autodesk AutoCAD LT 2021;057M1
+Autodesk AutoCAD LT Civil Suite 2021;545M1
+Autodesk AutoCAD Map 3D 2021;129M1
+Autodesk AutoCAD Mechanical 2021;206M1
+Autodesk AutoCAD MEP 2021;235M1
+Autodesk AutoCAD Plant 3D 2021;426M1
+Autodesk AutoCAD Raster Design 2021;340M1
+Autodesk AutoCAD Revit LT Suite 2021;834M1
+Autodesk Building Design Suite Premium 2021;765M1
+Autodesk Building Design Suite Standard 2021;784M1
+Autodesk Building Design Suite Ultimate 2021;766M1
+Autodesk Burn 2021;C0YM1
+Autodesk CFD Design Study Environment 2021;812M1
+Autodesk CFD Premium 2021;810M1
+Autodesk CFD Ultimate 2021;811M1
+Autodesk Civil 3D 2021;237M1
+Autodesk Fabrication CADmep 2021;839M1
+Autodesk Fabrication CAMduct 2021;842M1
+Autodesk Fabrication ESTmep 2021;841M1
+Autodesk Factory Design Suite Premium 2021;757M1
+Autodesk Factory Design Suite Standard 2021;789M1
+Autodesk Factory Design Suite Ultimate 2021;760M1
+Autodesk Factory Design Utilities 2021;P03M1
+Autodesk FeatureCAM Premium 2021;A9FM1
+Autodesk FeatureCAM Standard 2021;A9GM1
+Autodesk FeatureCAM Ultimate 2021;A9EM1
+Autodesk Flame 2021;C0TM1
+Autodesk Flame 2021 – Education;C14M1
+Autodesk Flame Assist 2021;C0VM1
+Autodesk Flame Premium 2021;C0XM1
+Autodesk Flare 2021;C0WM1
+Autodesk Helius PFA 2021;899M1
+Autodesk HSM Premium 2021;C12M1
+Autodesk HSM Ultimate 2021;C13M1
+Autodesk Infrastructure Design Suite Premium 2021;786M1
+Autodesk Infrastructure Design Suite Standard 2021;787M1
+Autodesk Infrastructure Design Suite Ultimate 2021;785M1
+Autodesk Inventor 2021;208M1
+Autodesk Inventor Engineer-to-Order 2021 – Developer;A66M1
+Autodesk Inventor Engineer-to-Order 2021 – Distribution;996M1
+Autodesk Inventor Engineer-to-Order 2021 – Server;997M1
+Autodesk Inventor Engineer-to-Order Series 2021;805M1
+Autodesk Inventor Engineer-to-Order Server 2021;752M1
+Autodesk Inventor HSM Premium 2021;969M1
+Autodesk Inventor HSM Ultimate 2021;970M1
+Autodesk Inventor LT 2021;529M1
+Autodesk Inventor OEM 2021;798M1
+Autodesk Inventor Professional 2021;797M1
+Autodesk Lustre 2021;C0UM1
+Autodesk Lustre Burn 2021;C10M1
+Autodesk Lustre ShotReactor 2021;C11M1
+Autodesk Manufacturing Automation Utility 2021;A9YM1
+Autodesk Manufacturing Data Exchange Utility Premium 2021;A9VM1
+Autodesk Manufacturing Data Exchange Utility Standard 2021;A9XM1
+Autodesk Manufacturing Post Processor Utility 2021;A9TM1
+Autodesk MEP Fabrication Suite 2021;00QM1
+Autodesk Moldflow Adviser Premium 2021;571M1
+Autodesk Moldflow Adviser Ultimate 2021;572M1
+Autodesk Moldflow Design 2021;837M1
+Autodesk Moldflow Insight Premium 2021;574M1
+Autodesk Moldflow Insight Standard 2021;573M1
+Autodesk Moldflow Insight Ultimate 2021;575M1
+Autodesk Moldflow Synergy 2021;579M1
+Autodesk Nastran 2021;986M1
+Autodesk Nastran In-CAD 2021;987M1
+Autodesk Navisworks Manage 2021;507M1
+Autodesk Navisworks Simulate 2021;506M1
+Autodesk PartMaker 2021;A9SM1
+Autodesk Plant Design Suite Premium 2021;763M1
+Autodesk Plant Design Suite Standard 2021;788M1
+Autodesk Plant Design Suite Ultimate 2021;764M1
+Autodesk Point Layout 2021;925M1
+Autodesk PowerInspect Premium 2021;A9JM1
+Autodesk PowerInspect Ultimate 2021;A9HM1
+Autodesk PowerMill Modeling 2021;A9UM1
+Autodesk PowerMill Premium 2021;A9AM1
+Autodesk PowerMill Standard 2021;A9QM1
+Autodesk PowerMill Ultimate 2021;A9PM1
+Autodesk PowerShape Premium 2021;A9MM1
+Autodesk PowerShape Standard 2021;A9NM1
+Autodesk PowerShape Ultimate 2021;A9LM1
+Autodesk ReCap Pro 2021;919M1
+Autodesk Revit 2021;829M1
+Autodesk Revit LT 2021;828M1
+Autodesk Robot Structural Analysis Professional 2021;547M1
+Autodesk SketchBook for Enterprise;871M1
+Autodesk TruComp 2021;00EM1
+Autodesk TruFiber 2021;01WM1
+Autodesk TruLaser 2021;00DM1
+Autodesk TruNest 2021 – Nesting Engine;00FM1
+Autodesk TruNest Composites 2021;00BM1
+Autodesk TruNest Contour 2021;00AM1
+Autodesk TruNest Multi-Tool 2021;00CM1
+Autodesk TruPlan 2021;01VM1
+Autodesk Vault Office 2021;555M1
+Autodesk Vault Professional 2021;569M1
+Autodesk Vault Workgroup 2021;559M1
+Autodesk Vehicle Tracking 2021;955M1
+Autodesk VRED 2021;884M1
+Autodesk VRED Design 2021;885M1
+Autodesk VRED Presenter 2021;888M1
+Autodesk VRED Professional 2021;886M1
+Autodesk VRED Render Node – consumption-based license 2021;A93M1
+Autodesk VRED Render Node 2021;890M1
+Autodesk VRED Server 2021;887M1
+Autodesk Wiretap Gateway 2021;C0ZM1
+FeatureCAM Premium 2021;P16M1
+FeatureCAM Standard 2021;P15M1
+FeatureCAM Ultimate 2021;P17M1
+HSMWorks Premium 2021;873M1
+HSMWorks Ultimate 2021;872M1
+PowerInspect Premium 2021;P13M1
+PowerInspect Standard 2021;P12M1
+PowerInspect Ultimate 2021;P14M1
+PowerMill Premium 2021;P07M1
+PowerMill Standard 2021;A9ZM1
+PowerMill Ultimate 2021;P08M1
+PowerShape Premium 2021;P10M1
+PowerShape Standard 2021;P09M1
+PowerShape Ultimate 2021;P11M1
+T1 Enterprise Multi-flex 2021;535M1
+Autodesk Inventor Nesting 2021;C1QM1

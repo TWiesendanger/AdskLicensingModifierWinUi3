@@ -1,138 +1,138 @@
-﻿Autodesk 3ds Max 2020 = 128L1
-Autodesk 3ds Max 2020 with Softimage = 978L1
-Autodesk Advance Steel 2020 = 959L1
-Autodesk Alias AutoStudio 2020 = 966L1
-Autodesk Alias Concept 2020 = A63L1
-Autodesk Alias Design 2020 = 712L1
-Autodesk Alias SpeedForm 2020 = A62L1
-Autodesk Alias Surface 2020 = 736L1
-Autodesk AutoCAD 2020 = 001L1
-Autodesk AutoCAD Architecture 2020 = 185L1
-Autodesk AutoCAD Design Suite Premium 2020 = 768L1
-Autodesk AutoCAD Design Suite Standard 2020 = 767L1
-Autodesk AutoCAD Electrical 2020 = 225L1
-Autodesk AutoCAD Inventor LT Suite 2020 = 596L1
-Autodesk AutoCAD LT 2020 = 057L1
-Autodesk AutoCAD LT Civil Suite 2020 = 545L1
-Autodesk AutoCAD Map 3D 2020 = 129L1
-Autodesk AutoCAD Mechanical 2020 = 206L1
-Autodesk AutoCAD MEP 2020 = 235L1
-Autodesk AutoCAD Plant 3D 2020 = 426L1
-Autodesk AutoCAD Raster Design 2020 = 340L1
-Autodesk AutoCAD Revit LT Suite 2020 = 834L1
-Autodesk Building Design Suite Premium 2020 = 765L1
-Autodesk Building Design Suite Standard 2020 = 784L1
-Autodesk Building Design Suite Ultimate 2020 = 766L1
-Autodesk Burn 2020 = C0YL1
-Autodesk CFD Design Study Environment 2020 = 812L1
-Autodesk CFD Premium 2020 = 810L1
-Autodesk CFD Ultimate 2020 = 811L1
-Autodesk Civil 3D 2020 = 237L1
-Autodesk Fabrication CADmep 2020 = 839L1
-Autodesk Fabrication CAMduct 2020 = 842L1
-Autodesk Fabrication ESTmep 2020 = 841L1
-Autodesk Factory Design Suite Premium 2020 = 757L1
-Autodesk Factory Design Suite Standard 2020 = 789L1
-Autodesk Factory Design Suite Ultimate 2020 = 760L1
-Autodesk Factory Design Utilities 2020 = P03L1
-Autodesk FeatureCAM Premium 2020 = A9FL1
-Autodesk FeatureCAM Standard 2020 = A9GL1
-Autodesk FeatureCAM Ultimate 2020 = A9EL1
-Autodesk Flame 2020 = C0TL1
-Autodesk Flame 2020 – Education = C14L1
-Autodesk Flame Assist 2020 = C0VL1
-Autodesk Flame Premium 2020 = C0XL1
-Autodesk Flare 2020 = C0WL1
-Autodesk Helius PFA 2020 = 899L1
-Autodesk HSM Premium 2020 = C12L1
-Autodesk HSM Ultimate 2020 = C13L1
-Autodesk Infrastructure Design Suite Premium 2020 = 786L1
-Autodesk Infrastructure Design Suite Standard 2020 = 787L1
-Autodesk Infrastructure Design Suite Ultimate 2020 = 785L1
-Autodesk Inventor 2020 = 208L1
-Autodesk Inventor Engineer-to-Order 2020 – Developer = A66L1
-Autodesk Inventor Engineer-to-Order 2020 – Distribution = 996L1
-Autodesk Inventor Engineer-to-Order 2020 – Server = 997L1
-Autodesk Inventor Engineer-to-Order Series 2020 = 805L1
-Autodesk Inventor Engineer-to-Order Server 2020 = 752L1
-Autodesk Inventor HSM Premium 2020 = 969L1
-Autodesk Inventor HSM Ultimate 2020 = 970L1
-Autodesk Inventor LT 2020 = 529L1
-Autodesk Inventor OEM 2020 = 798L1
-Autodesk Inventor Professional 2020 = 797L1
-Autodesk Lustre 2020 = C0UL1
-Autodesk Lustre Burn 2020 = C10L1
-Autodesk Lustre ShotReactor 2020 = C11L1
-Autodesk Manufacturing Automation Utility 2020 = A9YL1
-Autodesk Manufacturing Data Exchange Utility Premium 2020 = A9VL1
-Autodesk Manufacturing Data Exchange Utility Standard 2020 = A9XL1
-Autodesk Manufacturing Post Processor Utility 2020 = A9TL1
-Autodesk MEP Fabrication Suite 2020 = 00QL1
-Autodesk Moldflow Adviser Premium 2020 = 571L1
-Autodesk Moldflow Adviser Ultimate 2020 = 572L1
-Autodesk Moldflow Design 2020 = 837L1
-Autodesk Moldflow Insight Premium 2020 = 574L1
-Autodesk Moldflow Insight Standard 2020 = 573L1
-Autodesk Moldflow Insight Ultimate 2020 = 575L1
-Autodesk Moldflow Synergy 2020 = 579L1
-Autodesk Nastran 2020 = 986L1
-Autodesk Nastran In-CAD 2020 = 987L1
-Autodesk Navisworks Manage 2020 = 507L1
-Autodesk Navisworks Simulate 2020 = 506L1
-Autodesk PartMaker 2020 = A9SL1
-Autodesk Plant Design Suite Premium 2020 = 763L1
-Autodesk Plant Design Suite Standard 2020 = 788L1
-Autodesk Plant Design Suite Ultimate 2020 = 764L1
-Autodesk Point Layout 2020 = 925L1
-Autodesk PowerInspect Premium 2020 = A9JL1
-Autodesk PowerInspect Ultimate 2020 = A9HL1
-Autodesk PowerMill Modeling 2020 = A9UL1
-Autodesk PowerMill Premium 2020 = A9AL1
-Autodesk PowerMill Standard 2020 = A9QL1
-Autodesk PowerMill Ultimate 2020 = A9PL1
-Autodesk PowerShape Premium 2020 = A9ML1
-Autodesk PowerShape Standard 2020 = A9NL1
-Autodesk PowerShape Ultimate 2020 = A9LL1
-Autodesk Product Design Suite Premium 2020 = 782L1
-Autodesk Product Design Suite Ultimate 2020 = 781L1
-Autodesk ReCap Pro 2020 = 919L1
-Autodesk Revit 2020 = 829L1
-Autodesk Revit LT 2020 = 828L1
-Autodesk Robot Structural Analysis Professional 2020 = 547L1
-Autodesk SketchBook for Enterprise 2020 = 871L1
-Autodesk TruComp 2020 = 00EL1
-Autodesk TruFiber 2020 = 01WL1
-Autodesk TruLaser 2020 = 00DL1
-Autodesk TruNest 2020 – Nesting Engine = 00FL1
-Autodesk TruNest Composites 2020 = 00BL1
-Autodesk TruNest Contour 2020 = 00AL1
-Autodesk TruNest Multi-Tool 2020 = 00CL1
-Autodesk TruPlan 2020 = 01VL1
-Autodesk Vault Office 2020 = 555L1
-Autodesk Vault Professional 2020 = 569L1
-Autodesk Vault Workgroup 2020 = 559L1
-Autodesk Vehicle Tracking 2020 = 955L1
-Autodesk VRED 2020 = 884L1
-Autodesk VRED Design 2020 = 885L1
-Autodesk VRED Presenter 2020 = 888L1
-Autodesk VRED Professional 2020 = 886L1
-Autodesk VRED Render Node – consumption-based license 2020 = A93L1
-Autodesk VRED Render Node 2020 = 890L1
-Autodesk VRED Server 2020 = 887L1
-Autodesk Wiretap Gateway 2020 = C0ZL1
-FeatureCAM Premium 2020 = P16L1
-FeatureCAM Standard 2020 = P15L1
-FeatureCAM Ultimate 2020 = P17L1
-HSMWorks Premium 2020 = 873L1
-HSMWorks Ultimate 2020 = 872L1
-PowerInspect Premium 2020 = P13L1
-PowerInspect Standard 2020 = P12L1
-PowerInspect Ultimate 2020 = P14L1
-PowerMill Premium 2020 = P07L1
-PowerMill Standard 2020 = A9ZL1
-PowerMill Ultimate 2020 = P08L1
-PowerShape Premium 2020 = P10L1
-PowerShape Standard 2020 = P09L1
-PowerShape Ultimate 2020 = P11L1
-T1 Enterprise Multi-flex 2020 = 535L1
-Autodesk Inventor Nesting 2020 = C1QL1
+﻿Autodesk 3ds Max 2020;128L1
+Autodesk 3ds Max 2020 with Softimage;978L1
+Autodesk Advance Steel 2020;959L1
+Autodesk Alias AutoStudio 2020;966L1
+Autodesk Alias Concept 2020;A63L1
+Autodesk Alias Design 2020;712L1
+Autodesk Alias SpeedForm 2020;A62L1
+Autodesk Alias Surface 2020;736L1
+Autodesk AutoCAD 2020;001L1
+Autodesk AutoCAD Architecture 2020;185L1
+Autodesk AutoCAD Design Suite Premium 2020;768L1
+Autodesk AutoCAD Design Suite Standard 2020;767L1
+Autodesk AutoCAD Electrical 2020;225L1
+Autodesk AutoCAD Inventor LT Suite 2020;596L1
+Autodesk AutoCAD LT 2020;057L1
+Autodesk AutoCAD LT Civil Suite 2020;545L1
+Autodesk AutoCAD Map 3D 2020;129L1
+Autodesk AutoCAD Mechanical 2020;206L1
+Autodesk AutoCAD MEP 2020;235L1
+Autodesk AutoCAD Plant 3D 2020;426L1
+Autodesk AutoCAD Raster Design 2020;340L1
+Autodesk AutoCAD Revit LT Suite 2020;834L1
+Autodesk Building Design Suite Premium 2020;765L1
+Autodesk Building Design Suite Standard 2020;784L1
+Autodesk Building Design Suite Ultimate 2020;766L1
+Autodesk Burn 2020;C0YL1
+Autodesk CFD Design Study Environment 2020;812L1
+Autodesk CFD Premium 2020;810L1
+Autodesk CFD Ultimate 2020;811L1
+Autodesk Civil 3D 2020;237L1
+Autodesk Fabrication CADmep 2020;839L1
+Autodesk Fabrication CAMduct 2020;842L1
+Autodesk Fabrication ESTmep 2020;841L1
+Autodesk Factory Design Suite Premium 2020;757L1
+Autodesk Factory Design Suite Standard 2020;789L1
+Autodesk Factory Design Suite Ultimate 2020;760L1
+Autodesk Factory Design Utilities 2020;P03L1
+Autodesk FeatureCAM Premium 2020;A9FL1
+Autodesk FeatureCAM Standard 2020;A9GL1
+Autodesk FeatureCAM Ultimate 2020;A9EL1
+Autodesk Flame 2020;C0TL1
+Autodesk Flame 2020 – Education;C14L1
+Autodesk Flame Assist 2020;C0VL1
+Autodesk Flame Premium 2020;C0XL1
+Autodesk Flare 2020;C0WL1
+Autodesk Helius PFA 2020;899L1
+Autodesk HSM Premium 2020;C12L1
+Autodesk HSM Ultimate 2020;C13L1
+Autodesk Infrastructure Design Suite Premium 2020;786L1
+Autodesk Infrastructure Design Suite Standard 2020;787L1
+Autodesk Infrastructure Design Suite Ultimate 2020;785L1
+Autodesk Inventor 2020;208L1
+Autodesk Inventor Engineer-to-Order 2020 – Developer;A66L1
+Autodesk Inventor Engineer-to-Order 2020 – Distribution;996L1
+Autodesk Inventor Engineer-to-Order 2020 – Server;997L1
+Autodesk Inventor Engineer-to-Order Series 2020;805L1
+Autodesk Inventor Engineer-to-Order Server 2020;752L1
+Autodesk Inventor HSM Premium 2020;969L1
+Autodesk Inventor HSM Ultimate 2020;970L1
+Autodesk Inventor LT 2020;529L1
+Autodesk Inventor OEM 2020;798L1
+Autodesk Inventor Professional 2020;797L1
+Autodesk Lustre 2020;C0UL1
+Autodesk Lustre Burn 2020;C10L1
+Autodesk Lustre ShotReactor 2020;C11L1
+Autodesk Manufacturing Automation Utility 2020;A9YL1
+Autodesk Manufacturing Data Exchange Utility Premium 2020;A9VL1
+Autodesk Manufacturing Data Exchange Utility Standard 2020;A9XL1
+Autodesk Manufacturing Post Processor Utility 2020;A9TL1
+Autodesk MEP Fabrication Suite 2020;00QL1
+Autodesk Moldflow Adviser Premium 2020;571L1
+Autodesk Moldflow Adviser Ultimate 2020;572L1
+Autodesk Moldflow Design 2020;837L1
+Autodesk Moldflow Insight Premium 2020;574L1
+Autodesk Moldflow Insight Standard 2020;573L1
+Autodesk Moldflow Insight Ultimate 2020;575L1
+Autodesk Moldflow Synergy 2020;579L1
+Autodesk Nastran 2020;986L1
+Autodesk Nastran In-CAD 2020;987L1
+Autodesk Navisworks Manage 2020;507L1
+Autodesk Navisworks Simulate 2020;506L1
+Autodesk PartMaker 2020;A9SL1
+Autodesk Plant Design Suite Premium 2020;763L1
+Autodesk Plant Design Suite Standard 2020;788L1
+Autodesk Plant Design Suite Ultimate 2020;764L1
+Autodesk Point Layout 2020;925L1
+Autodesk PowerInspect Premium 2020;A9JL1
+Autodesk PowerInspect Ultimate 2020;A9HL1
+Autodesk PowerMill Modeling 2020;A9UL1
+Autodesk PowerMill Premium 2020;A9AL1
+Autodesk PowerMill Standard 2020;A9QL1
+Autodesk PowerMill Ultimate 2020;A9PL1
+Autodesk PowerShape Premium 2020;A9ML1
+Autodesk PowerShape Standard 2020;A9NL1
+Autodesk PowerShape Ultimate 2020;A9LL1
+Autodesk Product Design Suite Premium 2020;782L1
+Autodesk Product Design Suite Ultimate 2020;781L1
+Autodesk ReCap Pro 2020;919L1
+Autodesk Revit 2020;829L1
+Autodesk Revit LT 2020;828L1
+Autodesk Robot Structural Analysis Professional 2020;547L1
+Autodesk SketchBook for Enterprise 2020;871L1
+Autodesk TruComp 2020;00EL1
+Autodesk TruFiber 2020;01WL1
+Autodesk TruLaser 2020;00DL1
+Autodesk TruNest 2020 – Nesting Engine;00FL1
+Autodesk TruNest Composites 2020;00BL1
+Autodesk TruNest Contour 2020;00AL1
+Autodesk TruNest Multi-Tool 2020;00CL1
+Autodesk TruPlan 2020;01VL1
+Autodesk Vault Office 2020;555L1
+Autodesk Vault Professional 2020;569L1
+Autodesk Vault Workgroup 2020;559L1
+Autodesk Vehicle Tracking 2020;955L1
+Autodesk VRED 2020;884L1
+Autodesk VRED Design 2020;885L1
+Autodesk VRED Presenter 2020;888L1
+Autodesk VRED Professional 2020;886L1
+Autodesk VRED Render Node – consumption-based license 2020;A93L1
+Autodesk VRED Render Node 2020;890L1
+Autodesk VRED Server 2020;887L1
+Autodesk Wiretap Gateway 2020;C0ZL1
+FeatureCAM Premium 2020;P16L1
+FeatureCAM Standard 2020;P15L1
+FeatureCAM Ultimate 2020;P17L1
+HSMWorks Premium 2020;873L1
+HSMWorks Ultimate 2020;872L1
+PowerInspect Premium 2020;P13L1
+PowerInspect Standard 2020;P12L1
+PowerInspect Ultimate 2020;P14L1
+PowerMill Premium 2020;P07L1
+PowerMill Standard 2020;A9ZL1
+PowerMill Ultimate 2020;P08L1
+PowerShape Premium 2020;P10L1
+PowerShape Standard 2020;P09L1
+PowerShape Ultimate 2020;P11L1
+T1 Enterprise Multi-flex 2020;535L1
+Autodesk Inventor Nesting 2020;C1QL1

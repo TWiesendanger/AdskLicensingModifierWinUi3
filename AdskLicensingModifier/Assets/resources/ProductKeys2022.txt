@@ -1,136 +1,136 @@
-﻿Autodesk 3ds Max 2022 = 128N1
-Autodesk 3ds Max 2022 with Softimage = 978N1
-Autodesk Advance Steel 2022 = 959N1
-Autodesk Alias AutoStudio 2022 = 966N1
-Autodesk Alias Concept 2022 = A63N1
-Autodesk Alias Design 2022 = 712N1
-Autodesk Alias SpeedForm 2022 = A62N1
-Autodesk Alias Surface 2022 = 736N1
-Autodesk AutoCAD 2022 = 001N1
-Autodesk AutoCAD Architecture 2022 = 185N1
-Autodesk AutoCAD Design Suite Premium 2022 = 768N1
-Autodesk AutoCAD Design Suite Standard 2022 = 767N1
-Autodesk AutoCAD Electrical 2022 = 225N1
-Autodesk AutoCAD Inventor LT Suite 2022 = 596N1
-Autodesk AutoCAD LT 2022 = 057N1
-Autodesk AutoCAD LT Civil Suite 2022 = 545N1
-Autodesk AutoCAD Map 3D 2022 = 129N1
-Autodesk AutoCAD Mechanical 2022 = 206N1
-Autodesk AutoCAD MEP 2022 = 235N1
-Autodesk AutoCAD Plant 3D 2022 = 426N1
-Autodesk AutoCAD Raster Design 2022 = 340N1
-Autodesk AutoCAD Revit LT Suite 2022 = 834N1
-Autodesk Building Design Suite Premium 2022 = 765N1
-Autodesk Building Design Suite Standard 2022 = 784N1
-Autodesk Building Design Suite Ultimate 2022 = 766N1
-Autodesk Burn 2022 = C0YN1
-Autodesk CFD Design Study Environment 2022 = 812N1
-Autodesk CFD Premium 2022 = 810N1
-Autodesk CFD Ultimate 2022 = 811N1
-Autodesk Civil 3D 2022 = 237N1
-Autodesk Fabrication CADmep 2022 = 839N1
-Autodesk Fabrication CAMduct 2022 = 842N1
-Autodesk Fabrication ESTmep 2022 = 841N1
-Autodesk Factory Design Suite Premium 2022 = 757N1
-Autodesk Factory Design Suite Standard 2022 = 789N1
-Autodesk Factory Design Suite Ultimate 2022 = 760N1
-Autodesk Factory Design Utilities 2022 = P03N1
-Autodesk FeatureCAM Premium 2022 = A9FN1
-Autodesk FeatureCAM Standard 2022 = A9GN1
-Autodesk FeatureCAM Ultimate 2022 = A9EN1
-Autodesk Flame 2022 = C0TN1
-Autodesk Flame 2022 – Education = C14N1
-Autodesk Flame Assist 2022 = C0VN1
-Autodesk Flame Premium 2022 = C0XN1
-Autodesk Flare 2022 = C0WN1
-Autodesk Helius PFA 2022 = 899N1
-Autodesk HSM Premium 2022 = C12N1
-Autodesk HSM Ultimate 2022 = C13N1
-Autodesk Infrastructure Design Suite Premium 2022 = 786N1
-Autodesk Infrastructure Design Suite Standard 2022 = 787N1
-Autodesk Infrastructure Design Suite Ultimate 2022 = 785N1
-Autodesk Inventor 2022 = 208N1
-Autodesk Inventor Engineer-to-Order 2022 – Developer = A66N1
-Autodesk Inventor Engineer-to-Order 2022 – Distribution = 996N1
-Autodesk Inventor Engineer-to-Order 2022 – Server = 997N1
-Autodesk Inventor Engineer-to-Order Series 2022 = 805N1
-Autodesk Inventor Engineer-to-Order Server 2022 = 752N1
-Autodesk Inventor HSM Premium 2022 = 969N1
-Autodesk Inventor HSM Ultimate 2022 = 970N1
-Autodesk Inventor LT 2022 = 529N1
-Autodesk Inventor OEM 2022 = 798N1
-Autodesk Inventor Professional 2022 = 797N1
-Autodesk Lustre 2022 = C0UN1
-Autodesk Lustre Burn 2022 = C10N1
-Autodesk Lustre ShotReactor 2022 = C11N1
-Autodesk Manufacturing Automation Utility 2022 = A9YN1
-Autodesk Manufacturing Data Exchange Utility Premium 2022 = A9VN1
-Autodesk Manufacturing Data Exchange Utility Standard 2022 = A9XN1
-Autodesk Manufacturing Post Processor Utility 2022 = A9TN1
-Autodesk MEP Fabrication Suite 2022 = 00QN1
-Autodesk Moldflow Adviser Premium 2022 = 571N1
-Autodesk Moldflow Adviser Ultimate 2022 = 572N1
-Autodesk Moldflow Design 2022 = 837N1
-Autodesk Moldflow Insight Premium 2022 = 574N1
-Autodesk Moldflow Insight Standard 2022 = 573N1
-Autodesk Moldflow Insight Ultimate 2022 = 575N1
-Autodesk Moldflow Synergy 2022 = 579N1
-Autodesk Nastran 2022 = 986N1
-Autodesk Nastran In-CAD 2022 = 987N1
-Autodesk Navisworks Manage 2022 = 507N1
-Autodesk Navisworks Simulate 2022 = 506N1
-Autodesk PartMaker 2022 = A9SN1
-Autodesk Plant Design Suite Premium 2022 = 763N1
-Autodesk Plant Design Suite Standard 2022 = 788N1
-Autodesk Plant Design Suite Ultimate 2022 = 764N1
-Autodesk Point Layout 2022 = 925N1
-Autodesk PowerInspect Premium 2022 = A9JN1
-Autodesk PowerInspect Ultimate 2022 = A9HN1
-Autodesk PowerMill Modeling 2022 = A9UN1
-Autodesk PowerMill Premium 2022 = A9AN1
-Autodesk PowerMill Standard 2022 = A9QN1
-Autodesk PowerMill Ultimate 2022 = A9PN1
-Autodesk PowerShape Premium 2022 = A9MN1
-Autodesk PowerShape Standard 2022 = A9NN1
-Autodesk PowerShape Ultimate 2022 = A9LN1
-Autodesk ReCap Pro 2022 = 919N1
-Autodesk Revit 2022 = 829N1
-Autodesk Revit LT 2022 = 828N1
-Autodesk Robot Structural Analysis Professional 2022 = 547N1
-Autodesk SketchBook for  2022 = 871N1
-Autodesk TruComp 2022 = 00EN1
-Autodesk TruFiber 2022 = 01WN1
-Autodesk TruLaser 2022 = 00DN1
-Autodesk TruNest 2022 – Nesting Engine = 00FN1
-Autodesk TruNest Composites 2022 = 00BN1
-Autodesk TruNest Contour 2022 = 00AN1
-Autodesk TruNest Multi-Tool 2022 = 00CN1
-Autodesk TruPlan 2022 = 01VN1
-Autodesk Vault Office 2022 = 555N1
-Autodesk Vault Professional 2022 = 569N1
-Autodesk Vault Workgroup 2022 = 559N1
-Autodesk Vehicle Tracking 2022 = 955N1
-Autodesk VRED 2022 = 884N1
-Autodesk VRED Design 2022 = 885N1
-Autodesk VRED Presenter 2022 = 888N1
-Autodesk VRED Professional 2022 = 886N1
-Autodesk VRED Render Node – consumption-based license 2022 = A93N1
-Autodesk VRED Render Node 2022 = 890N1
-Autodesk VRED Server 2022 = 887N1
-Autodesk Wiretap Gateway 2022 = C0ZN1
-FeatureCAM Premium 2022 = P16N1
-FeatureCAM Standard 2022 = P15N1
-FeatureCAM Ultimate 2022 = P17N1
-HSMWorks Premium 2022 = 873N1
-HSMWorks Ultimate 2022 = 872N1
-PowerInspect Premium 2022 = P13N1
-PowerInspect Standard 2022 = P12N1
-PowerInspect Ultimate 2022 = P14N1
-PowerMill Premium 2022 = P07N1
-PowerMill Standard 2022 = A9ZN1
-PowerMill Ultimate 2022 = P08N1
-PowerShape Premium 2022 = P10N1
-PowerShape Standard 2022 = P09N1
-PowerShape Ultimate 2022 = P11N1
-T1 Enterprise Multi-flex 2022 = 535N1
-Autodesk Inventor Nesting 2022 = C1QN1
+﻿Autodesk 3ds Max 2022;128N1
+Autodesk 3ds Max 2022 with Softimage;978N1
+Autodesk Advance Steel 2022;959N1
+Autodesk Alias AutoStudio 2022;966N1
+Autodesk Alias Concept 2022;A63N1
+Autodesk Alias Design 2022;712N1
+Autodesk Alias SpeedForm 2022;A62N1
+Autodesk Alias Surface 2022;736N1
+Autodesk AutoCAD 2022;001N1
+Autodesk AutoCAD Architecture 2022;185N1
+Autodesk AutoCAD Design Suite Premium 2022;768N1
+Autodesk AutoCAD Design Suite Standard 2022;767N1
+Autodesk AutoCAD Electrical 2022;225N1
+Autodesk AutoCAD Inventor LT Suite 2022;596N1
+Autodesk AutoCAD LT 2022;057N1
+Autodesk AutoCAD LT Civil Suite 2022;545N1
+Autodesk AutoCAD Map 3D 2022;129N1
+Autodesk AutoCAD Mechanical 2022;206N1
+Autodesk AutoCAD MEP 2022;235N1
+Autodesk AutoCAD Plant 3D 2022;426N1
+Autodesk AutoCAD Raster Design 2022;340N1
+Autodesk AutoCAD Revit LT Suite 2022;834N1
+Autodesk Building Design Suite Premium 2022;765N1
+Autodesk Building Design Suite Standard 2022;784N1
+Autodesk Building Design Suite Ultimate 2022;766N1
+Autodesk Burn 2022;C0YN1
+Autodesk CFD Design Study Environment 2022;812N1
+Autodesk CFD Premium 2022;810N1
+Autodesk CFD Ultimate 2022;811N1
+Autodesk Civil 3D 2022;237N1
+Autodesk Fabrication CADmep 2022;839N1
+Autodesk Fabrication CAMduct 2022;842N1
+Autodesk Fabrication ESTmep 2022;841N1
+Autodesk Factory Design Suite Premium 2022;757N1
+Autodesk Factory Design Suite Standard 2022;789N1
+Autodesk Factory Design Suite Ultimate 2022;760N1
+Autodesk Factory Design Utilities 2022;P03N1
+Autodesk FeatureCAM Premium 2022;A9FN1
+Autodesk FeatureCAM Standard 2022;A9GN1
+Autodesk FeatureCAM Ultimate 2022;A9EN1
+Autodesk Flame 2022;C0TN1
+Autodesk Flame 2022 – Education;C14N1
+Autodesk Flame Assist 2022;C0VN1
+Autodesk Flame Premium 2022;C0XN1
+Autodesk Flare 2022;C0WN1
+Autodesk Helius PFA 2022;899N1
+Autodesk HSM Premium 2022;C12N1
+Autodesk HSM Ultimate 2022;C13N1
+Autodesk Infrastructure Design Suite Premium 2022;786N1
+Autodesk Infrastructure Design Suite Standard 2022;787N1
+Autodesk Infrastructure Design Suite Ultimate 2022;785N1
+Autodesk Inventor 2022;208N1
+Autodesk Inventor Engineer-to-Order 2022 – Developer;A66N1
+Autodesk Inventor Engineer-to-Order 2022 – Distribution;996N1
+Autodesk Inventor Engineer-to-Order 2022 – Server;997N1
+Autodesk Inventor Engineer-to-Order Series 2022;805N1
+Autodesk Inventor Engineer-to-Order Server 2022;752N1
+Autodesk Inventor HSM Premium 2022;969N1
+Autodesk Inventor HSM Ultimate 2022;970N1
+Autodesk Inventor LT 2022;529N1
+Autodesk Inventor OEM 2022;798N1
+Autodesk Inventor Professional 2022;797N1
+Autodesk Lustre 2022;C0UN1
+Autodesk Lustre Burn 2022;C10N1
+Autodesk Lustre ShotReactor 2022;C11N1
+Autodesk Manufacturing Automation Utility 2022;A9YN1
+Autodesk Manufacturing Data Exchange Utility Premium 2022;A9VN1
+Autodesk Manufacturing Data Exchange Utility Standard 2022;A9XN1
+Autodesk Manufacturing Post Processor Utility 2022;A9TN1
+Autodesk MEP Fabrication Suite 2022;00QN1
+Autodesk Moldflow Adviser Premium 2022;571N1
+Autodesk Moldflow Adviser Ultimate 2022;572N1
+Autodesk Moldflow Design 2022;837N1
+Autodesk Moldflow Insight Premium 2022;574N1
+Autodesk Moldflow Insight Standard 2022;573N1
+Autodesk Moldflow Insight Ultimate 2022;575N1
+Autodesk Moldflow Synergy 2022;579N1
+Autodesk Nastran 2022;986N1
+Autodesk Nastran In-CAD 2022;987N1
+Autodesk Navisworks Manage 2022;507N1
+Autodesk Navisworks Simulate 2022;506N1
+Autodesk PartMaker 2022;A9SN1
+Autodesk Plant Design Suite Premium 2022;763N1
+Autodesk Plant Design Suite Standard 2022;788N1
+Autodesk Plant Design Suite Ultimate 2022;764N1
+Autodesk Point Layout 2022;925N1
+Autodesk PowerInspect Premium 2022;A9JN1
+Autodesk PowerInspect Ultimate 2022;A9HN1
+Autodesk PowerMill Modeling 2022;A9UN1
+Autodesk PowerMill Premium 2022;A9AN1
+Autodesk PowerMill Standard 2022;A9QN1
+Autodesk PowerMill Ultimate 2022;A9PN1
+Autodesk PowerShape Premium 2022;A9MN1
+Autodesk PowerShape Standard 2022;A9NN1
+Autodesk PowerShape Ultimate 2022;A9LN1
+Autodesk ReCap Pro 2022;919N1
+Autodesk Revit 2022;829N1
+Autodesk Revit LT 2022;828N1
+Autodesk Robot Structural Analysis Professional 2022;547N1
+Autodesk SketchBook for  2022;871N1
+Autodesk TruComp 2022;00EN1
+Autodesk TruFiber 2022;01WN1
+Autodesk TruLaser 2022;00DN1
+Autodesk TruNest 2022 – Nesting Engine;00FN1
+Autodesk TruNest Composites 2022;00BN1
+Autodesk TruNest Contour 2022;00AN1
+Autodesk TruNest Multi-Tool 2022;00CN1
+Autodesk TruPlan 2022;01VN1
+Autodesk Vault Office 2022;555N1
+Autodesk Vault Professional 2022;569N1
+Autodesk Vault Workgroup 2022;559N1
+Autodesk Vehicle Tracking 2022;955N1
+Autodesk VRED 2022;884N1
+Autodesk VRED Design 2022;885N1
+Autodesk VRED Presenter 2022;888N1
+Autodesk VRED Professional 2022;886N1
+Autodesk VRED Render Node – consumption-based license 2022;A93N1
+Autodesk VRED Render Node 2022;890N1
+Autodesk VRED Server 2022;887N1
+Autodesk Wiretap Gateway 2022;C0ZN1
+FeatureCAM Premium 2022;P16N1
+FeatureCAM Standard 2022;P15N1
+FeatureCAM Ultimate 2022;P17N1
+HSMWorks Premium 2022;873N1
+HSMWorks Ultimate 2022;872N1
+PowerInspect Premium 2022;P13N1
+PowerInspect Standard 2022;P12N1
+PowerInspect Ultimate 2022;P14N1
+PowerMill Premium 2022;P07N1
+PowerMill Standard 2022;A9ZN1
+PowerMill Ultimate 2022;P08N1
+PowerShape Premium 2022;P10N1
+PowerShape Standard 2022;P09N1
+PowerShape Ultimate 2022;P11N1
+T1 Enterprise Multi-flex 2022;535N1
+Autodesk Inventor Nesting 2022;C1QN1
