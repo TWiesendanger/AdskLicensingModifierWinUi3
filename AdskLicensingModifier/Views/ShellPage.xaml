@@ -2,10 +2,8 @@
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:behaviors="using:AdskLicensingModifier.Behaviors"
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:helpers="using:AdskLicensingModifier.Helpers"
       xmlns:i="using:Microsoft.Xaml.Interactivity"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       Background="#202020"
       Loaded="OnLoaded">
 
@@ -35,6 +33,13 @@
                         IsSettingsVisible="True"
                         SelectedItem="{x:Bind ViewModel.Selected, Mode=OneWay}">
             <NavigationView.MenuItems>
+                <NavigationViewItem helpers:NavigationHelper.NavigateTo="AdskLicensingModifier.ViewModels.MainViewModel"
+                                    Content="Main">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                  Glyph="&#xe7c3;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
                 <NavigationViewItem helpers:NavigationHelper.NavigateTo="AdskLicensingModifier.ViewModels.ModifyLicensingViewModel"
                                     Content="Modify license">
                     <NavigationViewItem.Icon>
