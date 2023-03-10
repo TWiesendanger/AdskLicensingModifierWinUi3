@@ -22,13 +22,13 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
     [ObservableProperty] private string? serverNames;
     [ObservableProperty] private LicenseType selectedLicenseType = LicenseType.Reset;
     [ObservableProperty] private ServerType selectedServerType;
-    [ObservableProperty] private List<ServerType> serverTypes;
-    [ObservableProperty] private List<LicenseType> licenseTypes;
+    [ObservableProperty] private List<ServerType>? serverTypes;
+    [ObservableProperty] private List<LicenseType>? licenseTypes;
     [ObservableProperty] private bool uiIsenabled;
     [ObservableProperty] private bool serverTypeIsEnabled;
-    [ObservableProperty] private Dictionary<string, string> adskProducts;
-    [ObservableProperty] private Dictionary<string, string> filteredAdskProducts;
-    [ObservableProperty] private Dictionary<string, string> filteredYearAdskProducts;
+    [ObservableProperty] private Dictionary<string, string>? adskProducts;
+    [ObservableProperty] private Dictionary<string, string>? filteredAdskProducts;
+    private Dictionary<string, string>? _filteredYearAdskProducts;
     [ObservableProperty] private KeyValuePair<string, string> selectedProduct;
     [ObservableProperty] private string selectedYear = "2023";
     private string _productFeatureCode = "2020.0.0.F";
@@ -37,30 +37,45 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
     {
         _messageDialogService = messageDialogService;
         Initialization = InitializeAsync();
-
-        // load product names
+        //Task.Run(async () => await InitializeAsync());
     }
 
     public async Task InitializeAsync()
     {
-        await CheckPath();
+
+
         AdskProducts = await ReadAutodeskProductsAsync();
         FilteredAdskProducts = new Dictionary<string, string>();
-        FilteredYearAdskProducts = new Dictionary<string, string>();
-        FilteredYearAdskProducts = string.IsNullOrEmpty(SelectedYear) ? AdskProducts : AdskProducts.Where(x => x.Key.Contains(SelectedYear, StringComparison.OrdinalIgnoreCase))
-        .ToDictionary(pair => pair.Key, pair => pair.Value);
-        FilteredAdskProducts = FilteredYearAdskProducts;
+        _filteredYearAdskProducts = new Dictionary<string, string>();
+        if (AdskProducts != null)
+        {
+            _filteredYearAdskProducts = string.IsNullOrEmpty(SelectedYear)
+                ? AdskProducts
+                : AdskProducts.Where(x => x.Key.Contains(SelectedYear, StringComparison.OrdinalIgnoreCase))
+                    .ToDictionary(pair => pair.Key, pair => pair.Value);
+        }
+
+        FilteredAdskProducts = _filteredYearAdskProducts;
 
 
         ServerTypes = new List<ServerType>(Enum.GetValues(typeof(ServerType)).Cast<ServerType>());
         LicenseTypes = new List<LicenseType>(Enum.GetValues(typeof(LicenseType)).Cast<LicenseType>());
+
+        await CheckPathAsync();
+
     }
 
     partial void OnSelectedYearChanged(string value)
     {
-        FilteredYearAdskProducts = string.IsNullOrEmpty(value) ? AdskProducts : AdskProducts.Where(x => x.Key.Contains(value, StringComparison.OrdinalIgnoreCase))
-            .ToDictionary(pair => pair.Key, pair => pair.Value); ;
-        FilteredAdskProducts = FilteredYearAdskProducts;
+        if (AdskProducts != null)
+        {
+            _filteredYearAdskProducts = string.IsNullOrEmpty(value)
+                ? AdskProducts
+                : AdskProducts.Where(x => x.Key.Contains(value, StringComparison.OrdinalIgnoreCase))
+                    .ToDictionary(pair => pair.Key, pair => pair.Value);
+        }
+
+        FilteredAdskProducts = _filteredYearAdskProducts;
 
         _productFeatureCode = value switch
         {
@@ -74,7 +89,7 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
         SearchText = "";
     }
 
-    private async Task<Dictionary<string, string>> ReadAutodeskProductsAsync()
+    private async Task<Dictionary<string, string>?> ReadAutodeskProductsAsync()
     {
         var uri = new Uri("ms-appx:///Assets/resources/AutodeskProducts.txt");
         var productKeys = await Windows.Storage.StorageFile.GetFileFromApplicationUriAsync(uri);
@@ -82,15 +97,13 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
 
         return productKeyList
             .Select(line => line.Split(';'))
-            .ToDictionary(parts => parts[0], parts => parts[1]); ;
+            .ToDictionary(parts => parts[0], parts => parts[1]);
     }
 
-    private async Task CheckPath()
+    private async Task CheckPathAsync()
     {
-        var exeCheck =
-            File.Exists(LICENSE_HELPER_EXE);
 
-        if (exeCheck == false)
+        if (File.Exists(LICENSE_HELPER_EXE) == false)
         {
             var dialogSettings = new DialogSettings()
             {
@@ -108,9 +121,13 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
 
     partial void OnSearchTextChanged(string? value)
     {
-        //TODO maybe add a delay here
-        FilteredAdskProducts = string.IsNullOrEmpty(value) ? FilteredYearAdskProducts : FilteredYearAdskProducts.Where(x => x.Key.Contains(value, StringComparison.OrdinalIgnoreCase))
-            .ToDictionary(pair => pair.Key, pair => pair.Value);
+        if (_filteredYearAdskProducts != null)
+        {
+            FilteredAdskProducts = string.IsNullOrEmpty(value)
+                ? _filteredYearAdskProducts
+                : _filteredYearAdskProducts.Where(x => x.Key.Contains(value, StringComparison.OrdinalIgnoreCase))
+                    .ToDictionary(pair => pair.Key, pair => pair.Value);
+        }
     }
 
     partial void OnSelectedLicenseTypeChanged(LicenseType value)
@@ -141,6 +158,7 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
                 Symbol = ((char)0xEA39).ToString(),
             };
             await _messageDialogService.ShowDialog(dialogSettings);
+            return;
         }
 
         var cmdCommand = SetCmdCommand();
