@@ -3,6 +3,7 @@ using AdskLicensingModifier.ViewModels;
 using AdskLicensingModifier.Views;
 
 using CommunityToolkit.Mvvm.ComponentModel;
+using MainViewModel = AdskLicensingModifier.ViewModels.MainViewModel;
 
 namespace AdskLicensingModifier.Services;
 
@@ -12,8 +13,10 @@ public class PageService : IPageService
 
     public PageService()
     {
-        Configure<ModifyLicensingViewModel, ModifyLicensingPage>();
         Configure<SettingsViewModel, SettingsPage>();
+        Configure<ModifyLicensingViewModel, ModifyLicensingPage>();
+        Configure<MainViewModel, MainPage>();
+
     }
 
     public Type GetPageType(string key)
