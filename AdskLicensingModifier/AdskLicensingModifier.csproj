@@ -29,6 +29,7 @@
 	  <Content Remove="Assets\resources\regexSearch.txt" />
 	</ItemGroup>
 	<ItemGroup>
+	  <None Remove="Views\MainPage.xaml" />
 	  <None Remove="Views\MessageDialog.xaml" />
 	</ItemGroup>
 
@@ -56,6 +57,9 @@
 		<None Update="Assets\resources\AutodeskProducts.txt">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+		<Page Update="Views\MainPage.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</Page>
 		<Page Update="Views\MessageDialog.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</Page>

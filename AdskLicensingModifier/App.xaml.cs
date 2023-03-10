@@ -9,6 +9,7 @@ using AdskLicensingModifier.Views;
 
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MainViewModel = AdskLicensingModifier.ViewModels.MainViewModel;
 
 namespace AdskLicensingModifier;
 
@@ -62,6 +63,8 @@ public partial class App : Application
 
             // Views and ViewModels
             services.AddTransient<SettingsViewModel>();
+            services.AddTransient<MainViewModel>();
+            services.AddTransient<MainPage>();
             services.AddTransient<SettingsPage>();
             services.AddTransient<ModifyLicensingViewModel>();
             services.AddTransient<ModifyLicensingPage>();
