@@ -68,6 +68,9 @@ public partial class App : Application
             services.AddTransient<SettingsPage>();
             services.AddTransient<ModifyLicensingViewModel>();
             services.AddTransient<ModifyLicensingPage>();
+            services.AddTransient<ProductKeyViewModel>();
+            services.AddTransient<ProductKeyPage>();
+            services.AddTransient<ModifyLicensingPage>();
             services.AddTransient<ShellPage>();
             services.AddTransient<ShellViewModel>();
 
