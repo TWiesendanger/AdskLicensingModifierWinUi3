@@ -16,6 +16,7 @@
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
+                <RowDefinition />
             </Grid.RowDefinitions>
             <labs:SettingsExpander Description="Set the theme of the app to your liking or let the app decide based on your windows settings."
                                    Header="Theme"
@@ -26,14 +27,14 @@
                 <labs:SettingsExpander.Items>
                     <labs:SettingsCard ContentAlignment="Left">
                         <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                            <RadioButton x:Uid="Settings_Theme_Light"
+                            <!--<RadioButton x:Uid="Settings_Theme_Light"
                                          Command="{x:Bind ViewModel.SwitchThemeCommand}"
                                          FontSize="15"
                                          IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Light, Mode=OneWay}">
                                 <RadioButton.CommandParameter>
                                     <xaml:ElementTheme>Light</xaml:ElementTheme>
                                 </RadioButton.CommandParameter>
-                            </RadioButton>
+                            </RadioButton>-->
                             <RadioButton x:Uid="Settings_Theme_Dark"
                                          Command="{x:Bind ViewModel.SwitchThemeCommand}"
                                          FontSize="15"
@@ -42,14 +43,14 @@
                                     <xaml:ElementTheme>Dark</xaml:ElementTheme>
                                 </RadioButton.CommandParameter>
                             </RadioButton>
-                            <RadioButton x:Uid="Settings_Theme_Default"
+                            <!--<RadioButton x:Uid="Settings_Theme_Default"
                                          Command="{x:Bind ViewModel.SwitchThemeCommand}"
                                          FontSize="15"
                                          IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Default, Mode=OneWay}">
                                 <RadioButton.CommandParameter>
                                     <xaml:ElementTheme>Default</xaml:ElementTheme>
                                 </RadioButton.CommandParameter>
-                            </RadioButton>
+                            </RadioButton>-->
                         </StackPanel>
                     </labs:SettingsCard>
                 </labs:SettingsExpander.Items>
@@ -60,7 +61,7 @@
                                    Header="License modifier settings"
                                    IsExpanded="True">
                 <labs:SettingsExpander.HeaderIcon>
-                    <FontIcon Glyph="&#xE91B;" />
+                    <FontIcon Glyph="&#xE9E9;" />
                 </labs:SettingsExpander.HeaderIcon>
                 <labs:SettingsExpander.Items>
 
@@ -71,6 +72,7 @@
                             <Button Margin="0,0,20,0"
                                     Command="{x:Bind ViewModel.PrintListCommand}"
                                     Content="Print List"
+                                    IsEnabled="{x:Bind ViewModel.UiIsenabled}"
                                     ToolTipService.ToolTip="Will output a json file with license infos found on running workstation." />
                             <Button Command="{x:Bind ViewModel.PrintListCopyCommand}"
                                     Content="Copy Print list command"
@@ -85,22 +87,27 @@
                                        Description="Use this to open windows explorer and navigating to the adsk licensing path."
                                        Header="Open Adsk licensing path"
                                        IsClickEnabled="True" />
+                    <labs:SettingsCard Command="{x:Bind ViewModel.OpenAdskLicensingInstHelperPathCommand}"
+                                       Description="Use this to open windows explorer and navigating to the licensing helper path."
+                                       Header="Open licensing helper path"
+                                       IsClickEnabled="True" />
                     <labs:SettingsCard Description="Check if the license service is running."
                                        Header="Desktop Service">
                         <StackPanel Orientation="Horizontal">
-                            <ToggleSwitch IsOn="{x:Bind ViewModel.DesktopServiceIsOn, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                            <ToggleSwitch IsEnabled="{x:Bind ViewModel.UiIsenabled}"
+                                          IsOn="{x:Bind ViewModel.DesktopServiceIsOn, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                           OffContent="Desktop Service Off"
                                           OnContent="Desktop Service On"
                                           Toggled="{x:Bind ViewModel.DesktopLicensingServiceToggled}" />
                             <Button Width="45"
                                     Margin="20,0,0,0"
                                     HorizontalAlignment="Right"
-                                    Command="{x:Bind ViewModel.RefreshDesktopLicensingStateCommand}">
+                                    Command="{x:Bind ViewModel.RefreshDesktopLicensingStateCommand}"
+                                    IsEnabled="{x:Bind ViewModel.UiIsenabled}">
                                 <FontIcon FontFamily="Segoe MDL2 Assets"
                                           Glyph="&#xE72C;" />
                             </Button>
                         </StackPanel>
-
                     </labs:SettingsCard>
                 </labs:SettingsExpander.Items>
             </labs:SettingsExpander>
@@ -111,14 +118,14 @@
                                    Header="App infos"
                                    IsExpanded="False">
                 <labs:SettingsExpander.HeaderIcon>
-                    <FontIcon Glyph="&#xE91B;" />
+                    <FontIcon Glyph="&#xEA6C;" />
                 </labs:SettingsExpander.HeaderIcon>
                 <labs:SettingsExpander.Items>
-
                     <labs:SettingsCard Description="Version Info and about link for github."
                                        Header="Version Info">
-                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                            <TextBlock Style="{ThemeResource BodyTextBlockStyle}"
+                        <StackPanel>
+                            <TextBlock Margin="{StaticResource XSmallTopMargin}"
+                                       Style="{ThemeResource BodyTextBlockStyle}"
                                        Text="{x:Bind ViewModel.VersionDescription, Mode=OneWay}" />
 
                             <HyperlinkButton Margin="{StaticResource SettingsPageHyperlinkButtonMargin}"
@@ -127,8 +134,13 @@
                         </StackPanel>
                     </labs:SettingsCard>
                 </labs:SettingsExpander.Items>
-
             </labs:SettingsExpander>
+            <Image Grid.Row="3"
+                   Grid.Column="0"
+                   Height="150"
+                   Margin="50"
+                   HorizontalAlignment="Center"
+                   Source="\Assets/extrabbit.png" />
         </Grid>
     </ScrollViewer>
 </Page>

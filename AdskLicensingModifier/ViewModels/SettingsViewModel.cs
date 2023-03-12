@@ -14,11 +14,12 @@ using Windows.UI;
 
 namespace AdskLicensingModifier.ViewModels;
 
-public partial class SettingsViewModel : ObservableRecipient
+public partial class SettingsViewModel : ObservableObject
 {
     private readonly IThemeSelectorService _themeSelectorService;
     private readonly IGenericMessageDialogService _messageDialogService;
     private ElementTheme _elementTheme;
+    [ObservableProperty] private bool uiIsenabled;
     [ObservableProperty] private bool desktopServiceIsOn;
     private string _versionDescription;
     private const string LICENSE_HELPER_EXE =
@@ -58,6 +59,7 @@ public partial class SettingsViewModel : ObservableRecipient
                 }
             });
 
+        CheckPath();
         CheckLicensingService();
     }
 
@@ -85,6 +87,8 @@ public partial class SettingsViewModel : ObservableRecipient
         return $"{"AppDisplayName".GetLocalized()} - {version.Major}.{version.Minor}.{version.Build}.{version.Revision}";
     }
 
+    private void CheckPath() => UiIsenabled = File.Exists(LICENSE_HELPER_EXE);
+
     [RelayCommand]
     private async Task PrintListCopy()
     {
@@ -105,7 +109,6 @@ public partial class SettingsViewModel : ObservableRecipient
     [RelayCommand]
     private async Task PrintList()
     {
-        //TODO Check Path 
         var process = new Process();
 
         process.StartInfo.FileName = "cmd.exe";
@@ -117,7 +120,7 @@ public partial class SettingsViewModel : ObservableRecipient
 
         process.Start();
         string output;
-        using (StreamReader reader = process.StandardOutput)
+        using (var reader = process.StandardOutput)
         {
             output = await reader.ReadToEndAsync();
         }
@@ -185,14 +188,58 @@ public partial class SettingsViewModel : ObservableRecipient
         await _messageDialogService.ShowDialog(dialogSettings);
     }
 
-    public void DesktopLicensingServiceToggled(object sender, RoutedEventArgs e)
+    [RelayCommand]
+    private async void OpenAdskLicensingInstHelperPath()
     {
+        const string path = @"C:\Program Files (x86)\Common Files\Autodesk Shared\AdskLicensing\Current\helper";
+        if (Directory.Exists(path))
+        {
+            Process.Start("explorer.exe", path);
+            return;
+        }
+
+        var dialogSettings = new DialogSettings()
+        {
+            Title = "Path not found",
+            Message = "Path was not found and could not be opened.",
+            Color = Color.FromArgb(255, 234, 93, 97),
+            Symbol = ((char)0xEA39).ToString(),
+        };
+        await _messageDialogService.ShowDialog(dialogSettings);
+    }
+
+    public async void DesktopLicensingServiceToggled(object sender, RoutedEventArgs e)
+    {
+        var sc = new ServiceController("AdskLicensingService");
+        try
+        {
+            var state = sc.Status; // will fail if service does not exist
+            UiIsenabled = true;
+        }
+        catch (InvalidOperationException ex)
+        {
+            var dialogSettings = new DialogSettings()
+            {
+                Title = "Service not found",
+                Message = "Service AdskLicensingService was not found. You will be only able to generate commands, but not running them. Some Options are deactivated.",
+                Color = Color.FromArgb(255, 234, 93, 97),
+                Symbol = ((char)0xEA39).ToString(),
+            };
+            await _messageDialogService.ShowDialog(dialogSettings);
+            UiIsenabled = false;
+            return;
+        }
+        catch (Exception exception)
+        {
+            Console.WriteLine(exception);
+            throw;
+        }
+
         var toogleSwitch = (ToggleSwitch)sender;
         switch (toogleSwitch.IsOn)
         {
             case true:
                 {
-                    var sc = new ServiceController("AdskLicensingService");
                     if (sc.Status == ServiceControllerStatus.Running || sc.Status == ServiceControllerStatus.StartPending)
                     {
                         return;
@@ -203,16 +250,17 @@ public partial class SettingsViewModel : ObservableRecipient
                 }
             case false:
                 {
-                    var sc = new ServiceController("AdskLicensingService");
                     if (sc.Status == ServiceControllerStatus.Stopped || sc.Status == ServiceControllerStatus.StopPending)
                     {
                         return;
                     }
+
                     sc.Stop();
                     break;
                 }
         }
     }
+
 
     [RelayCommand]
     public void RefreshDesktopLicensingState()
