@@ -69,12 +69,15 @@
                   Grid.Column="0"
                   MinWidth="450"
                   Margin="0,15,50,0"
-                  Background="#2b2b2b"
+                  BorderBrush="{ThemeResource SystemAccentColor}"
+                  BorderThickness="1"
+                  CornerRadius="2"
                   FontSize="14"
                   ItemsSource="{x:Bind ViewModel.FilteredAdskProducts, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                   ScrollViewer.HorizontalScrollBarVisibility="Auto"
                   ScrollViewer.VerticalScrollBarVisibility="Auto"
                   SelectedItem="{x:Bind ViewModel.SelectedProduct, Mode=OneWay}"
+                  SelectionChanged="{x:Bind ViewModel.Selector_OnSelectionChanged}"
                   SelectionMode="Single">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -90,9 +93,11 @@
         <ListView Grid.Row="2"
                   Grid.Column="1"
                   Margin="0,15,50,0"
-                  Background="#2b2b2b"
+                  BorderBrush="{ThemeResource SystemAccentColor}"
+                  BorderThickness="1"
+                  CornerRadius="2"
                   ItemsSource="{x:Bind ViewModel.LicenseTypes, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                  SelectedItem="{x:Bind ViewModel.SelectedLicenseType, Mode=OneWay}"
+                  SelectedItem="{x:Bind ViewModel.SelectedLicenseType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                   SelectionMode="Single" />
         <TextBlock Grid.Row="1"
                    Grid.Column="2"
@@ -111,10 +116,12 @@
             </Grid.ColumnDefinitions>
             <ListView Grid.Row="0"
                       Margin="0,15,0,0"
-                      Background="#2b2b2b"
+                      BorderBrush="{ThemeResource SystemAccentColor}"
+                      BorderThickness="1"
+                      CornerRadius="2"
                       IsEnabled="{x:Bind ViewModel.ServerTypeIsEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                       ItemsSource="{x:Bind ViewModel.ServerTypes, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                      SelectedItem="{x:Bind ViewModel.SelectedServerType, Mode=OneWay}"
+                      SelectedItem="{x:Bind ViewModel.SelectedServerType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                       SelectionMode="Single" />
             <TextBlock Grid.Row="1"
                        VerticalAlignment="Bottom"
@@ -129,6 +136,7 @@
                  Grid.Column="0"
                  Grid.ColumnSpan="3"
                  Margin="0,25,0,25"
+                 IsSpellCheckEnabled="False"
                  PlaceholderText="Result will be displayed here."
                  Text="{x:Bind ViewModel.Result, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         <Grid Grid.Row="4"
@@ -149,7 +157,7 @@
                     Command="{x:Bind ViewModel.RunCommand}"
                     Content="Run"
                     FontSize="14"
-                    IsEnabled="{x:Bind ViewModel.UiIsenabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    IsEnabled="{x:Bind ViewModel.UiIsenabled, Mode=OneWay}"
                     ToolTipService.ToolTip="Will run the command on the active system. Command is not regenerated if there is already text in it." />
         </Grid>
     </Grid>

@@ -14,4 +14,5 @@ public sealed partial class ModifyLicensingPage
         ViewModel = App.GetService<ModifyLicensingViewModel>();
         InitializeComponent();
     }
+
 }

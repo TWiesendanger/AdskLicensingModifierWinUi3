@@ -1,13 +1,16 @@
-﻿using Windows.ApplicationModel.DataTransfer;
+﻿using System.Diagnostics;
+using Windows.ApplicationModel.DataTransfer;
 using Windows.UI;
 using AdskLicensingModifier.Helpers;
 using CommunityToolkit.Mvvm.ComponentModel;
 using AdskLicensingModifier.Contracts.Services;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Win32;
+using Newtonsoft.Json.Linq;
 
 namespace AdskLicensingModifier.ViewModels;
 
-public partial class ModifyLicensingViewModel : ObservableRecipient
+public partial class ModifyLicensingViewModel : ObservableObject
 {
     private readonly IGenericMessageDialogService _messageDialogService;
     public Task Initialization
@@ -18,7 +21,7 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
     private const string LICENSE_HELPER_EXE =
         @"C:\Program Files (x86)\Common Files\Autodesk Shared\AdskLicensing\Current\helper\AdskLicensingInstHelper.exe";
     [ObservableProperty] private string? searchText;
-    [ObservableProperty] private string? result;
+    [ObservableProperty] private string result = "";
     [ObservableProperty] private string? serverNames;
     [ObservableProperty] private LicenseType selectedLicenseType = LicenseType.Reset;
     [ObservableProperty] private ServerType selectedServerType;
@@ -37,13 +40,10 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
     {
         _messageDialogService = messageDialogService;
         Initialization = InitializeAsync();
-        //Task.Run(async () => await InitializeAsync());
     }
 
     public async Task InitializeAsync()
     {
-
-
         AdskProducts = await ReadAutodeskProductsAsync();
         FilteredAdskProducts = new Dictionary<string, string>();
         _filteredYearAdskProducts = new Dictionary<string, string>();
@@ -57,16 +57,17 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
 
         FilteredAdskProducts = _filteredYearAdskProducts;
 
-
         ServerTypes = new List<ServerType>(Enum.GetValues(typeof(ServerType)).Cast<ServerType>());
         LicenseTypes = new List<LicenseType>(Enum.GetValues(typeof(LicenseType)).Cast<LicenseType>());
 
         await CheckPathAsync();
+        SetFeatureCode(SelectedYear);
 
     }
 
     partial void OnSelectedYearChanged(string value)
     {
+        SelectedProduct = new KeyValuePair<string, string>();
         if (AdskProducts != null)
         {
             _filteredYearAdskProducts = string.IsNullOrEmpty(value)
@@ -77,6 +78,11 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
 
         FilteredAdskProducts = _filteredYearAdskProducts;
 
+        SetFeatureCode(value);
+        SearchText = "";
+    }
+
+    private void SetFeatureCode(string value) =>
         _productFeatureCode = value switch
         {
             "2020" => "2020.0.0.F",
@@ -86,8 +92,6 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
             "2024" => "2024.0.0.F",
             _ => ""
         };
-        SearchText = "";
-    }
 
     private async Task<Dictionary<string, string>?> ReadAutodeskProductsAsync()
     {
@@ -121,6 +125,8 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
 
     partial void OnSearchTextChanged(string? value)
     {
+        SelectedProduct = new KeyValuePair<string, string>();
+
         if (_filteredYearAdskProducts != null)
         {
             FilteredAdskProducts = string.IsNullOrEmpty(value)
@@ -187,7 +193,6 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
     [RelayCommand]
     public async Task Run()
     {
-        //TODO dont overwrite if already text in it
         if (string.IsNullOrWhiteSpace(SelectedProduct.Key))
         {
             var dialogSettings = new DialogSettings()
@@ -198,11 +203,71 @@ public partial class ModifyLicensingViewModel : ObservableRecipient
                 Symbol = ((char)0xEA39).ToString(),
             };
             await _messageDialogService.ShowDialog(dialogSettings);
+            return;
         }
 
-        Result = SetCmdCommand();
+        var dialogSettingsConfirmation = new DialogSettings()
+        {
+            Title = "Are you sure?",
+            Message = $"Are you sure that you want to run the command locally? ",
+            PrimaryButtonText = "Yes",
+            PrimaryButtonCommand = RunCmdCommand,
+            SecondaryButtonText = "No",
+            Color = Color.FromArgb(94, 126, 191, 239),
+            Symbol = ((char)0xF142).ToString(),
+        };
+        await _messageDialogService.ShowDialog(dialogSettingsConfirmation);
+    }
 
+    [RelayCommand]
+    public async Task RunCmd()
+    {
+        if (Result.Length == 0)
+        {
+            Result = SetCmdCommand();
+        }
 
+        // Stop adSSO.exe
+        var adsso = Process.GetProcessesByName("AdSSO").FirstOrDefault();
+        adsso?.Kill();
 
+        // not possible because of sandbox environment
+        // not sure if needed
+        if (SelectedLicenseType == LicenseType.Network)
+        {
+            var keyName = @"Software";
+            using var key = Registry.CurrentUser.OpenSubKey(keyName, true);
+            var keyNames = key?.GetSubKeyNames();
+            try
+            {
+                key?.DeleteSubKeyTree("FLEXlm License Manager");
+            }
+            catch (Exception e)
+            {
+                // key does not exist / at least not in the virtualization
+            }
+        }
+
+        var process = new Process();
+
+        process.StartInfo.FileName = "cmd.exe";
+        process.StartInfo.Arguments = $"/c \"{Result}\"";
+        process.StartInfo.CreateNoWindow = true;
+        process.StartInfo.UseShellExecute = false;
+        process.StartInfo.RedirectStandardOutput = true;
+        //process.StartInfo.RedirectStandardError = true;
+
+        process.Start();
+        await Task.CompletedTask;
+    }
+
+    public void Selector_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+        var producListView = (ListView)sender;
+        if (producListView.SelectedItem is null)
+        {
+            return;
+        }
+        SelectedProduct = (KeyValuePair<string, string>)producListView.SelectedItem;
     }
 }
