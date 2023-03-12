@@ -16,6 +16,7 @@ public class PageService : IPageService
         Configure<SettingsViewModel, SettingsPage>();
         Configure<ModifyLicensingViewModel, ModifyLicensingPage>();
         Configure<MainViewModel, MainPage>();
+        Configure<ProductKeyViewModel, ProductKeyPage>();
 
     }
 
