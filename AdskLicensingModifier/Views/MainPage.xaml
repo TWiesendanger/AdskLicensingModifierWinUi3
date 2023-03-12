@@ -4,8 +4,59 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="using:AdskLicensingModifier.Views"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
       mc:Ignorable="d">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Image Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="3"
+               Width="750"
+               Margin="5"
+               HorizontalAlignment="Center"
+               Source="\Assets/AppMainLogo.png" />
 
-    <Grid />
+        <TextBlock Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Margin="30,50,30,50"
+                   FontSize="16"
+                   TextWrapping="Wrap">
+            <Run>The Adsk Licensing Modifier helps you everything regarding licensing. For example it allows to change from Network licensing to user based licensing. This method still works even if you are no longer able to open the product.</Run>
+            <LineBreak />
+            <LineBreak />
+            <Run>It also allows to lookup product keys and has some shortcuts to a lot of folders, that are sometimes needed to reset licensing. This tool is made with the cad administrator in mind.</Run>
+            <LineBreak />
+            <LineBreak />
+            <Run>For any issues you are invited to create an issue on the github repository. Make sure to also read the documentation.</Run>
+        </TextBlock>
+        <StackPanel Grid.Row="2"
+                    Grid.Column="1"
+                    Orientation="Horizontal">
+            <Button Margin="0,0,20,0"
+                    Command="{x:Bind ViewModel.MoveToSettingsCommand}">Settings</Button>
+            <Button Command="{x:Bind ViewModel.OpenDocumentationCommand}">Documentation</Button>
+
+        </StackPanel>
+        <StackPanel Grid.Row="3"
+                    Grid.Column="2"
+                    Margin="0,50,0,0"
+                    Orientation="Vertical">
+            <TextBlock Margin="12,0,0,15"
+                       FontWeight="Bold"
+                       Text="Made by" />
+            <Image Height="75"
+                   HorizontalAlignment="Center"
+                   Source="\Assets/extrabbit.png" />
+        </StackPanel>
+    </Grid>
 </Page>
