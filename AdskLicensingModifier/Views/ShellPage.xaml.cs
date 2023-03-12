@@ -1,5 +1,4 @@
 ﻿using AdskLicensingModifier.Contracts.Services;
-using AdskLicensingModifier.Helpers;
 using AdskLicensingModifier.ViewModels;
 
 namespace AdskLicensingModifier.Views;
@@ -19,11 +18,12 @@ public sealed partial class ShellPage
         ViewModel.NavigationService.Frame = NavigationFrame;
         ViewModel.NavigationViewService.Initialize(NavigationViewControl);
 
-        // TODO: Set the title bar icon by updating /Assets/WindowIcon.ico.
         App.MainWindow.ExtendsContentIntoTitleBar = true;
+        //App(Path.Combine(AppContext.BaseDirectory, "Assets/AppIcon01.ico"));
+
         App.MainWindow.SetTitleBar(AppTitleBar);
         App.MainWindow.Activated += MainWindow_Activated;
-        AppTitleBarText.Text = "AppDisplayName".GetLocalized();
+        AppTitleBarText.Text = "Adsk License Modifier";
     }
 
     private void OnLoaded(object sender, RoutedEventArgs e)

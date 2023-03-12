@@ -4,7 +4,6 @@
       xmlns:behaviors="using:AdskLicensingModifier.Behaviors"
       xmlns:helpers="using:AdskLicensingModifier.Helpers"
       xmlns:i="using:Microsoft.Xaml.Interactivity"
-      Background="#202020"
       Loaded="OnLoaded">
 
     <Grid>
@@ -44,14 +43,14 @@
                                     Content="Modify license">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
-                                  Glyph="&#xe7c3;" />
+                                  Glyph="&#xF552;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem helpers:NavigationHelper.NavigateTo="AdskLicensingModifier.ViewModels.ModifyLicensingViewModel"
+                <NavigationViewItem helpers:NavigationHelper.NavigateTo="AdskLicensingModifier.ViewModels.ProductKeyViewModel"
                                     Content="Lookup product key">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}"
-                                  Glyph="&#xe7c3;" />
+                                  Glyph="&#xF156;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
             </NavigationView.MenuItems>
