@@ -34,7 +34,7 @@ public partial class ModifyLicensingViewModel : ObservableObject
     private Dictionary<string, string>? _filteredYearAdskProducts;
     [ObservableProperty] private KeyValuePair<string, string> selectedProduct;
     [ObservableProperty] private string selectedYear = "2023";
-    private string _productFeatureCode = "2020.0.0.F";
+    private string _productFeatureCode = "2023.0.0.F";
 
     public ModifyLicensingViewModel(IGenericMessageDialogService messageDialogService)
     {
