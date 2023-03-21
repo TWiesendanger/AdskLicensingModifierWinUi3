@@ -1,136 +1,136 @@
-﻿Autodesk 3ds Max 2022;128P1
-Autodesk 3ds Max 2022 with Softimage;978P1
-Autodesk Advance Steel 2022;959P1
-Autodesk Alias AutoStudio 2022;966P1
-Autodesk Alias Concept 2022;A63P1
-Autodesk Alias Design 2022;712P1
-Autodesk Alias SpeedForm 2022;A62P1
-Autodesk Alias Surface 2022;736P1
-Autodesk AutoCAD 2022;001P1
-Autodesk AutoCAD Architecture 2022;185P1
-Autodesk AutoCAD Design Suite Premium 2022;768P1
-Autodesk AutoCAD Design Suite Standard 2022;767P1
-Autodesk AutoCAD Electrical 2022;225P1
-Autodesk AutoCAD Inventor LT Suite 2022;596P1
-Autodesk AutoCAD LT 2022;057P1
-Autodesk AutoCAD LT Civil Suite 2022;545P1
-Autodesk AutoCAD Map 3D 2022;129P1
-Autodesk AutoCAD Mechanical 2022;206P1
-Autodesk AutoCAD MEP 2022;235P1
-Autodesk AutoCAD Plant 3D 2022;426P1
-Autodesk AutoCAD Raster Design 2022;340P1
-Autodesk AutoCAD Revit LT Suite 2022;834P1
-Autodesk Building Design Suite Premium 2022;765P1
-Autodesk Building Design Suite Standard 2022;784P1
-Autodesk Building Design Suite Ultimate 2022;766P1
-Autodesk Burn 2022;C0YP1
-Autodesk CFD Design Study Environment 2022;812P1
-Autodesk CFD Premium 2022;810P1
-Autodesk CFD Ultimate 2022;811P1
-Autodesk Civil 3D 2022;237P1
-Autodesk Fabrication CADmep 2022;839P1
-Autodesk Fabrication CAMduct 2022;842P1
-Autodesk Fabrication ESTmep 2022;841P1
-Autodesk Factory Design Suite Premium 2022;757P1
-Autodesk Factory Design Suite Standard 2022;789P1
-Autodesk Factory Design Suite Ultimate 2022;760P1
-Autodesk Factory Design Utilities 2022;P03P1
-Autodesk FeatureCAM Premium 2022;A9FP1
-Autodesk FeatureCAM Standard 2022;A9GP1
-Autodesk FeatureCAM Ultimate 2022;A9EP1
-Autodesk Flame 2022;C0TP1
-Autodesk Flame 2022 – Education;C14P1
-Autodesk Flame Assist 2022;C0VP1
-Autodesk Flame Premium 2022;C0XP1
-Autodesk Flare 2022;C0WP1
-Autodesk Helius PFA 2022;899P1
-Autodesk HSM Premium 2022;C12P1
-Autodesk HSM Ultimate 2022;C13P1
-Autodesk Infrastructure Design Suite Premium 2022;786P1
-Autodesk Infrastructure Design Suite Standard 2022;787P1
-Autodesk Infrastructure Design Suite Ultimate 2022;785P1
-Autodesk Inventor 2022;208P1
-Autodesk Inventor Engineer-to-Order 2022 – Developer;A66P1
-Autodesk Inventor Engineer-to-Order 2022 – Distribution;996P1
-Autodesk Inventor Engineer-to-Order 2022 – Server;997P1
-Autodesk Inventor Engineer-to-Order Series 2022;805P1
-Autodesk Inventor Engineer-to-Order Server 2022;752P1
-Autodesk Inventor HSM Premium 2022;969P1
-Autodesk Inventor HSM Ultimate 2022;970P1
-Autodesk Inventor LT 2022;529P1
-Autodesk Inventor OEM 2022;798P1
-Autodesk Inventor Professional 2022;797P1
-Autodesk Lustre 2022;C0UP1
-Autodesk Lustre Burn 2022;C10P1
-Autodesk Lustre ShotReactor 2022;C11P1
-Autodesk Manufacturing Automation Utility 2022;A9YP1
-Autodesk Manufacturing Data Exchange Utility Premium 2022;A9VP1
-Autodesk Manufacturing Data Exchange Utility Standard 2022;A9XP1
-Autodesk Manufacturing Post Processor Utility 2022;A9TP1
-Autodesk MEP Fabrication Suite 2022;00QP1
-Autodesk Moldflow Adviser Premium 2022;571P1
-Autodesk Moldflow Adviser Ultimate 2022;572P1
-Autodesk Moldflow Design 2022;837P1
-Autodesk Moldflow Insight Premium 2022;574P1
-Autodesk Moldflow Insight Standard 2022;573P1
-Autodesk Moldflow Insight Ultimate 2022;575P1
-Autodesk Moldflow Synergy 2022;579P1
-Autodesk Nastran 2022;986P1
-Autodesk Nastran In-CAD 2022;987P1
-Autodesk Navisworks Manage 2022;507P1
-Autodesk Navisworks Simulate 2022;506P1
-Autodesk PartMaker 2022;A9SP1
-Autodesk Plant Design Suite Premium 2022;763P1
-Autodesk Plant Design Suite Standard 2022;788P1
-Autodesk Plant Design Suite Ultimate 2022;764P1
-Autodesk Point Layout 2022;925P1
-Autodesk PowerInspect Premium 2022;A9JP1
-Autodesk PowerInspect Ultimate 2022;A9HP1
-Autodesk PowerMill Modeling 2022;A9UP1
-Autodesk PowerMill Premium 2022;A9AP1
-Autodesk PowerMill Standard 2022;A9QP1
-Autodesk PowerMill Ultimate 2022;A9PP1
-Autodesk PowerShape Premium 2022;A9MP1
-Autodesk PowerShape Standard 2022;A9NP1
-Autodesk PowerShape Ultimate 2022;A9LP1
-Autodesk ReCap Pro 2022;919P1
-Autodesk Revit 2022;829P1
-Autodesk Revit LT 2022;828P1
-Autodesk Robot Structural Analysis Professional 2022;547P1
-Autodesk SketchBook for  2022;871P1
-Autodesk TruComp 2022;00EP1
-Autodesk TruFiber 2022;01WP1
-Autodesk TruLaser 2022;00DP1
-Autodesk TruNest 2022 – Nesting Engine;00FP1
-Autodesk TruNest Composites 2022;00BP1
-Autodesk TruNest Contour 2022;00AP1
-Autodesk TruNest Multi-Tool 2022;00CP1
-Autodesk TruPlan 2022;01VP1
-Autodesk Vault Office 2022;555P1
-Autodesk Vault Professional 2022;569P1
-Autodesk Vault Workgroup 2022;559P1
-Autodesk Vehicle Tracking 2022;955P1
-Autodesk VRED 2022;884P1
-Autodesk VRED Design 2022;885P1
-Autodesk VRED Presenter 2022;888P1
-Autodesk VRED Professional 2022;886P1
-Autodesk VRED Render Node – consumption-based license 2022;A93P1
-Autodesk VRED Render Node 2022;890P1
-Autodesk VRED Server 2022;887P1
-Autodesk Wiretap Gateway 2022;C0ZP1
-FeatureCAM Premium 2022;P16P1
-FeatureCAM Standard 2022;P15P1
-FeatureCAM Ultimate 2022;P17P1
-HSMWorks Premium 2022;873P1
-HSMWorks Ultimate 2022;872P1
-PowerInspect Premium 2022;P13P1
-PowerInspect Standard 2022;P12P1
-PowerInspect Ultimate 2022;P14P1
-PowerMill Premium 2022;P07P1
-PowerMill Standard 2022;A9ZP1
-PowerMill Ultimate 2022;P08P1
-PowerShape Premium 2022;P10P1
-PowerShape Standard 2022;P09P1
-PowerShape Ultimate 2022;P11P1
-T1 Enterprise Multi-flex 2022;535P1
-Autodesk Inventor Nesting 2022;C1QP1
+﻿Autodesk 3ds Max 2024;128P1
+Autodesk 3ds Max 2024 with Softimage;978P1
+Autodesk Advance Steel 2024;959P1
+Autodesk Alias AutoStudio 2024;966P1
+Autodesk Alias Concept 2024;A63P1
+Autodesk Alias Design 2024;712P1
+Autodesk Alias SpeedForm 2024;A62P1
+Autodesk Alias Surface 2024;736P1
+Autodesk AutoCAD 2024;001P1
+Autodesk AutoCAD Architecture 2024;185P1
+Autodesk AutoCAD Design Suite Premium 2024;768P1
+Autodesk AutoCAD Design Suite Standard 2024;767P1
+Autodesk AutoCAD Electrical 2024;225P1
+Autodesk AutoCAD Inventor LT Suite 2024;596P1
+Autodesk AutoCAD LT 2024;057P1
+Autodesk AutoCAD LT Civil Suite 2024;545P1
+Autodesk AutoCAD Map 3D 2024;129P1
+Autodesk AutoCAD Mechanical 2024;206P1
+Autodesk AutoCAD MEP 2024;235P1
+Autodesk AutoCAD Plant 3D 2024;426P1
+Autodesk AutoCAD Raster Design 2024;340P1
+Autodesk AutoCAD Revit LT Suite 2024;834P1
+Autodesk Building Design Suite Premium 2024;765P1
+Autodesk Building Design Suite Standard 2024;784P1
+Autodesk Building Design Suite Ultimate 2024;766P1
+Autodesk Burn 2024;C0YP1
+Autodesk CFD Design Study Environment 2024;812P1
+Autodesk CFD Premium 2024;810P1
+Autodesk CFD Ultimate 2024;811P1
+Autodesk Civil 3D 2024;237P1
+Autodesk Fabrication CADmep 2024;839P1
+Autodesk Fabrication CAMduct 2024;842P1
+Autodesk Fabrication ESTmep 2024;841P1
+Autodesk Factory Design Suite Premium 2024;757P1
+Autodesk Factory Design Suite Standard 2024;789P1
+Autodesk Factory Design Suite Ultimate 2024;760P1
+Autodesk Factory Design Utilities 2024;P03P1
+Autodesk FeatureCAM Premium 2024;A9FP1
+Autodesk FeatureCAM Standard 2024;A9GP1
+Autodesk FeatureCAM Ultimate 2024;A9EP1
+Autodesk Flame 2024;C0TP1
+Autodesk Flame 2024 – Education;C14P1
+Autodesk Flame Assist 2024;C0VP1
+Autodesk Flame Premium 2024;C0XP1
+Autodesk Flare 2024;C0WP1
+Autodesk Helius PFA 2024;899P1
+Autodesk HSM Premium 2024;C12P1
+Autodesk HSM Ultimate 2024;C13P1
+Autodesk Infrastructure Design Suite Premium 2024;786P1
+Autodesk Infrastructure Design Suite Standard 2024;787P1
+Autodesk Infrastructure Design Suite Ultimate 2024;785P1
+Autodesk Inventor 2024;208P1
+Autodesk Inventor Engineer-to-Order 2024 – Developer;A66P1
+Autodesk Inventor Engineer-to-Order 2024 – Distribution;996P1
+Autodesk Inventor Engineer-to-Order 2024 – Server;997P1
+Autodesk Inventor Engineer-to-Order Series 2024;805P1
+Autodesk Inventor Engineer-to-Order Server 2024;752P1
+Autodesk Inventor HSM Premium 2024;969P1
+Autodesk Inventor HSM Ultimate 2024;970P1
+Autodesk Inventor LT 2024;529P1
+Autodesk Inventor OEM 2024;798P1
+Autodesk Inventor Professional 2024;797P1
+Autodesk Lustre 2024;C0UP1
+Autodesk Lustre Burn 2024;C10P1
+Autodesk Lustre ShotReactor 2024;C11P1
+Autodesk Manufacturing Automation Utility 2024;A9YP1
+Autodesk Manufacturing Data Exchange Utility Premium 2024;A9VP1
+Autodesk Manufacturing Data Exchange Utility Standard 2024;A9XP1
+Autodesk Manufacturing Post Processor Utility 2024;A9TP1
+Autodesk MEP Fabrication Suite 2024;00QP1
+Autodesk Moldflow Adviser Premium 2024;571P1
+Autodesk Moldflow Adviser Ultimate 2024;572P1
+Autodesk Moldflow Design 2024;837P1
+Autodesk Moldflow Insight Premium 2024;574P1
+Autodesk Moldflow Insight Standard 2024;573P1
+Autodesk Moldflow Insight Ultimate 2024;575P1
+Autodesk Moldflow Synergy 2024;579P1
+Autodesk Nastran 2024;986P1
+Autodesk Nastran In-CAD 2024;987P1
+Autodesk Navisworks Manage 2024;507P1
+Autodesk Navisworks Simulate 2024;506P1
+Autodesk PartMaker 2024;A9SP1
+Autodesk Plant Design Suite Premium 2024;763P1
+Autodesk Plant Design Suite Standard 2024;788P1
+Autodesk Plant Design Suite Ultimate 2024;764P1
+Autodesk Point Layout 2024;925P1
+Autodesk PowerInspect Premium 2024;A9JP1
+Autodesk PowerInspect Ultimate 2024;A9HP1
+Autodesk PowerMill Modeling 2024;A9UP1
+Autodesk PowerMill Premium 2024;A9AP1
+Autodesk PowerMill Standard 2024;A9QP1
+Autodesk PowerMill Ultimate 2024;A9PP1
+Autodesk PowerShape Premium 2024;A9MP1
+Autodesk PowerShape Standard 2024;A9NP1
+Autodesk PowerShape Ultimate 2024;A9LP1
+Autodesk ReCap Pro 2024;919P1
+Autodesk Revit 2024;829P1
+Autodesk Revit LT 2024;828P1
+Autodesk Robot Structural Analysis Professional 2024;547P1
+Autodesk SketchBook for  2024;871P1
+Autodesk TruComp 2024;00EP1
+Autodesk TruFiber 2024;01WP1
+Autodesk TruLaser 2024;00DP1
+Autodesk TruNest 2024 – Nesting Engine;00FP1
+Autodesk TruNest Composites 2024;00BP1
+Autodesk TruNest Contour 2024;00AP1
+Autodesk TruNest Multi-Tool 2024;00CP1
+Autodesk TruPlan 2024;01VP1
+Autodesk Vault Office 2024;555P1
+Autodesk Vault Professional 2024;569P1
+Autodesk Vault Workgroup 2024;559P1
+Autodesk Vehicle Tracking 2024;955P1
+Autodesk VRED 2024;884P1
+Autodesk VRED Design 2024;885P1
+Autodesk VRED Presenter 2024;888P1
+Autodesk VRED Professional 2024;886P1
+Autodesk VRED Render Node – consumption-based license 2024;A93P1
+Autodesk VRED Render Node 2024;890P1
+Autodesk VRED Server 2024;887P1
+Autodesk Wiretap Gateway 2024;C0ZP1
+FeatureCAM Premium 2024;P16P1
+FeatureCAM Standard 2024;P15P1
+FeatureCAM Ultimate 2024;P17P1
+HSMWorks Premium 2024;873P1
+HSMWorks Ultimate 2024;872P1
+PowerInspect Premium 2024;P13P1
+PowerInspect Standard 2024;P12P1
+PowerInspect Ultimate 2024;P14P1
+PowerMill Premium 2024;P07P1
+PowerMill Standard 2024;A9ZP1
+PowerMill Ultimate 2024;P08P1
+PowerShape Premium 2024;P10P1
+PowerShape Standard 2024;P09P1
+PowerShape Ultimate 2024;P11P1
+T1 Enterprise Multi-flex 2024;535P1
+Autodesk Inventor Nesting 2024;C1QP1
