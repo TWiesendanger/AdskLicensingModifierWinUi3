@@ -6,7 +6,6 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using AdskLicensingModifier.Contracts.Services;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.Win32;
-using Newtonsoft.Json.Linq;
 
 namespace AdskLicensingModifier.ViewModels;
 
@@ -28,6 +27,7 @@ public partial class ModifyLicensingViewModel : ObservableObject
     [ObservableProperty] private List<ServerType>? serverTypes;
     [ObservableProperty] private List<LicenseType>? licenseTypes;
     [ObservableProperty] private bool uiIsenabled;
+    [ObservableProperty] private bool commandDialogBarOpen;
     [ObservableProperty] private bool serverTypeIsEnabled;
     [ObservableProperty] private Dictionary<string, string>? adskProducts;
     [ObservableProperty] private Dictionary<string, string>? filteredAdskProducts;
@@ -138,6 +138,8 @@ public partial class ModifyLicensingViewModel : ObservableObject
 
     partial void OnSelectedLicenseTypeChanged(LicenseType value)
     {
+        Result = "";
+        ServerNames = "";
         switch (value)
         {
             case LicenseType.Network:
@@ -180,11 +182,11 @@ public partial class ModifyLicensingViewModel : ObservableObject
         var cmdCommand = SelectedLicenseType switch
         {
             LicenseType.Network =>
-                $"{LICENSE_HELPER_EXE} change --prod_key {SelectedProduct.Value} --prod_ver {_productFeatureCode} --lic_method {SelectedLicenseType.ToString().ToUpper()} --lic_server_type {SelectedServerType.ToString().ToUpper()} --lic_servers {ServerNames}",
+                $@"""{LICENSE_HELPER_EXE}"" change --prod_key {SelectedProduct.Value} --prod_ver {_productFeatureCode} --lic_method {SelectedLicenseType.ToString().ToUpper()} --lic_server_type {SelectedServerType.ToString().ToUpper()} --lic_servers {ServerNames}",
             LicenseType.Standalone or LicenseType.User =>
-                $"{LICENSE_HELPER_EXE} change --prod_key {SelectedProduct.Value} --prod_ver {_productFeatureCode} --lic_method {SelectedLicenseType.ToString().ToUpper()}",
+                $@"""{LICENSE_HELPER_EXE}"" change --prod_key {SelectedProduct.Value} --prod_ver {_productFeatureCode} --lic_method {SelectedLicenseType.ToString().ToUpper()}",
             LicenseType.Reset =>
-                $"{LICENSE_HELPER_EXE} change --prod_key {SelectedProduct.Value} --prod_ver {_productFeatureCode} --lic_method \"\" --lic_server_type \"\" --lic_servers \"\"",
+                $@"""{LICENSE_HELPER_EXE}"" change --prod_key {SelectedProduct.Value} --prod_ver {_productFeatureCode} --lic_method """" --lic_server_type """" --lic_servers """"",
             _ => ""
         };
         return cmdCommand;
@@ -251,14 +253,59 @@ public partial class ModifyLicensingViewModel : ObservableObject
         var process = new Process();
 
         process.StartInfo.FileName = "cmd.exe";
-        process.StartInfo.Arguments = $"/c \"{Result}\"";
+        process.StartInfo.Arguments = $@"/c ""{Result}""";
         process.StartInfo.CreateNoWindow = true;
         process.StartInfo.UseShellExecute = false;
         process.StartInfo.RedirectStandardOutput = true;
-        //process.StartInfo.RedirectStandardError = true;
+        process.StartInfo.RedirectStandardError = true;
 
         process.Start();
+        //var output = process.StandardOutput.ReadToEnd();
+        //var errorOutput = process.StandardError.ReadToEnd();
+        //process.WaitForExit();
+
+        await DeleteLoginStateAsync();
+        CommandDialogBarOpen = true;
         await Task.CompletedTask;
+    }
+
+    private async Task DeleteLoginStateAsync()
+    {
+        var appDataFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
+        var loginStateFile = $@"{appDataFolderPath}\Autodesk\Web Services\LoginState.xml";
+        if (File.Exists(loginStateFile))
+        {
+            try
+            {
+                File.Delete(loginStateFile);
+            }
+            catch (IOException ex)
+            {
+                var dialogSettingsConfirmation = new DialogSettings()
+                {
+                    Title = "File in use or access denied",
+                    Message =
+                        $"LoginState.xml could not be delete because the file is either in use or you don't have access to it. This can lead to resetting not working. ",
+                    PrimaryButtonText = "OK",
+                    Color = Color.FromArgb(94, 126, 191, 239),
+                    Symbol = ((char)0xF142).ToString(),
+                };
+                await _messageDialogService.ShowDialog(dialogSettingsConfirmation);
+            }
+            catch (Exception ex)
+            {
+                var dialogSettingsConfirmation = new DialogSettings()
+                {
+                    Title = "Error",
+                    Message = $"There was an error while running a command. The error was: {ex}.",
+                    PrimaryButtonText = "OK",
+                    Color = Color.FromArgb(94, 126, 191, 239),
+                    Symbol = ((char)0xF142).ToString(),
+                };
+                await _messageDialogService.ShowDialog(dialogSettingsConfirmation);
+            }
+        }
     }
 
     public void Selector_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
