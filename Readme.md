@@ -27,6 +27,7 @@
     - [Lookup product key tab](#lookup-product-key-tab)
   - [License](#license)
 
+> **Note**
 > Modifies License Information for Autodesk Products 2020+ . This method will not work for older autodesk versions.
 
 If you ever had the challenge to switch the licensing  of a Autodesk product that does no longer start, then you know exactly why this tool saves a lot of time.
@@ -36,7 +37,8 @@ For Autodesk 2020 product this means, you have to use AdskLicensingInstHelper.ex
 
 Adsk License Modifier is a GUI for this exe and makes this task easy.
 
-> Note: If you want to check out the manual way by autodesk, feel free to use this link: [Autodesk Knowledge](https://knowledge.autodesk.com/search-result/caas/sfdcarticles/sfdcarticles/How-to-change-or-reset-licensing-on-your-Autodesk-software.html)
+> **Note**
+> If you want to check out the manual way by autodesk, feel free to use this link: [Autodesk Knowledge](https://knowledge.autodesk.com/search-result/caas/sfdcarticles/sfdcarticles/How-to-change-or-reset-licensing-on-your-Autodesk-software.html)
 
 ## Predecessor of ADSKLincensingModify
 
@@ -51,7 +53,8 @@ You can check the path for yourself.
 
 `C:\Program Files (x86)\Common Files\Autodesk Shared\AdskLicensing\Current\helper`
 
-> Note: This exe isn't delivered by this tool. You get it by installing any Autodesk 2020 product. It also get's updated from time to time, which makes it difficult to ship.
+> **Note**
+> This exe isn't delivered by this tool. You get it by installing any Autodesk 2020 product. It also get's updated from time to time, which makes it difficult to ship.
 
 ## Settings
 
