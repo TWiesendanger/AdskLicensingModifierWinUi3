@@ -27,6 +27,7 @@
     - [Lookup product key tab](#lookup-product-key-tab)
   - [License](#license)
 
+> **Note**
 > Modifies License Information for Autodesk Products 2020+ . This method will not work for older autodesk versions.
 
 If you ever had the challenge to switch the licensing typ of a Autodesk product that does no longer start, then you know exactly why this tool saves a lot of time.
@@ -52,7 +53,8 @@ You can check the path for yourself.
 
 `C:\Program Files (x86)\Common Files\Autodesk Shared\AdskLicensing\Current\helper`
 
-> Note: This exe isn't delivered by this tool. You get it by installing any Autodesk 2020 product. It also get's updated from time to time, which makes it difficult to ship.
+> **Note**
+> This exe isn't delivered by this tool. You get it by installing any Autodesk 2020 product. It also get's updated from time to time, which makes it difficult to ship.
 
 ## Settings
 
