@@ -29,7 +29,7 @@
 
 > Modifies License Information for Autodesk Products 2020+ . This method will not work for older autodesk versions.
 
-If you ever had the challenge to switch the licensing typ of a Autodesk product that does no longer start, then you know exactly why this tool saves a lot of time.
+If you ever had the challenge to switch the licensing  of a Autodesk product that does no longer start, then you know exactly why this tool saves a lot of time.
 As a CAD-Admin you might have to do this multiple times per week.
 
 For Autodesk 2020 product this means, you have to use AdskLicensingInstHelper.exe and some parameters. This takes time and knowledge.
@@ -45,7 +45,7 @@ This tool should have all the same functions but with a much more modern gui fra
 
 ## Start
 
-To get started you need to make sure that the `AdskLicensingInstHelper.exe` is installed. This will be the case if you installed any autodesk product. It is possible to generate command but you wont be able to run them. If you copy them to another client, then this is completly fine and should work. If the check fails some gui elements are not activated.
+To get started you need to make sure that the `AdskLicensingInstHelper.exe` is installed. This will be the case if you installed any autodesk product. It is possible to generate commands but you wont be able to run them. If you copy them to another client, then this is completly fine and should work. If the check fails some gui elements are not activated.
 
 You can check the path for yourself.
 
@@ -61,7 +61,7 @@ At the moment there is only dark theme and there are no plans to change this in 
 
 ### Print List command
 
-This creates a json file an tries to open it. If it fails make sure you have a tool to open such files. It show alot of infos about every licensed product on the machine this command was used.
+This creates a json file and tries to open it. If it fails make sure you have a tool to open such files. It shows alot of infos about every licensed product on the machine this command was used.
 
 Make sure to check the Autodesk Knowledge article:
 [Autodesk Knowledge](https://knowledge.autodesk.com/support/autocad/troubleshooting/caas/sfdcarticles/sfdcarticles/Use-Installer-Helper.html)
@@ -109,17 +109,17 @@ Check here to see if AdskLicensingService is running. This service is essential 
 
 ### Modify License tab
 
-This tab contains the main functions. Make sure to use this tabe to change and / or reset license types for products.
+This tab contains the main functions. Make sure to use this tab to change and / or reset license types for products.
 
 ![modify license tab](resources/2023-03-22-10-11-45.png)
 
 #### Search Product
 
-The search function looks for what is input in the search field. There is a small delay until the search function runs. This keeps the search field responsive.
+The search function looks what the input is. There is a small delay until the search function runs. This keeps the search field responsive.
 
 ![search box](resources/2023-03-22-10-15-42.png)
 
-Make sure to select a release version, before search.
+Make sure to select a release version, before searching.
 
 #### Select Product
 
