@@ -1,7 +1,29 @@
 # Adsk License Modifier
 
-- [ADSKLincensingModify](#adsklincensingmodify)
-- [Predecessor](#predecessor)
+- [Adsk License Modifier](#adsk-license-modifier)
+  - [Predecessor of ADSKLincensingModify](#predecessor-of-adsklincensingmodify)
+  - [Start](#start)
+  - [Settings](#settings)
+    - [Theme](#theme)
+    - [Print List command](#print-list-command)
+    - [Quick Links](#quick-links)
+      - [Open Login State Path](#open-login-state-path)
+      - [Open Adsk Licensing Path](#open-adsk-licensing-path)
+      - [Open Licensing Helper Path](#open-licensing-helper-path)
+    - [Desktop Service](#desktop-service)
+  - [Function](#function)
+    - [Modify License tab](#modify-license-tab)
+      - [Search Product](#search-product)
+      - [Select Product](#select-product)
+      - [Select License](#select-license)
+        - [Network Licensing](#network-licensing)
+        - [Standalone Licensing](#standalone-licensing)
+        - [User Licensing](#user-licensing)
+        - [Reset](#reset)
+      - [Generate / Copy](#generate--copy)
+      - [Run](#run)
+    - [Lookup product key tab](#lookup-product-key-tab)
+  - [License](#license)
 
 > Modifies License Information for Autodesk Products 2020+ . This method will not work for older autodesk versions.
 
@@ -88,7 +110,6 @@ Check here to see if AdskLicensingService is running. This service is essential 
 This tab contains the main functions. Make sure to use this tabe to change and / or reset license types for products.
 
 ![modify license tab](resources/2023-03-22-10-11-45.png)
-
 
 #### Search Product
 
