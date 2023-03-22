@@ -151,7 +151,9 @@ public partial class SettingsViewModel : ObservableObject
     [RelayCommand]
     private async void OpenLoginStatePath()
     {
-        const string path = @"C:\Users\Tobias\AppData\Local\Autodesk\Web Services";
+        var appDataFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
+        var path = $@"{appDataFolderPath}\Autodesk\Web Services";
         if (Directory.Exists(path))
         {
             Process.Start("explorer.exe", path);
