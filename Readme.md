@@ -63,14 +63,96 @@ You can copy the command that is run when the button to the right is clicked.
 
 There are three links that help to navigate to some folders that are often used for fixing license problems. By clicking the buttons a windows explorer is started.
 
+#### Open Login State Path
+
+The user based licensing uses a token sytem. This token gets saved to a file called "LoginState.xml". If you want to reset this information you can do this manually. This files gets recreated if you start a product that is licensed by subscription.
+
+This file also gets deleted if you click on run.
+
+#### Open Adsk Licensing Path
+
+This button provides a fast way to open "C:\ProgramData\Autodesk\AdskLicensingService".
+
+#### Open Licensing Helper Path
+
+This button provides a fast way to open the windows explorer already navigated to `AdskLicensingInstHelper.exe`
+
+### Desktop Service
+
+Check here to see if AdskLicensingService is running. This service is essential for the licensing to work properly.
+
+## Function
+
+### Modify License tab
+
+This tab contains the main functions. Make sure to use this tabe to change and / or reset license types for products.
+
+![modify license tab](resources/2023-03-22-10-11-45.png)
 
 
+#### Search Product
 
+The search function looks for what is input in the search field. There is a small delay until the search function runs. This keeps the search field responsive.
 
+![search box](resources/2023-03-22-10-15-42.png)
 
+Make sure to select a release version, before search.
 
+#### Select Product
 
+On the left you need to select a product that you want to change in any way. This list is based on the official product key list from autodesk. Use the search function to find your product.
 
+#### Select License
+
+##### Network Licensing
+
+After selecting a product you need to decide what to do with it. If you want to change it to "Network Licensing" select it. You need to also select a license type and provide at least one servername depending on the option you choose.
+
+Make sure to prefix your servername with @.
+
+If you use Redundant Server you can type in all servers like this:
+
+@server1, @server2, @server3
+
+![license type](resources/2023-03-22-10-18-32.png)
+
+If you want to change anything related to Network Licensing it is required to delete a registry Parameter.
+
+Delete the registry key ADSKFLEX_LICENSE_FILE at HKCU\Software\FLEXlm License Manager. This will be done by the tool, but if you just copy the command, make sure to include something like this: for /D %a in ("%ProgramData%\Autodesk\AdskLicensingService\*.*") do rd /q /s "%a"
+
+##### Standalone Licensing
+
+This is used for the old licensing system. Use this only if you are still using an old license with maintenance.
+
+##### User Licensing
+
+If you have a subscription based license, this is the option you need. Changing to this will ask you for your autodesk login the next time you open the product.
+
+##### Reset
+
+Choose this option if you dont want to set any license type but instead let the user choose the next time they open the product.
+
+![reset screen](resources/2023-03-22-10-21-45.png)
+
+#### Generate / Copy
+
+If you want to copy the generated command click this button. This allows you to paste it in a cmd file. Maybe you have a remote connection open and dont want do send this tool. Just start a cmd shell on the target system and paste it.
+
+If you want to, you can also edit the command.
+
+> Warning: There are some commands that wont work if you just type them in cmd. For example if you want to reset something it is important that AdSSO.exe is not running. If you use the run command it automatically detects if this process is running and if it is, it will kill it.
+
+Using the run button after editing the result box, will not regenerate the command but will instead use your edited command.
+
+#### Run
+
+If you click run it will run the command after asking you one last time. If you then click yes it will run the command.
+
+![confirmation](resources/2023-03-22-10-37-21.png)
+
+### Lookup product key tab
+
+There is a second tab that allows to search for Product Key or Product Name. The list goes back to 2015. Everything older will not show up.
 
 ## License
 
