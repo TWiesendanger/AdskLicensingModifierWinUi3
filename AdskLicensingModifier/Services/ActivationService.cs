@@ -59,8 +59,8 @@ public class ActivationService : IActivationService
 
     private async Task InitializeAsync()
     {
-        var gitLabInstanceName = await _localSettingsService.ReadSettingAsync<string>("AppBackgroundRequestedTheme");
-        if (string.IsNullOrWhiteSpace(gitLabInstanceName))
+        var appBackground = await _localSettingsService.ReadSettingAsync<string>("AppBackgroundRequestedTheme");
+        if (string.IsNullOrWhiteSpace(appBackground))
         {
             await _localSettingsService.SaveSettingAsync("AppBackgroundRequestedTheme", "Dark");
         }
