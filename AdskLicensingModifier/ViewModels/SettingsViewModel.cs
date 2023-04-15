@@ -65,8 +65,18 @@ public partial class SettingsViewModel : ObservableObject
 
     private void CheckLicensingService()
     {
-        var sc = new ServiceController("AdskLicensingService");
-        DesktopServiceIsOn = sc.Status == ServiceControllerStatus.Running;
+        try
+        {
+            var sc = new ServiceController("AdskLicensingService");
+            DesktopServiceIsOn = sc.Status == ServiceControllerStatus.Running;
+        }
+        catch (InvalidOperationException ex) // license service is not installed
+        {
+            DesktopServiceIsOn = false;
+        }
+
+        //var sc = new ServiceController("AdskLicensingService");
+        //DesktopServiceIsOn = sc.Status == ServiceControllerStatus.Running;
     }
 
     private static string GetVersionDescription()
