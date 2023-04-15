@@ -274,8 +274,16 @@ public partial class ModifyLicensingViewModel : ObservableObject
         //var errorOutput = process.StandardError.ReadToEnd();
         //process.WaitForExit();
 
-        await DeleteLoginStateAsync();
-        await DeleteIdServiceDbAsync();
+        if (SelectedLicenseType == LicenseType.Reset)
+        {
+            await DeleteLoginStateAsync();
+            await DeleteIdServiceDbAsync();
+        }
+        else
+        {
+            WasRunCommandSuccessfull = true;
+        }
+
         if (WasRunCommandSuccessfull)
         {
             CommandDialogBarOpen = true;
