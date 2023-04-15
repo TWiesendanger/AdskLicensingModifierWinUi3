@@ -20,6 +20,8 @@ public partial class ModifyLicensingViewModel : ObservableObject
     private const string LICENSE_HELPER_EXE =
         @"C:\Program Files (x86)\Common Files\Autodesk Shared\AdskLicensing\Current\helper\AdskLicensingInstHelper.exe";
     [ObservableProperty] private string? searchText;
+    [ObservableProperty] private bool resultAskRun;
+    [ObservableProperty] private bool wasRunCommandSuccessfull;
     [ObservableProperty] private string result = "";
     [ObservableProperty] private string? serverNames;
     [ObservableProperty] private LicenseType selectedLicenseType = LicenseType.Reset;
@@ -213,13 +215,21 @@ public partial class ModifyLicensingViewModel : ObservableObject
             Title = "Are you sure?",
             Message = $"Are you sure that you want to run the command locally? ",
             PrimaryButtonText = "Yes",
-            PrimaryButtonCommand = RunCmdCommand,
+            PrimaryButtonCommand = SetAskRunResultCommand,
             SecondaryButtonText = "No",
             Color = Color.FromArgb(94, 126, 191, 239),
             Symbol = ((char)0xF142).ToString(),
         };
         await _messageDialogService.ShowDialog(dialogSettingsConfirmation);
+
+        if (ResultAskRun)
+        {
+            await RunCmd();
+        }
     }
+
+    [RelayCommand]
+    public async Task SetAskRunResult() => ResultAskRun = true;
 
     [RelayCommand]
     public async Task RunCmd()
@@ -265,8 +275,69 @@ public partial class ModifyLicensingViewModel : ObservableObject
         //process.WaitForExit();
 
         await DeleteLoginStateAsync();
-        CommandDialogBarOpen = true;
+        await DeleteIdServiceDbAsync();
+        if (WasRunCommandSuccessfull)
+        {
+            CommandDialogBarOpen = true;
+        }
+
+        ResultAskRun = false;
+        WasRunCommandSuccessfull = false;
         await Task.CompletedTask;
+    }
+
+    private async Task DeleteIdServiceDbAsync()
+    {
+        var appDataFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+        var idServiceDbFile = $@"{appDataFolderPath}\Autodesk\Identity Services\idservices.db";
+
+        if (File.Exists(idServiceDbFile))
+        {
+            try
+            {
+                // process has to stop to allow renaming db
+                var processes = Process.GetProcessesByName("AdskIdentityManager");
+                foreach (var process in processes)
+                {
+                    process.Kill();
+                    process.WaitForExit();
+                }
+
+                var newFileName = $"idservices.db_{DateTime.Now:yyyyMMdd_HHmmss}_{Guid.NewGuid()}";
+                var newFilePath = Path.Combine(Path.GetDirectoryName(idServiceDbFile) ?? string.Empty, newFileName);
+
+                File.Move(idServiceDbFile, newFilePath);
+                WasRunCommandSuccessfull = true;
+            }
+            catch (IOException ex)
+            {
+                WasRunCommandSuccessfull = false;
+                var dialogSettingsConfirmation = new DialogSettings()
+                {
+                    Title = "File in use or access denied",
+                    Message =
+                        $"idservices.db could not be renamed because the file is either in use or you don't have access to it. This can lead to resetting not working. ",
+                    PrimaryButtonText = "OK",
+
+                    Color = Color.FromArgb(255, 234, 93, 97),
+                    Symbol = ((char)0xEA39).ToString(),
+                };
+                await _messageDialogService.ShowDialog(dialogSettingsConfirmation);
+            }
+            catch (Exception ex)
+            {
+                WasRunCommandSuccessfull = false;
+                var dialogSettingsConfirmation = new DialogSettings()
+                {
+                    Title = "Error",
+                    Message = $"There was an error while running a command. The error was: {ex}.",
+                    PrimaryButtonText = "OK",
+                    Color = Color.FromArgb(255, 234, 93, 97),
+                    Symbol = ((char)0xEA39).ToString(),
+                };
+                await _messageDialogService.ShowDialog(dialogSettingsConfirmation);
+            }
+        }
     }
 
     private async Task DeleteLoginStateAsync()
@@ -278,30 +349,35 @@ public partial class ModifyLicensingViewModel : ObservableObject
         {
             try
             {
-                File.Delete(loginStateFile);
+                var newFileName = $"LoginState.xml_{DateTime.Now:yyyyMMdd_HHmmss}_{Guid.NewGuid()}";
+                var newFilePath = Path.Combine(Path.GetDirectoryName(loginStateFile) ?? string.Empty, newFileName);
+                File.Move(loginStateFile, newFilePath);
+                WasRunCommandSuccessfull = true;
             }
             catch (IOException ex)
             {
+                WasRunCommandSuccessfull = false;
                 var dialogSettingsConfirmation = new DialogSettings()
                 {
                     Title = "File in use or access denied",
                     Message =
-                        $"LoginState.xml could not be delete because the file is either in use or you don't have access to it. This can lead to resetting not working. ",
+                        $"LoginState.xml could not be renamed because the file is either in use or you don't have access to it. This can lead to resetting not working. ",
                     PrimaryButtonText = "OK",
-                    Color = Color.FromArgb(94, 126, 191, 239),
-                    Symbol = ((char)0xF142).ToString(),
+                    Color = Color.FromArgb(255, 234, 93, 97),
+                    Symbol = ((char)0xEA39).ToString(),
                 };
                 await _messageDialogService.ShowDialog(dialogSettingsConfirmation);
             }
             catch (Exception ex)
             {
+                WasRunCommandSuccessfull = false;
                 var dialogSettingsConfirmation = new DialogSettings()
                 {
                     Title = "Error",
                     Message = $"There was an error while running a command. The error was: {ex}.",
                     PrimaryButtonText = "OK",
-                    Color = Color.FromArgb(94, 126, 191, 239),
-                    Symbol = ((char)0xF142).ToString(),
+                    Color = Color.FromArgb(255, 234, 93, 97),
+                    Symbol = ((char)0xEA39).ToString(),
                 };
                 await _messageDialogService.ShowDialog(dialogSettingsConfirmation);
             }
