@@ -11,15 +11,15 @@
   IgnorableNamespaces="uap rescap genTemplate">
 
   <Identity
-    Name="e66e7c67-d701-4afa-8168-68e8461be3bb"
-    Publisher="CN=Tobias"
-    Version="1.0.12.0" />
+    Name="47303ExtrabbitCode.AdskLicensingModifier"
+    Publisher="CN=6919375C-C5CB-4D90-8974-B386A29EB30E"
+    Version="1.0.15.0" />
     
-  <mp:PhoneIdentity PhoneProductId="e66e7c67-d701-4afa-8168-68e8461be3bb" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="dbdbdafe-1614-48a9-bfab-6175ac3f0d82" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
     <DisplayName>Adsk Licensing Modifier</DisplayName>
-    <PublisherDisplayName>Tobias</PublisherDisplayName>
+    <PublisherDisplayName>Extrabbit Code</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

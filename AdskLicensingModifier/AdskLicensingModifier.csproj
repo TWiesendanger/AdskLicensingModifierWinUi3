@@ -19,11 +19,12 @@
 		<AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
 		<PackageCertificateThumbprint>9426DB05950A79F7E91CD12C207FD3C67F936FA7</PackageCertificateThumbprint>
 		<AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
-		<AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+		<AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
 		<AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
 		<GenerateTestArtifacts>True</GenerateTestArtifacts>
 		<AppxBundle>Auto</AppxBundle>
 		<AppxBundlePlatforms>x64</AppxBundlePlatforms>
+		<GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
 	</PropertyGroup>
 	<ItemGroup>
 		<Content Include="Assets\AppIcon01.png" />
