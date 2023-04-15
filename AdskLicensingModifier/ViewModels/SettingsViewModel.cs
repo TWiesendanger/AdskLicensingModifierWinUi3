@@ -191,6 +191,28 @@ public partial class SettingsViewModel : ObservableObject
     }
 
     [RelayCommand]
+    private async void OpenAdskIdentityServicePath()
+    {
+        var appDataFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
+        var path = $@"{appDataFolderPath}\Autodesk\Identity Services";
+        if (Directory.Exists(path))
+        {
+            Process.Start("explorer.exe", path);
+            return;
+        }
+
+        var dialogSettings = new DialogSettings()
+        {
+            Title = "Path not found",
+            Message = "Path was not found and could not be opened.",
+            Color = Color.FromArgb(255, 234, 93, 97),
+            Symbol = ((char)0xEA39).ToString(),
+        };
+        await _messageDialogService.ShowDialog(dialogSettings);
+    }
+
+    [RelayCommand]
     private async void OpenAdskLicensingInstHelperPath()
     {
         const string path = @"C:\Program Files (x86)\Common Files\Autodesk Shared\AdskLicensing\Current\helper";
