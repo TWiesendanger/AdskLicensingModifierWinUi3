@@ -13,7 +13,7 @@
   <Identity
     Name="e66e7c67-d701-4afa-8168-68e8461be3bb"
     Publisher="CN=Tobias"
-    Version="1.0.4.0" />
+    Version="1.0.12.0" />
     
   <mp:PhoneIdentity PhoneProductId="e66e7c67-d701-4afa-8168-68e8461be3bb" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
