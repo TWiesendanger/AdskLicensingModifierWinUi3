@@ -43,7 +43,7 @@ Adsk License Modifier is a GUI for this exe and makes this task easy.
 ## Predecessor of ADSKLincensingModify
 
 This tool is the predecessor of the powershell version found in this [repository](https://github.com/TWiesendanger/ADSKLincensingModify).
-This tool should have all the same functions but with a much more modern gui framework (winui3) and you can directly download it from microsoft store.
+This tool should have all the same functions but with a much more modern gui framework (winui3) and you can directly download it from microsoft store [download](https://www.microsoft.com/store/productId/9NJHVT90GLP5).
 
 ## Start
 
