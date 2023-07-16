@@ -13,10 +13,11 @@
   <Identity
     Name="47303ExtrabbitCode.AdskLicensingModifier"
     Publisher="CN=6919375C-C5CB-4D90-8974-B386A29EB30E"
-    Version="1.0.15.0" />
-    
-  <mp:PhoneIdentity PhoneProductId="dbdbdafe-1614-48a9-bfab-6175ac3f0d82" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
-    
+    Version="1.0.7.0" />
+
+  <mp:PhoneIdentity PhoneProductId="dbdbdafe-1614-48a9-bfab-6175ac3f0d82"
+    PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+
   <Properties>
     <DisplayName>Adsk Licensing Modifier</DisplayName>
     <PublisherDisplayName>Extrabbit Code</PublisherDisplayName>
@@ -24,12 +25,14 @@
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0"
+      MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0"
+      MaxVersionTested="10.0.19041.0" />
   </Dependencies>
 
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
 
   <Applications>
@@ -42,31 +45,34 @@
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"  Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"
+          Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
       <Extensions>
-          <desktop:Extension Category="windows.toastNotificationActivation">
-              <desktop:ToastNotificationActivation ToastActivatorCLSID="04a23421-4d47-409a-a9b3-a9e6bfdd3160" />
-          </desktop:Extension>
+        <desktop:Extension Category="windows.toastNotificationActivation">
+          <desktop:ToastNotificationActivation
+            ToastActivatorCLSID="04a23421-4d47-409a-a9b3-a9e6bfdd3160" />
+        </desktop:Extension>
 
-          <com:Extension Category="windows.comServer">
-              <com:ComServer>
-                  <com:ExeServer Executable="AdskLicensingModifier.exe" Arguments="----AppNotificationActivated:" DisplayName="Toast activator">
-                      <com:Class Id="04a23421-4d47-409a-a9b3-a9e6bfdd3160" DisplayName="Toast activator"/>
-                  </com:ExeServer>
-              </com:ComServer>
-          </com:Extension>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:ExeServer Executable="AdskLicensingModifier.exe"
+              Arguments="----AppNotificationActivated:" DisplayName="Toast activator">
+              <com:Class Id="04a23421-4d47-409a-a9b3-a9e6bfdd3160" DisplayName="Toast activator" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
       </Extensions>
     </Application>
   </Applications>
 
   <Capabilities>
-    <rescap:Capability Name="runFullTrust" />
+    <Capability Name="runFullTrust" />
   </Capabilities>
 
   <genTemplate:Metadata>
-    <genTemplate:Item Name="generator" Value="Template Studio"/>
+    <genTemplate:Item Name="generator" Value="Template Studio" />
     <genTemplate:Item Name="wizardVersion" Version="v5.3" />
     <genTemplate:Item Name="projectType" Value="NavView" />
     <genTemplate:Item Name="framework" Value="MVVMToolkit" />

@@ -5,6 +5,7 @@
 		<Platforms>x64</Platforms>
 		<Platforms>x64</Platforms>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<Configurations>Debug;Release;Packaging</Configurations>
 	</PropertyGroup>
 
 	<ItemGroup>
