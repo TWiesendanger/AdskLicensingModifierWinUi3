@@ -663,3 +663,139 @@ PowerShape Standard 2024;P09P1
 PowerShape Ultimate 2024;P11P1
 T1 Enterprise Multi-flex 2024;535P1
 Autodesk Inventor Nesting 2024;C1QP1
+Autodesk 3ds Max 2025;128Q1
+Autodesk 3ds Max 2025 with Softimage;978Q1
+Autodesk Advance Steel 2025;959Q1
+Autodesk Alias AutoStudio 2025;966Q1
+Autodesk Alias Concept 2025;A63Q1
+Autodesk Alias Design 2025;712Q1
+Autodesk Alias SpeedForm 2025;A62Q1
+Autodesk Alias Surface 2025;736Q1
+Autodesk AutoCAD 2025;001Q1
+Autodesk AutoCAD Architecture 2025;185Q1
+Autodesk AutoCAD Design Suite Premium 2025;768Q1
+Autodesk AutoCAD Design Suite Standard 2025;767Q1
+Autodesk AutoCAD Electrical 2025;225Q1
+Autodesk AutoCAD Inventor LT Suite 2025;596Q1
+Autodesk AutoCAD LT 2025;057Q1
+Autodesk AutoCAD LT Civil Suite 2025;545Q1
+Autodesk AutoCAD Map 3D 2025;129Q1
+Autodesk AutoCAD Mechanical 2025;206Q1
+Autodesk AutoCAD MEP 2025;235Q1
+Autodesk AutoCAD Plant 3D 2025;426Q1
+Autodesk AutoCAD Raster Design 2025;340Q1
+Autodesk AutoCAD Revit LT Suite 2025;834Q1
+Autodesk Building Design Suite Premium 2025;765Q1
+Autodesk Building Design Suite Standard 2025;784Q1
+Autodesk Building Design Suite Ultimate 2025;766Q1
+Autodesk Burn 2025;C0YQ1
+Autodesk CFD Design Study Environment 2025;812Q1
+Autodesk CFD Premium 2025;810Q1
+Autodesk CFD Ultimate 2025;811Q1
+Autodesk Civil 3D 2025;237Q1
+Autodesk Fabrication CADmep 2025;839Q1
+Autodesk Fabrication CAMduct 2025;842Q1
+Autodesk Fabrication ESTmep 2025;841Q1
+Autodesk Factory Design Suite Premium 2025;757Q1
+Autodesk Factory Design Suite Standard 2025;789Q1
+Autodesk Factory Design Suite Ultimate 2025;760Q1
+Autodesk Factory Design Utilities 2025;P03Q1
+Autodesk FeatureCAM Premium 2025;A9FQ1
+Autodesk FeatureCAM Standard 2025;A9GQ1
+Autodesk FeatureCAM Ultimate 2025;A9EQ1
+Autodesk Flame 2025;C0TQ1
+Autodesk Flame 2025 – Education;C14Q1
+Autodesk Flame Assist 2025;C0VQ1
+Autodesk Flame Premium 2025;C0XQ1
+Autodesk Flare 2025;C0WQ1
+Autodesk Helius PFA 2025;899Q1
+Autodesk HSM Premium 2025;C12Q1
+Autodesk HSM Ultimate 2025;C13Q1
+Autodesk Infrastructure Design Suite Premium 2025;786Q1
+Autodesk Infrastructure Design Suite Standard 2025;787Q1
+Autodesk Infrastructure Design Suite Ultimate 2025;785Q1
+Autodesk Inventor 2025;208Q1
+Autodesk Inventor Engineer-to-Order 2025 – Developer;A66Q1
+Autodesk Inventor Engineer-to-Order 2025 – Distribution;996Q1
+Autodesk Inventor Engineer-to-Order 2025 – Server;997Q1
+Autodesk Inventor Engineer-to-Order Series 2025;805Q1
+Autodesk Inventor Engineer-to-Order Server 2025;752Q1
+Autodesk Inventor HSM Premium 2025;969Q1
+Autodesk Inventor HSM Ultimate 2025;970Q1
+Autodesk Inventor LT 2025;529Q1
+Autodesk Inventor OEM 2025;798Q1
+Autodesk Inventor Professional 2025;797Q1
+Autodesk Lustre 2025;C0UQ1
+Autodesk Lustre Burn 2025;C10Q1
+Autodesk Lustre ShotReactor 2025;C11Q1
+Autodesk Manufacturing Automation Utility 2025;A9YQ1
+Autodesk Manufacturing Data Exchange Utility Premium 2025;A9VQ1
+Autodesk Manufacturing Data Exchange Utility Standard 2025;A9XQ1
+Autodesk Manufacturing Post Processor Utility 2025;A9TQ1
+Autodesk MEP Fabrication Suite 2025;00QQ1
+Autodesk Moldflow Adviser Premium 2025;571Q1
+Autodesk Moldflow Adviser Ultimate 2025;572Q1
+Autodesk Moldflow Design 2025;837Q1
+Autodesk Moldflow Insight Premium 2025;574Q1
+Autodesk Moldflow Insight Standard 2025;573Q1
+Autodesk Moldflow Insight Ultimate 2025;575Q1
+Autodesk Moldflow Synergy 2025;579Q1
+Autodesk Nastran 2025;986Q1
+Autodesk Nastran In-CAD 2025;987Q1
+Autodesk Navisworks Manage 2025;507Q1
+Autodesk Navisworks Simulate 2025;506Q1
+Autodesk PartMaker 2025;A9SQ1
+Autodesk Plant Design Suite Premium 2025;763Q1
+Autodesk Plant Design Suite Standard 2025;788Q1
+Autodesk Plant Design Suite Ultimate 2025;764Q1
+Autodesk Point Layout 2025;925Q1
+Autodesk PowerInspect Premium 2025;A9JQ1
+Autodesk PowerInspect Ultimate 2025;A9HQ1
+Autodesk PowerMill Modeling 2025;A9UQ1
+Autodesk PowerMill Premium 2025;A9AQ1
+Autodesk PowerMill Standard 2025;A9QQ1
+Autodesk PowerMill Ultimate 2025;A9PQ1
+Autodesk PowerShape Premium 2025;A9MQ1
+Autodesk PowerShape Standard 2025;A9NQ1
+Autodesk PowerShape Ultimate 2025;A9LQ1
+Autodesk ReCap Pro 2025;919Q1
+Autodesk Revit 2025;829Q1
+Autodesk Revit LT 2025;828Q1
+Autodesk Robot Structural Analysis Professional 2025;547Q1
+Autodesk SketchBook for  2025;871Q1
+Autodesk TruComp 2025;00EQ1
+Autodesk TruFiber 2025;01WQ1
+Autodesk TruLaser 2025;00DQ1
+Autodesk TruNest 2025 – Nesting Engine;00FQ1
+Autodesk TruNest Composites 2025;00BQ1
+Autodesk TruNest Contour 2025;00AQ1
+Autodesk TruNest Multi-Tool 2025;00CQ1
+Autodesk TruPlan 2025;01VQ1
+Autodesk Vault Office 2025;555Q1
+Autodesk Vault Professional 2025;569Q1
+Autodesk Vault Workgroup 2025;559Q1
+Autodesk Vehicle Tracking 2025;955Q1
+Autodesk VRED 2025;884Q1
+Autodesk VRED Design 2025;885Q1
+Autodesk VRED Presenter 2025;888Q1
+Autodesk VRED Professional 2025;886Q1
+Autodesk VRED Render Node – consumption-based license 2025;A93Q1
+Autodesk VRED Render Node 2025;890Q1
+Autodesk VRED Server 2025;887Q1
+Autodesk Wiretap Gateway 2025;C0ZQ1
+FeatureCAM Premium 2025;Q16Q1
+FeatureCAM Standard 2025;Q15Q1
+FeatureCAM Ultimate 2025;Q17Q1
+HSMWorks Premium 2025;873Q1
+HSMWorks Ultimate 2025;872Q1
+PowerInspect Premium 2025;Q13Q1
+PowerInspect Standard 2025;Q12Q1
+PowerInspect Ultimate 2025;Q14Q1
+PowerMill Premium 2025;P07Q1
+PowerMill Standard 2025;A9ZQ1
+PowerMill Ultimate 2025;P08Q1
+PowerShape Premium 2025;Q10Q1
+PowerShape Standard 2025;P09Q1
+PowerShape Ultimate 2025;Q11Q1
+T1 Enterprise Multi-flex 2025;535Q1
+Autodesk Inventor Nesting 2025;C1QQ1
