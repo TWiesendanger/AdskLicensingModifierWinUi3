@@ -64,6 +64,7 @@
                 <ComboBoxItem Content="2022" />
                 <ComboBoxItem Content="2023" />
                 <ComboBoxItem Content="2024" />
+                <ComboBoxItem Content="2025" />
             </ComboBox>
         </Grid>
         <TextBlock
