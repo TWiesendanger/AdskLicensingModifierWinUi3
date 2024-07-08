@@ -230,7 +230,7 @@ public partial class ModifyLicensingViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public async Task SetAskRunResult() => ResultAskRun = true;
+    public Task SetAskRunResult() => Task.FromResult(ResultAskRun = true);
 
     [RelayCommand]
     public async Task RunCmd()
@@ -255,7 +255,7 @@ public partial class ModifyLicensingViewModel : ObservableObject
             {
                 key?.DeleteSubKeyTree("FLEXlm License Manager");
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 // key does not exist / at least not in the virtualization
             }
@@ -318,7 +318,7 @@ public partial class ModifyLicensingViewModel : ObservableObject
                 File.Move(idServiceDbFile, newFilePath);
                 WasRunCommandSuccessfull = true;
             }
-            catch (IOException ex)
+            catch (IOException)
             {
                 WasRunCommandSuccessfull = false;
                 var dialogSettingsConfirmation = new DialogSettings()
@@ -363,7 +363,7 @@ public partial class ModifyLicensingViewModel : ObservableObject
                 File.Move(loginStateFile, newFilePath);
                 WasRunCommandSuccessfull = true;
             }
-            catch (IOException ex)
+            catch (IOException)
             {
                 WasRunCommandSuccessfull = false;
                 var dialogSettingsConfirmation = new DialogSettings()

@@ -70,7 +70,7 @@ public partial class SettingsViewModel : ObservableObject
             var sc = new ServiceController("AdskLicensingService");
             DesktopServiceIsOn = sc.Status == ServiceControllerStatus.Running;
         }
-        catch (InvalidOperationException ex) // license service is not installed
+        catch (InvalidOperationException) // license service is not installed
         {
             DesktopServiceIsOn = false;
         }
@@ -114,6 +114,8 @@ public partial class SettingsViewModel : ObservableObject
             Symbol = ((char)0xE73E).ToString(),
         };
         await _messageDialogService.ShowDialog(dialogSettings);
+
+        await Task.CompletedTask;
     }
 
     [RelayCommand]
@@ -150,6 +152,7 @@ public partial class SettingsViewModel : ObservableObject
         };
         await _messageDialogService.ShowDialog(dialogSettings);
 
+        await Task.CompletedTask;
     }
 
     [RelayCommand]
@@ -159,7 +162,7 @@ public partial class SettingsViewModel : ObservableObject
     }
 
     [RelayCommand]
-    private async void OpenLoginStatePath()
+    private async Task OpenLoginStatePath()
     {
         var appDataFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
@@ -178,10 +181,12 @@ public partial class SettingsViewModel : ObservableObject
             Symbol = ((char)0xEA39).ToString(),
         };
         await _messageDialogService.ShowDialog(dialogSettings);
+
+        await Task.CompletedTask;
     }
 
     [RelayCommand]
-    private async void OpenAdskLicensingPath()
+    private async Task OpenAdskLicensingPath()
     {
         const string path = @"C:\ProgramData\Autodesk\AdskLicensingService";
         if (Directory.Exists(path))
@@ -198,10 +203,12 @@ public partial class SettingsViewModel : ObservableObject
             Symbol = ((char)0xEA39).ToString(),
         };
         await _messageDialogService.ShowDialog(dialogSettings);
+
+        await Task.CompletedTask;
     }
 
     [RelayCommand]
-    private async void OpenAdskIdentityServicePath()
+    private async Task OpenAdskIdentityServicePath()
     {
         var appDataFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
@@ -220,6 +227,8 @@ public partial class SettingsViewModel : ObservableObject
             Symbol = ((char)0xEA39).ToString(),
         };
         await _messageDialogService.ShowDialog(dialogSettings);
+
+        await Task.CompletedTask;
     }
 
     [RelayCommand]
@@ -250,7 +259,7 @@ public partial class SettingsViewModel : ObservableObject
             var state = sc.Status; // will fail if service does not exist
             UiIsenabled = true;
         }
-        catch (InvalidOperationException ex)
+        catch (InvalidOperationException)
         {
             var dialogSettings = new DialogSettings()
             {
