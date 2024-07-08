@@ -43,6 +43,7 @@
 		<Content Include="Assets\resources\ProductKeys2022.txt" />
 		<Content Include="Assets\resources\ProductKeys2023.txt" />
 		<Content Include="Assets\resources\ProductKeys2024.txt" />
+		<Content Include="Assets\resources\ProductKeys2025.txt" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Remove="Views\MainPage.xaml" />
