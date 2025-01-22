@@ -37,6 +37,11 @@ For Autodesk 2020 product this means, you have to use AdskLicensingInstHelper.ex
 
 Adsk License Modifier is a GUI for this exe and makes this task easy.
 
+<a href="https://apps.microsoft.com/detail/9njhvt90glp5?hl=en-us&gl=US
+	&mode=mini">
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
+
 > **Note**
 > If you want to check out the manual way by autodesk, feel free to use this link: [Autodesk Knowledge](https://knowledge.autodesk.com/search-result/caas/sfdcarticles/sfdcarticles/How-to-change-or-reset-licensing-on-your-Autodesk-software.html)
 
